@@ -48,18 +48,19 @@ Route1_EventScript_AlreadyGotWalkedOutRoute1Gauntlet::
 
 Route1_EventScript_WalkedInTriggerLeft::
 	lockall
+	goto_if_set FLAG_WALKED_OUT_ROUTE_1_GAUNTLET, Route1_EventScript_AlreadyGotWalkedOutRoute1Gauntlet
 	setvar VAR_TEMP_1, 0
 	goto Route1_EventScript_WalkedInTrigger
 	end
 
 Route1_EventScript_WalkedInTriggerRight::
 	lockall
+	goto_if_set FLAG_WALKED_OUT_ROUTE_1_GAUNTLET, Route1_EventScript_AlreadyGotWalkedOutRoute1Gauntlet
 	setvar VAR_TEMP_1, 1
 	goto Route1_EventScript_WalkedInTrigger
 	end
 
 Route1_EventScript_WalkedInTrigger::
-	goto_if_set FLAG_WALKED_OUT_ROUTE_1_GAUNTLET, Route1_EventScript_AlreadyGotWalkedOutRoute1Gauntlet
 	goto_if_set FLAG_WALKED_IN_ROUTE_1_GAUNTLET, Route1_EventScript_AlreadyGotWalkedInRoute1Gauntlet
 	setflag FLAG_WALKED_IN_ROUTE_1_GAUNTLET
 	releaseall
@@ -209,6 +210,51 @@ Route1_EventScript_AlreadyGotBudew::
 	release
 	end
 
+Route1_EventScript_Ouroboros::
+	switch VAR_STARTER_MON
+	case 0, Route1_EventScript_OuroborosBulbasaur
+	case 1, Route1_EventScript_OuroborosSquirtle
+	case 2, Route1_EventScript_OuroborosCharmander
+	end
+
+Route1_EventScript_OuroborosBulbasaur::
+	trainerbattle_single TRAINER_BUG_CATCHER_OUROBOROS_BULBASAUR, Route1_Text_CanJumpFromLedges, Route1_Text_OuroborosDefeat
+	msgbox Route1_Text_OuroborosPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route1_EventScript_OuroborosCharmander::
+	trainerbattle_single TRAINER_BUG_CATCHER_OUROBOROS_CHARMANDER, Route1_Text_CanJumpFromLedges, Route1_Text_OuroborosDefeat
+	msgbox Route1_Text_OuroborosPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route1_EventScript_OuroborosSquirtle::
+	trainerbattle_single TRAINER_BUG_CATCHER_OUROBOROS_SQUIRTLE, Route1_Text_CanJumpFromLedges, Route1_Text_OuroborosDefeat
+	msgbox Route1_Text_OuroborosPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route1_EventScript_Jake::
+	switch VAR_STARTER_MON
+	case 0, Route1_EventScript_JakeBulbasaur
+	case 1, Route1_EventScript_JakeSquirtle
+	case 2, Route1_EventScript_JakeCharmander
+	end
+
+Route1_EventScript_JakeBulbasaur::
+	trainerbattle_single TRAINER_YOUNGSTER_JAKE_BULBASAUR, Route1_Text_JakeIntro, Route1_Text_JakeDefeat
+	msgbox Route1_Text_JakePostBattle, MSGBOX_AUTOCLOSE
+
+	end
+
+Route1_EventScript_JakeSquirtle::
+	trainerbattle_single TRAINER_YOUNGSTER_JAKE_SQUIRTLE, Route1_Text_JakeIntro, Route1_Text_JakeDefeat
+	msgbox Route1_Text_JakePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route1_EventScript_JakeCharmander::
+	trainerbattle_single TRAINER_YOUNGSTER_JAKE_CHARMANDER, Route1_Text_JakeIntro, Route1_Text_JakeDefeat
+	msgbox Route1_Text_JakePostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route1_Text_WorkAtPokeMartTakeSample::
 	.string "Hi!\n"
 	.string "I work at a POKéMON MART.\p"
@@ -280,3 +326,21 @@ Route1_Text_ExplainBudew::
 
 Route1_Text_VeryPrideful::
 	.string "You're very prideful, good.$"
+
+Route1_Text_OuroborosDefeat::
+    .string "Stop mashing A, you won$"
+
+Route1_Text_OuroborosPostBattle::
+	.string "Check your PP, buddy.$"
+
+Route1_Text_JakeIntro::
+    .string "Hey! You!\p"
+    .string "Did you think you could get\n"
+    .string "through Route 1 just like that?$"
+
+Route1_Text_JakeDefeat::
+    .string "Huh? You beat me?\p"
+    .string "Awww, that shucks.$"
+    
+Route1_Text_JakePostBattle::
+    .string "I bet you cheated!.$"

@@ -1,0 +1,133 @@
+{
+  "SPECIES_NONE": {
+    "species_info": {
+      "baseHP": 1,
+      "baseAttack": 1,
+      "baseDefense": 1,
+      "baseSpeed": 1,
+      "baseSpAttack": 1,
+      "baseSpDefense": 1,
+      "types": [
+        "MON_TYPES(TYPE_MYSTERY)",
+        "TYPE_NONE"
+      ],
+      "catchRate": 255,
+      "expYield": 67,
+      "evYield_HP": 1,
+      "evYield_Defense": 1,
+      "evYield_SpDefense": 1,
+      "genderRatio": 128,
+      "eggCycles": 20,
+      "friendship": 70,
+      "growthRate": "GROWTH_MEDIUM_FAST",
+      "eggGroups": [
+        "MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED)"
+      ],
+      "abilities": [
+        "ABILITY_NONE",
+        "ABILITY_CURSED_BODY",
+        "ABILITY_DAMP"
+      ],
+      "bodyColor": "BODY_COLOR_BLACK",
+      "speciesName": "??????????",
+      "cryId": "CRY_NONE",
+      "natDexNum": "NATIONAL_DEX_NONE",
+      "categoryName": "Unknown",
+      "height": 0,
+      "weight": 0,
+      "description": "COMPOUND_STRING( \"This is a newly discovered Pok\u00e9mon.\n\" \"It is currently under investigation.\n\" \"No detailed information is available\n\" \"at this time.\")",
+      "pokemonScale": 256,
+      "pokemonOffset": 0,
+      "trainerScale": 256,
+      "trainerOffset": 0,
+      "frontPic": "gMonFrontPic_CircledQuestionMark",
+      "frontPicSize": [
+        "64",
+        "64"
+      ],
+      "frontPicYOffset": 0,
+      "frontAnimFrames": "sAnims_None",
+      "backPic": "gMonBackPic_CircledQuestionMark",
+      "backPicSize": [
+        "64",
+        "64"
+      ],
+      "backPicYOffset": 7,
+      "frontPicFemale": "gMonFrontPic_CircledQuestionMark",
+      "frontPicSizeFemale": [
+        "64",
+        "64"
+      ],
+      "backPicFemale": "gMonBackPic_CircledQuestionMarkF",
+      "backPicSizeFemale": [
+        "64",
+        "64"
+      ],
+      "paletteFemale": "gMonPalette_CircledQuestionMarkF",
+      "shinyPaletteFemale": "gMonShinyPalette_CircledQuestionMarkF",
+      "iconSpriteFemale": "gMonIcon_QuestionMarkF",
+      "iconPalIndexFemale": 1,
+      "backAnimId": "BACK_ANIM_NONE",
+      "palette": "gMonPalette_CircledQuestionMark",
+      "shinyPalette": "gMonShinyPalette_CircledQuestionMark",
+      "iconSprite": "gMonIcon_QuestionMark",
+      "iconPalIndex": 0,
+      "levelUpLearnset": "sNoneLevelUpLearnset",
+      "teachableLearnset": "sNoneTeachableLearnset",
+      "evolutions": [
+        {
+          "method": "EVOLUTION",
+          "param": null,
+          "targetSpecies": null
+        }
+      ],
+      "innates": [
+        "ABILITY_NONE",
+        "ABILITY_NONE",
+        "ABILITY_NONE"
+      ]
+    },
+    "forms": {},
+    "dex_num": null,
+    "dex_constant": null
+  },
+  "SPECIES_EGG": {
+    "species_info": {
+      "frontPic": "gMonFrontPic_Egg",
+      "frontPicSize": [
+        "24",
+        "24"
+      ],
+      "frontPicYOffset": 20,
+      "backPic": "gMonFrontPic_Egg",
+      "backPicSize": [
+        "24",
+        "24"
+      ],
+      "backPicYOffset": 20,
+      "palette": "gMonPalette_Egg",
+      "shinyPalette": "gMonPalette_Egg",
+      "iconSprite": "gMonIcon_Egg",
+      "iconPalIndex": 1,
+      "abilities": [
+        "ABILITY_NONE",
+        "ABILITY_NONE",
+        "ABILITY_NONE"
+      ],
+      "types": [
+        "TYPE_NORMAL",
+        "TYPE_NONE"
+      ],
+      "baseHP": 1,
+      "evolutions": [],
+      "innates": [
+        "ABILITY_NONE",
+        "ABILITY_NONE",
+        "ABILITY_NONE"
+      ]
+    },
+    "forms": {},
+    "dex_num": null,
+    "dex_constant": null
+  }
+}

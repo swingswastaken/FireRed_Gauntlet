@@ -1,0 +1,13 @@
+{
+    "name": "FireRed_Gauntlet_Expansion",
+    "project_name": "FireRed_Gauntlet_Expansion",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "patch": 0
+    },
+    "plugin_identifier": "com.porysuite.firered",
+    "plugin_version": "0.1.4",
+    "date_created": "2026-09-27 16:39:19",
+    "date_modified": "2026-09-27 16:39:19"
+}

@@ -269,33 +269,6 @@ MAKEFLAGS += --no-print-directory
 .DELETE_ON_ERROR:
 
 RULES_NO_SCAN += libagbsyscall clean clean-assets tidy tidymodern tidycheck tidyrelease generated clean-generated clean-teachables clean-teachables_intermediates
-# === TORCH POLY-COMPILE PATCH (do not remove) ===
-# Auto-recompile .pory files to .inc when they change. Without this rule,
-# editing a .pory file without going through TORCH leaves a stale .inc,
-# and the linker fails with undefined references to scripts the .pory
-# defines. Sentinel: TORCH_PORYSCRIPT_PATCH
-#
-# IMPORTANT: pokeemerald-expansion forks contain hand-maintained .inc
-# files alongside .pory-generated ones (e.g. data/script_cmd_table.inc,
-# data/scripts/abnormal_weather.inc — 64+ such files in vanilla). A
-# broad pattern rule like `data/%.inc: data/%.pory` causes `make` to
-# try to rebuild those hand-maintained .inc files from non-existent
-# .pory sources, failing with `PORYSCRIPT ERROR: open ...pory: no such
-# file or directory`.
-#
-# Solution: enumerate the .pory sources at make-evaluation time using
-# $(wildcard ...) and emit a STATIC pattern rule scoped to that exact
-# list. Targets that aren't in the list fall through to whatever rule
-# governed them before the patch (typically the implicit/hand-written
-# .inc files stay untouched).
-PORYSCRIPT_BIN := tools/poryscript/poryscript
-PORYSCRIPT_FONTCFG := $(if $(wildcard tools/poryscript/font_config.json),-fc tools/poryscript/font_config.json,$(if $(wildcard font_config.json),-fc font_config.json,))
-TORCH_PORY_SOURCES := $(wildcard data/maps/*/scripts.pory) $(wildcard data/maps/scripts/*/scripts.pory)
-TORCH_PORY_INC_TARGETS := $(TORCH_PORY_SOURCES:.pory=.inc)
-$(TORCH_PORY_INC_TARGETS): %.inc: %.pory $(PORYSCRIPT_BIN)
-	$(PORYSCRIPT_BIN) -i $< -o $@ $(PORYSCRIPT_FONTCFG)
-# === END TORCH POLY-COMPILE PATCH ===
-
 .PHONY: all rom agbcc modern compare check debug release
 .PHONY: $(RULES_NO_SCAN)
 

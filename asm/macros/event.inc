@@ -845,6 +845,11 @@
 	.byte SCR_OP_DOTRAINERBATTLE
 	.endm
 
+	@ Starts a trainer battle without info, used for Route 1 Starter Variable Fights
+	.macro trainerbattle_single_no_intro trainer:req, lose_text:req
+    trainerbattle LOCALID_NONE, \trainer, NULL, \lose_text, NULL, LOCALID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE, FALSE, FALSE
+	.endm
+
 	@ Goes to address after the trainerbattle command (called by the battle functions, see battle_setup.c)
 	.macro gotopostbattlescript
 	.byte SCR_OP_GOTOPOSTBATTLESCRIPT

@@ -630,12 +630,18 @@
 #define TRAINER_OPTIONAL_BEAUTY_ROSE_BULBASAUR     624
 #define TRAINER_OPTIONAL_BEAUTY_ROSE_CHARMANDER    625
 #define TRAINER_OPTIONAL_BEAUTY_ROSE_SQUIRTLE      626
+#define TRAINER_BUG_CATCHER_OUROBOROS_BULBASAUR    627
+#define TRAINER_BUG_CATCHER_OUROBOROS_CHARMANDER   628
+#define TRAINER_BUG_CATCHER_OUROBOROS_SQUIRTLE     629
+#define TRAINER_YOUNGSTER_JAKE_BULBASAUR           630
+#define TRAINER_YOUNGSTER_JAKE_CHARMANDER          631
+#define TRAINER_YOUNGSTER_JAKE_SQUIRTLE            632
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT_FRLG can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_FRLG                      627
+#define TRAINERS_COUNT_FRLG                      633
 #define MAX_TRAINERS_COUNT_FRLG                  768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_FRLG_H

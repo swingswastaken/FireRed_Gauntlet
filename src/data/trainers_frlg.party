@@ -6,6 +6,132 @@ Gender: Male
 Music: Male
 Double Battle: No
 
+=== TRAINER_BUG_CATCHER_OUROBOROS_BULBASAUR ===
+Name: OUROBOROS
+Class: Bug Catcher Frlg
+Pic: Bug Catcher Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Illumise
+Bashful Nature
+Level: 5
+Ability: Prankster
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Play Nice
+
+Spewpa
+Bashful Nature
+Level: 5
+Ability: Shed Skin
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Harden
+- Protect
+
+=== TRAINER_BUG_CATCHER_OUROBOROS_SQUIRTLE ===
+Name: OUROBOROS
+Class: Bug Catcher Frlg
+Pic: Bug Catcher Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Charjabug
+Bashful Nature
+Level: 5
+Ability: Battery
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Eerie Impulse
+
+Rellor
+Bashful Nature
+Level: 5
+Ability: Shed Skin
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Attack
+- Defense Curl
+
+=== TRAINER_BUG_CATCHER_OUROBOROS_CHARMANDER ===
+Name: OUROBOROS
+Class: Bug Catcher Frlg
+Pic: Bug Catcher Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Wimpod
+Bashful Nature
+Level: 5
+Ability: Wimp Out
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Attack
+
+Dewpider
+Bashful Nature
+Level: 5
+Ability: Water Bubble
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Infestation
+
+=== TRAINER_YOUNGSTER_JAKE_BULBASAUR ===
+Name: JAKE
+Class: Youngster Frlg
+Pic: Youngster Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Blitzle
+Bashful Nature
+Level: 7
+Ability: Sap Sipper
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Tail Whip
+
+=== TRAINER_YOUNGSTER_JAKE_SQUIRTLE ===
+Name: JAKE
+Class: Youngster Frlg
+Pic: Youngster Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Wimpod
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Attack
+
+Dewpider
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Infestation
+
+=== TRAINER_YOUNGSTER_JAKE_CHARMANDER ===
+Name: JAKE
+Class: Youngster Frlg
+Pic: Youngster Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Wimpod
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Attack
+
+Dewpider
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Infestation
+
 === TRAINER_OPTIONAL_BEAUTY_ROSE_BULBASAUR ===
 Name: ROSE
 Class: Beauty Frlg

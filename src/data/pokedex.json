@@ -1,0 +1,5584 @@
+{
+  "national_dex": [
+    {
+      "dex_num": 1,
+      "species": "SPECIES_BULBASAUR",
+      "dex_constant": "NATIONAL_DEX_BULBASAUR"
+    },
+    {
+      "dex_num": 2,
+      "species": "SPECIES_IVYSAUR",
+      "dex_constant": "NATIONAL_DEX_IVYSAUR"
+    },
+    {
+      "dex_num": 3,
+      "species": "SPECIES_VENUSAUR",
+      "dex_constant": "NATIONAL_DEX_VENUSAUR"
+    },
+    {
+      "dex_num": 4,
+      "species": "SPECIES_CHARMANDER",
+      "dex_constant": "NATIONAL_DEX_CHARMANDER"
+    },
+    {
+      "dex_num": 5,
+      "species": "SPECIES_CHARMELEON",
+      "dex_constant": "NATIONAL_DEX_CHARMELEON"
+    },
+    {
+      "dex_num": 6,
+      "species": "SPECIES_CHARIZARD",
+      "dex_constant": "NATIONAL_DEX_CHARIZARD"
+    },
+    {
+      "dex_num": 7,
+      "species": "SPECIES_SQUIRTLE",
+      "dex_constant": "NATIONAL_DEX_SQUIRTLE"
+    },
+    {
+      "dex_num": 8,
+      "species": "SPECIES_WARTORTLE",
+      "dex_constant": "NATIONAL_DEX_WARTORTLE"
+    },
+    {
+      "dex_num": 9,
+      "species": "SPECIES_BLASTOISE",
+      "dex_constant": "NATIONAL_DEX_BLASTOISE"
+    },
+    {
+      "dex_num": 10,
+      "species": "SPECIES_CATERPIE",
+      "dex_constant": "NATIONAL_DEX_CATERPIE"
+    },
+    {
+      "dex_num": 11,
+      "species": "SPECIES_METAPOD",
+      "dex_constant": "NATIONAL_DEX_METAPOD"
+    },
+    {
+      "dex_num": 12,
+      "species": "SPECIES_BUTTERFREE",
+      "dex_constant": "NATIONAL_DEX_BUTTERFREE"
+    },
+    {
+      "dex_num": 13,
+      "species": "SPECIES_WEEDLE",
+      "dex_constant": "NATIONAL_DEX_WEEDLE"
+    },
+    {
+      "dex_num": 14,
+      "species": "SPECIES_KAKUNA",
+      "dex_constant": "NATIONAL_DEX_KAKUNA"
+    },
+    {
+      "dex_num": 15,
+      "species": "SPECIES_BEEDRILL",
+      "dex_constant": "NATIONAL_DEX_BEEDRILL"
+    },
+    {
+      "dex_num": 16,
+      "species": "SPECIES_PIDGEY",
+      "dex_constant": "NATIONAL_DEX_PIDGEY"
+    },
+    {
+      "dex_num": 17,
+      "species": "SPECIES_PIDGEOTTO",
+      "dex_constant": "NATIONAL_DEX_PIDGEOTTO"
+    },
+    {
+      "dex_num": 18,
+      "species": "SPECIES_PIDGEOT",
+      "dex_constant": "NATIONAL_DEX_PIDGEOT"
+    },
+    {
+      "dex_num": 19,
+      "species": "SPECIES_RATTATA",
+      "dex_constant": "NATIONAL_DEX_RATTATA"
+    },
+    {
+      "dex_num": 20,
+      "species": "SPECIES_RATICATE",
+      "dex_constant": "NATIONAL_DEX_RATICATE"
+    },
+    {
+      "dex_num": 21,
+      "species": "SPECIES_SPEAROW",
+      "dex_constant": "NATIONAL_DEX_SPEAROW"
+    },
+    {
+      "dex_num": 22,
+      "species": "SPECIES_FEAROW",
+      "dex_constant": "NATIONAL_DEX_FEAROW"
+    },
+    {
+      "dex_num": 23,
+      "species": "SPECIES_EKANS",
+      "dex_constant": "NATIONAL_DEX_EKANS"
+    },
+    {
+      "dex_num": 24,
+      "species": "SPECIES_ARBOK",
+      "dex_constant": "NATIONAL_DEX_ARBOK"
+    },
+    {
+      "dex_num": 25,
+      "species": "SPECIES_PIKACHU",
+      "dex_constant": "NATIONAL_DEX_PIKACHU"
+    },
+    {
+      "dex_num": 26,
+      "species": "SPECIES_RAICHU",
+      "dex_constant": "NATIONAL_DEX_RAICHU"
+    },
+    {
+      "dex_num": 27,
+      "species": "SPECIES_SANDSHREW",
+      "dex_constant": "NATIONAL_DEX_SANDSHREW"
+    },
+    {
+      "dex_num": 28,
+      "species": "SPECIES_SANDSLASH",
+      "dex_constant": "NATIONAL_DEX_SANDSLASH"
+    },
+    {
+      "dex_num": 29,
+      "species": "SPECIES_NIDORAN_F",
+      "dex_constant": "NATIONAL_DEX_NIDORAN_F"
+    },
+    {
+      "dex_num": 30,
+      "species": "SPECIES_NIDORINA",
+      "dex_constant": "NATIONAL_DEX_NIDORINA"
+    },
+    {
+      "dex_num": 31,
+      "species": "SPECIES_NIDOQUEEN",
+      "dex_constant": "NATIONAL_DEX_NIDOQUEEN"
+    },
+    {
+      "dex_num": 32,
+      "species": "SPECIES_NIDORAN_M",
+      "dex_constant": "NATIONAL_DEX_NIDORAN_M"
+    },
+    {
+      "dex_num": 33,
+      "species": "SPECIES_NIDORINO",
+      "dex_constant": "NATIONAL_DEX_NIDORINO"
+    },
+    {
+      "dex_num": 34,
+      "species": "SPECIES_NIDOKING",
+      "dex_constant": "NATIONAL_DEX_NIDOKING"
+    },
+    {
+      "dex_num": 35,
+      "species": "SPECIES_CLEFAIRY",
+      "dex_constant": "NATIONAL_DEX_CLEFAIRY"
+    },
+    {
+      "dex_num": 36,
+      "species": "SPECIES_CLEFABLE",
+      "dex_constant": "NATIONAL_DEX_CLEFABLE"
+    },
+    {
+      "dex_num": 37,
+      "species": "SPECIES_VULPIX",
+      "dex_constant": "NATIONAL_DEX_VULPIX"
+    },
+    {
+      "dex_num": 38,
+      "species": "SPECIES_NINETALES",
+      "dex_constant": "NATIONAL_DEX_NINETALES"
+    },
+    {
+      "dex_num": 39,
+      "species": "SPECIES_JIGGLYPUFF",
+      "dex_constant": "NATIONAL_DEX_JIGGLYPUFF"
+    },
+    {
+      "dex_num": 40,
+      "species": "SPECIES_WIGGLYTUFF",
+      "dex_constant": "NATIONAL_DEX_WIGGLYTUFF"
+    },
+    {
+      "dex_num": 41,
+      "species": "SPECIES_ZUBAT",
+      "dex_constant": "NATIONAL_DEX_ZUBAT"
+    },
+    {
+      "dex_num": 42,
+      "species": "SPECIES_GOLBAT",
+      "dex_constant": "NATIONAL_DEX_GOLBAT"
+    },
+    {
+      "dex_num": 43,
+      "species": "SPECIES_ODDISH",
+      "dex_constant": "NATIONAL_DEX_ODDISH"
+    },
+    {
+      "dex_num": 44,
+      "species": "SPECIES_GLOOM",
+      "dex_constant": "NATIONAL_DEX_GLOOM"
+    },
+    {
+      "dex_num": 45,
+      "species": "SPECIES_VILEPLUME",
+      "dex_constant": "NATIONAL_DEX_VILEPLUME"
+    },
+    {
+      "dex_num": 46,
+      "species": "SPECIES_PARAS",
+      "dex_constant": "NATIONAL_DEX_PARAS"
+    },
+    {
+      "dex_num": 47,
+      "species": "SPECIES_PARASECT",
+      "dex_constant": "NATIONAL_DEX_PARASECT"
+    },
+    {
+      "dex_num": 48,
+      "species": "SPECIES_VENONAT",
+      "dex_constant": "NATIONAL_DEX_VENONAT"
+    },
+    {
+      "dex_num": 49,
+      "species": "SPECIES_VENOMOTH",
+      "dex_constant": "NATIONAL_DEX_VENOMOTH"
+    },
+    {
+      "dex_num": 50,
+      "species": "SPECIES_DIGLETT",
+      "dex_constant": "NATIONAL_DEX_DIGLETT"
+    },
+    {
+      "dex_num": 51,
+      "species": "SPECIES_DUGTRIO",
+      "dex_constant": "NATIONAL_DEX_DUGTRIO"
+    },
+    {
+      "dex_num": 52,
+      "species": "SPECIES_MEOWTH",
+      "dex_constant": "NATIONAL_DEX_MEOWTH"
+    },
+    {
+      "dex_num": 53,
+      "species": "SPECIES_PERSIAN",
+      "dex_constant": "NATIONAL_DEX_PERSIAN"
+    },
+    {
+      "dex_num": 54,
+      "species": "SPECIES_PSYDUCK",
+      "dex_constant": "NATIONAL_DEX_PSYDUCK"
+    },
+    {
+      "dex_num": 55,
+      "species": "SPECIES_GOLDUCK",
+      "dex_constant": "NATIONAL_DEX_GOLDUCK"
+    },
+    {
+      "dex_num": 56,
+      "species": "SPECIES_MANKEY",
+      "dex_constant": "NATIONAL_DEX_MANKEY"
+    },
+    {
+      "dex_num": 57,
+      "species": "SPECIES_PRIMEAPE",
+      "dex_constant": "NATIONAL_DEX_PRIMEAPE"
+    },
+    {
+      "dex_num": 58,
+      "species": "SPECIES_GROWLITHE",
+      "dex_constant": "NATIONAL_DEX_GROWLITHE"
+    },
+    {
+      "dex_num": 59,
+      "species": "SPECIES_ARCANINE",
+      "dex_constant": "NATIONAL_DEX_ARCANINE"
+    },
+    {
+      "dex_num": 60,
+      "species": "SPECIES_POLIWAG",
+      "dex_constant": "NATIONAL_DEX_POLIWAG"
+    },
+    {
+      "dex_num": 61,
+      "species": "SPECIES_POLIWHIRL",
+      "dex_constant": "NATIONAL_DEX_POLIWHIRL"
+    },
+    {
+      "dex_num": 62,
+      "species": "SPECIES_POLIWRATH",
+      "dex_constant": "NATIONAL_DEX_POLIWRATH"
+    },
+    {
+      "dex_num": 63,
+      "species": "SPECIES_ABRA",
+      "dex_constant": "NATIONAL_DEX_ABRA"
+    },
+    {
+      "dex_num": 64,
+      "species": "SPECIES_KADABRA",
+      "dex_constant": "NATIONAL_DEX_KADABRA"
+    },
+    {
+      "dex_num": 65,
+      "species": "SPECIES_ALAKAZAM",
+      "dex_constant": "NATIONAL_DEX_ALAKAZAM"
+    },
+    {
+      "dex_num": 66,
+      "species": "SPECIES_MACHOP",
+      "dex_constant": "NATIONAL_DEX_MACHOP"
+    },
+    {
+      "dex_num": 67,
+      "species": "SPECIES_MACHOKE",
+      "dex_constant": "NATIONAL_DEX_MACHOKE"
+    },
+    {
+      "dex_num": 68,
+      "species": "SPECIES_MACHAMP",
+      "dex_constant": "NATIONAL_DEX_MACHAMP"
+    },
+    {
+      "dex_num": 69,
+      "species": "SPECIES_BELLSPROUT",
+      "dex_constant": "NATIONAL_DEX_BELLSPROUT"
+    },
+    {
+      "dex_num": 70,
+      "species": "SPECIES_WEEPINBELL",
+      "dex_constant": "NATIONAL_DEX_WEEPINBELL"
+    },
+    {
+      "dex_num": 71,
+      "species": "SPECIES_VICTREEBEL",
+      "dex_constant": "NATIONAL_DEX_VICTREEBEL"
+    },
+    {
+      "dex_num": 72,
+      "species": "SPECIES_TENTACOOL",
+      "dex_constant": "NATIONAL_DEX_TENTACOOL"
+    },
+    {
+      "dex_num": 73,
+      "species": "SPECIES_TENTACRUEL",
+      "dex_constant": "NATIONAL_DEX_TENTACRUEL"
+    },
+    {
+      "dex_num": 74,
+      "species": "SPECIES_GEODUDE",
+      "dex_constant": "NATIONAL_DEX_GEODUDE"
+    },
+    {
+      "dex_num": 75,
+      "species": "SPECIES_GRAVELER",
+      "dex_constant": "NATIONAL_DEX_GRAVELER"
+    },
+    {
+      "dex_num": 76,
+      "species": "SPECIES_GOLEM",
+      "dex_constant": "NATIONAL_DEX_GOLEM"
+    },
+    {
+      "dex_num": 77,
+      "species": "SPECIES_PONYTA",
+      "dex_constant": "NATIONAL_DEX_PONYTA"
+    },
+    {
+      "dex_num": 78,
+      "species": "SPECIES_RAPIDASH",
+      "dex_constant": "NATIONAL_DEX_RAPIDASH"
+    },
+    {
+      "dex_num": 79,
+      "species": "SPECIES_SLOWPOKE",
+      "dex_constant": "NATIONAL_DEX_SLOWPOKE"
+    },
+    {
+      "dex_num": 80,
+      "species": "SPECIES_SLOWBRO",
+      "dex_constant": "NATIONAL_DEX_SLOWBRO"
+    },
+    {
+      "dex_num": 81,
+      "species": "SPECIES_MAGNEMITE",
+      "dex_constant": "NATIONAL_DEX_MAGNEMITE"
+    },
+    {
+      "dex_num": 82,
+      "species": "SPECIES_MAGNETON",
+      "dex_constant": "NATIONAL_DEX_MAGNETON"
+    },
+    {
+      "dex_num": 83,
+      "species": "SPECIES_FARFETCHD",
+      "dex_constant": "NATIONAL_DEX_FARFETCHD"
+    },
+    {
+      "dex_num": 84,
+      "species": "SPECIES_DODUO",
+      "dex_constant": "NATIONAL_DEX_DODUO"
+    },
+    {
+      "dex_num": 85,
+      "species": "SPECIES_DODRIO",
+      "dex_constant": "NATIONAL_DEX_DODRIO"
+    },
+    {
+      "dex_num": 86,
+      "species": "SPECIES_SEEL",
+      "dex_constant": "NATIONAL_DEX_SEEL"
+    },
+    {
+      "dex_num": 87,
+      "species": "SPECIES_DEWGONG",
+      "dex_constant": "NATIONAL_DEX_DEWGONG"
+    },
+    {
+      "dex_num": 88,
+      "species": "SPECIES_GRIMER",
+      "dex_constant": "NATIONAL_DEX_GRIMER"
+    },
+    {
+      "dex_num": 89,
+      "species": "SPECIES_MUK",
+      "dex_constant": "NATIONAL_DEX_MUK"
+    },
+    {
+      "dex_num": 90,
+      "species": "SPECIES_SHELLDER",
+      "dex_constant": "NATIONAL_DEX_SHELLDER"
+    },
+    {
+      "dex_num": 91,
+      "species": "SPECIES_CLOYSTER",
+      "dex_constant": "NATIONAL_DEX_CLOYSTER"
+    },
+    {
+      "dex_num": 92,
+      "species": "SPECIES_GASTLY",
+      "dex_constant": "NATIONAL_DEX_GASTLY"
+    },
+    {
+      "dex_num": 93,
+      "species": "SPECIES_HAUNTER",
+      "dex_constant": "NATIONAL_DEX_HAUNTER"
+    },
+    {
+      "dex_num": 94,
+      "species": "SPECIES_GENGAR",
+      "dex_constant": "NATIONAL_DEX_GENGAR"
+    },
+    {
+      "dex_num": 95,
+      "species": "SPECIES_ONIX",
+      "dex_constant": "NATIONAL_DEX_ONIX"
+    },
+    {
+      "dex_num": 96,
+      "species": "SPECIES_DROWZEE",
+      "dex_constant": "NATIONAL_DEX_DROWZEE"
+    },
+    {
+      "dex_num": 97,
+      "species": "SPECIES_HYPNO",
+      "dex_constant": "NATIONAL_DEX_HYPNO"
+    },
+    {
+      "dex_num": 98,
+      "species": "SPECIES_KRABBY",
+      "dex_constant": "NATIONAL_DEX_KRABBY"
+    },
+    {
+      "dex_num": 99,
+      "species": "SPECIES_KINGLER",
+      "dex_constant": "NATIONAL_DEX_KINGLER"
+    },
+    {
+      "dex_num": 100,
+      "species": "SPECIES_VOLTORB",
+      "dex_constant": "NATIONAL_DEX_VOLTORB"
+    },
+    {
+      "dex_num": 101,
+      "species": "SPECIES_ELECTRODE",
+      "dex_constant": "NATIONAL_DEX_ELECTRODE"
+    },
+    {
+      "dex_num": 102,
+      "species": "SPECIES_EXEGGCUTE",
+      "dex_constant": "NATIONAL_DEX_EXEGGCUTE"
+    },
+    {
+      "dex_num": 103,
+      "species": "SPECIES_EXEGGUTOR",
+      "dex_constant": "NATIONAL_DEX_EXEGGUTOR"
+    },
+    {
+      "dex_num": 104,
+      "species": "SPECIES_CUBONE",
+      "dex_constant": "NATIONAL_DEX_CUBONE"
+    },
+    {
+      "dex_num": 105,
+      "species": "SPECIES_MAROWAK",
+      "dex_constant": "NATIONAL_DEX_MAROWAK"
+    },
+    {
+      "dex_num": 106,
+      "species": "SPECIES_HITMONLEE",
+      "dex_constant": "NATIONAL_DEX_HITMONLEE"
+    },
+    {
+      "dex_num": 107,
+      "species": "SPECIES_HITMONCHAN",
+      "dex_constant": "NATIONAL_DEX_HITMONCHAN"
+    },
+    {
+      "dex_num": 108,
+      "species": "SPECIES_LICKITUNG",
+      "dex_constant": "NATIONAL_DEX_LICKITUNG"
+    },
+    {
+      "dex_num": 109,
+      "species": "SPECIES_KOFFING",
+      "dex_constant": "NATIONAL_DEX_KOFFING"
+    },
+    {
+      "dex_num": 110,
+      "species": "SPECIES_WEEZING",
+      "dex_constant": "NATIONAL_DEX_WEEZING"
+    },
+    {
+      "dex_num": 111,
+      "species": "SPECIES_RHYHORN",
+      "dex_constant": "NATIONAL_DEX_RHYHORN"
+    },
+    {
+      "dex_num": 112,
+      "species": "SPECIES_RHYDON",
+      "dex_constant": "NATIONAL_DEX_RHYDON"
+    },
+    {
+      "dex_num": 113,
+      "species": "SPECIES_CHANSEY",
+      "dex_constant": "NATIONAL_DEX_CHANSEY"
+    },
+    {
+      "dex_num": 114,
+      "species": "SPECIES_TANGELA",
+      "dex_constant": "NATIONAL_DEX_TANGELA"
+    },
+    {
+      "dex_num": 115,
+      "species": "SPECIES_KANGASKHAN",
+      "dex_constant": "NATIONAL_DEX_KANGASKHAN"
+    },
+    {
+      "dex_num": 116,
+      "species": "SPECIES_HORSEA",
+      "dex_constant": "NATIONAL_DEX_HORSEA"
+    },
+    {
+      "dex_num": 117,
+      "species": "SPECIES_SEADRA",
+      "dex_constant": "NATIONAL_DEX_SEADRA"
+    },
+    {
+      "dex_num": 118,
+      "species": "SPECIES_GOLDEEN",
+      "dex_constant": "NATIONAL_DEX_GOLDEEN"
+    },
+    {
+      "dex_num": 119,
+      "species": "SPECIES_SEAKING",
+      "dex_constant": "NATIONAL_DEX_SEAKING"
+    },
+    {
+      "dex_num": 120,
+      "species": "SPECIES_STARYU",
+      "dex_constant": "NATIONAL_DEX_STARYU"
+    },
+    {
+      "dex_num": 121,
+      "species": "SPECIES_STARMIE",
+      "dex_constant": "NATIONAL_DEX_STARMIE"
+    },
+    {
+      "dex_num": 122,
+      "species": "SPECIES_MR_MIME",
+      "dex_constant": "NATIONAL_DEX_MR_MIME"
+    },
+    {
+      "dex_num": 123,
+      "species": "SPECIES_SCYTHER",
+      "dex_constant": "NATIONAL_DEX_SCYTHER"
+    },
+    {
+      "dex_num": 124,
+      "species": "SPECIES_JYNX",
+      "dex_constant": "NATIONAL_DEX_JYNX"
+    },
+    {
+      "dex_num": 125,
+      "species": "SPECIES_ELECTABUZZ",
+      "dex_constant": "NATIONAL_DEX_ELECTABUZZ"
+    },
+    {
+      "dex_num": 126,
+      "species": "SPECIES_MAGMAR",
+      "dex_constant": "NATIONAL_DEX_MAGMAR"
+    },
+    {
+      "dex_num": 127,
+      "species": "SPECIES_PINSIR",
+      "dex_constant": "NATIONAL_DEX_PINSIR"
+    },
+    {
+      "dex_num": 128,
+      "species": "SPECIES_TAUROS",
+      "dex_constant": "NATIONAL_DEX_TAUROS"
+    },
+    {
+      "dex_num": 129,
+      "species": "SPECIES_MAGIKARP",
+      "dex_constant": "NATIONAL_DEX_MAGIKARP"
+    },
+    {
+      "dex_num": 130,
+      "species": "SPECIES_GYARADOS",
+      "dex_constant": "NATIONAL_DEX_GYARADOS"
+    },
+    {
+      "dex_num": 131,
+      "species": "SPECIES_LAPRAS",
+      "dex_constant": "NATIONAL_DEX_LAPRAS"
+    },
+    {
+      "dex_num": 132,
+      "species": "SPECIES_DITTO",
+      "dex_constant": "NATIONAL_DEX_DITTO"
+    },
+    {
+      "dex_num": 133,
+      "species": "SPECIES_EEVEE",
+      "dex_constant": "NATIONAL_DEX_EEVEE"
+    },
+    {
+      "dex_num": 134,
+      "species": "SPECIES_VAPOREON",
+      "dex_constant": "NATIONAL_DEX_VAPOREON"
+    },
+    {
+      "dex_num": 135,
+      "species": "SPECIES_JOLTEON",
+      "dex_constant": "NATIONAL_DEX_JOLTEON"
+    },
+    {
+      "dex_num": 136,
+      "species": "SPECIES_FLAREON",
+      "dex_constant": "NATIONAL_DEX_FLAREON"
+    },
+    {
+      "dex_num": 137,
+      "species": "SPECIES_PORYGON",
+      "dex_constant": "NATIONAL_DEX_PORYGON"
+    },
+    {
+      "dex_num": 138,
+      "species": "SPECIES_OMANYTE",
+      "dex_constant": "NATIONAL_DEX_OMANYTE"
+    },
+    {
+      "dex_num": 139,
+      "species": "SPECIES_OMASTAR",
+      "dex_constant": "NATIONAL_DEX_OMASTAR"
+    },
+    {
+      "dex_num": 140,
+      "species": "SPECIES_KABUTO",
+      "dex_constant": "NATIONAL_DEX_KABUTO"
+    },
+    {
+      "dex_num": 141,
+      "species": "SPECIES_KABUTOPS",
+      "dex_constant": "NATIONAL_DEX_KABUTOPS"
+    },
+    {
+      "dex_num": 142,
+      "species": "SPECIES_AERODACTYL",
+      "dex_constant": "NATIONAL_DEX_AERODACTYL"
+    },
+    {
+      "dex_num": 143,
+      "species": "SPECIES_SNORLAX",
+      "dex_constant": "NATIONAL_DEX_SNORLAX"
+    },
+    {
+      "dex_num": 144,
+      "species": "SPECIES_ARTICUNO",
+      "dex_constant": "NATIONAL_DEX_ARTICUNO"
+    },
+    {
+      "dex_num": 145,
+      "species": "SPECIES_ZAPDOS",
+      "dex_constant": "NATIONAL_DEX_ZAPDOS"
+    },
+    {
+      "dex_num": 146,
+      "species": "SPECIES_MOLTRES",
+      "dex_constant": "NATIONAL_DEX_MOLTRES"
+    },
+    {
+      "dex_num": 147,
+      "species": "SPECIES_DRATINI",
+      "dex_constant": "NATIONAL_DEX_DRATINI"
+    },
+    {
+      "dex_num": 148,
+      "species": "SPECIES_DRAGONAIR",
+      "dex_constant": "NATIONAL_DEX_DRAGONAIR"
+    },
+    {
+      "dex_num": 149,
+      "species": "SPECIES_DRAGONITE",
+      "dex_constant": "NATIONAL_DEX_DRAGONITE"
+    },
+    {
+      "dex_num": 150,
+      "species": "SPECIES_MEWTWO",
+      "dex_constant": "NATIONAL_DEX_MEWTWO"
+    },
+    {
+      "dex_num": 151,
+      "species": "SPECIES_MEW",
+      "dex_constant": "NATIONAL_DEX_MEW"
+    },
+    {
+      "dex_num": 152,
+      "species": "SPECIES_CHIKORITA",
+      "dex_constant": "NATIONAL_DEX_CHIKORITA"
+    },
+    {
+      "dex_num": 153,
+      "species": "SPECIES_BAYLEEF",
+      "dex_constant": "NATIONAL_DEX_BAYLEEF"
+    },
+    {
+      "dex_num": 154,
+      "species": "SPECIES_MEGANIUM",
+      "dex_constant": "NATIONAL_DEX_MEGANIUM"
+    },
+    {
+      "dex_num": 155,
+      "species": "SPECIES_CYNDAQUIL",
+      "dex_constant": "NATIONAL_DEX_CYNDAQUIL"
+    },
+    {
+      "dex_num": 156,
+      "species": "SPECIES_QUILAVA",
+      "dex_constant": "NATIONAL_DEX_QUILAVA"
+    },
+    {
+      "dex_num": 157,
+      "species": "SPECIES_TYPHLOSION",
+      "dex_constant": "NATIONAL_DEX_TYPHLOSION"
+    },
+    {
+      "dex_num": 158,
+      "species": "SPECIES_TOTODILE",
+      "dex_constant": "NATIONAL_DEX_TOTODILE"
+    },
+    {
+      "dex_num": 159,
+      "species": "SPECIES_CROCONAW",
+      "dex_constant": "NATIONAL_DEX_CROCONAW"
+    },
+    {
+      "dex_num": 160,
+      "species": "SPECIES_FERALIGATR",
+      "dex_constant": "NATIONAL_DEX_FERALIGATR"
+    },
+    {
+      "dex_num": 161,
+      "species": "SPECIES_SENTRET",
+      "dex_constant": "NATIONAL_DEX_SENTRET"
+    },
+    {
+      "dex_num": 162,
+      "species": "SPECIES_FURRET",
+      "dex_constant": "NATIONAL_DEX_FURRET"
+    },
+    {
+      "dex_num": 163,
+      "species": "SPECIES_HOOTHOOT",
+      "dex_constant": "NATIONAL_DEX_HOOTHOOT"
+    },
+    {
+      "dex_num": 164,
+      "species": "SPECIES_NOCTOWL",
+      "dex_constant": "NATIONAL_DEX_NOCTOWL"
+    },
+    {
+      "dex_num": 165,
+      "species": "SPECIES_LEDYBA",
+      "dex_constant": "NATIONAL_DEX_LEDYBA"
+    },
+    {
+      "dex_num": 166,
+      "species": "SPECIES_LEDIAN",
+      "dex_constant": "NATIONAL_DEX_LEDIAN"
+    },
+    {
+      "dex_num": 167,
+      "species": "SPECIES_SPINARAK",
+      "dex_constant": "NATIONAL_DEX_SPINARAK"
+    },
+    {
+      "dex_num": 168,
+      "species": "SPECIES_ARIADOS",
+      "dex_constant": "NATIONAL_DEX_ARIADOS"
+    },
+    {
+      "dex_num": 169,
+      "species": "SPECIES_CROBAT",
+      "dex_constant": "NATIONAL_DEX_CROBAT"
+    },
+    {
+      "dex_num": 170,
+      "species": "SPECIES_CHINCHOU",
+      "dex_constant": "NATIONAL_DEX_CHINCHOU"
+    },
+    {
+      "dex_num": 171,
+      "species": "SPECIES_LANTURN",
+      "dex_constant": "NATIONAL_DEX_LANTURN"
+    },
+    {
+      "dex_num": 172,
+      "species": "SPECIES_PICHU",
+      "dex_constant": "NATIONAL_DEX_PICHU"
+    },
+    {
+      "dex_num": 173,
+      "species": "SPECIES_CLEFFA",
+      "dex_constant": "NATIONAL_DEX_CLEFFA"
+    },
+    {
+      "dex_num": 174,
+      "species": "SPECIES_IGGLYBUFF",
+      "dex_constant": "NATIONAL_DEX_IGGLYBUFF"
+    },
+    {
+      "dex_num": 175,
+      "species": "SPECIES_TOGEPI",
+      "dex_constant": "NATIONAL_DEX_TOGEPI"
+    },
+    {
+      "dex_num": 176,
+      "species": "SPECIES_TOGETIC",
+      "dex_constant": "NATIONAL_DEX_TOGETIC"
+    },
+    {
+      "dex_num": 177,
+      "species": "SPECIES_NATU",
+      "dex_constant": "NATIONAL_DEX_NATU"
+    },
+    {
+      "dex_num": 178,
+      "species": "SPECIES_XATU",
+      "dex_constant": "NATIONAL_DEX_XATU"
+    },
+    {
+      "dex_num": 179,
+      "species": "SPECIES_MAREEP",
+      "dex_constant": "NATIONAL_DEX_MAREEP"
+    },
+    {
+      "dex_num": 180,
+      "species": "SPECIES_FLAAFFY",
+      "dex_constant": "NATIONAL_DEX_FLAAFFY"
+    },
+    {
+      "dex_num": 181,
+      "species": "SPECIES_AMPHAROS",
+      "dex_constant": "NATIONAL_DEX_AMPHAROS"
+    },
+    {
+      "dex_num": 182,
+      "species": "SPECIES_BELLOSSOM",
+      "dex_constant": "NATIONAL_DEX_BELLOSSOM"
+    },
+    {
+      "dex_num": 183,
+      "species": "SPECIES_MARILL",
+      "dex_constant": "NATIONAL_DEX_MARILL"
+    },
+    {
+      "dex_num": 184,
+      "species": "SPECIES_AZUMARILL",
+      "dex_constant": "NATIONAL_DEX_AZUMARILL"
+    },
+    {
+      "dex_num": 185,
+      "species": "SPECIES_SUDOWOODO",
+      "dex_constant": "NATIONAL_DEX_SUDOWOODO"
+    },
+    {
+      "dex_num": 186,
+      "species": "SPECIES_POLITOED",
+      "dex_constant": "NATIONAL_DEX_POLITOED"
+    },
+    {
+      "dex_num": 187,
+      "species": "SPECIES_HOPPIP",
+      "dex_constant": "NATIONAL_DEX_HOPPIP"
+    },
+    {
+      "dex_num": 188,
+      "species": "SPECIES_SKIPLOOM",
+      "dex_constant": "NATIONAL_DEX_SKIPLOOM"
+    },
+    {
+      "dex_num": 189,
+      "species": "SPECIES_JUMPLUFF",
+      "dex_constant": "NATIONAL_DEX_JUMPLUFF"
+    },
+    {
+      "dex_num": 190,
+      "species": "SPECIES_AIPOM",
+      "dex_constant": "NATIONAL_DEX_AIPOM"
+    },
+    {
+      "dex_num": 191,
+      "species": "SPECIES_SUNKERN",
+      "dex_constant": "NATIONAL_DEX_SUNKERN"
+    },
+    {
+      "dex_num": 192,
+      "species": "SPECIES_SUNFLORA",
+      "dex_constant": "NATIONAL_DEX_SUNFLORA"
+    },
+    {
+      "dex_num": 193,
+      "species": "SPECIES_YANMA",
+      "dex_constant": "NATIONAL_DEX_YANMA"
+    },
+    {
+      "dex_num": 194,
+      "species": "SPECIES_WOOPER",
+      "dex_constant": "NATIONAL_DEX_WOOPER"
+    },
+    {
+      "dex_num": 195,
+      "species": "SPECIES_QUAGSIRE",
+      "dex_constant": "NATIONAL_DEX_QUAGSIRE"
+    },
+    {
+      "dex_num": 196,
+      "species": "SPECIES_ESPEON",
+      "dex_constant": "NATIONAL_DEX_ESPEON"
+    },
+    {
+      "dex_num": 197,
+      "species": "SPECIES_UMBREON",
+      "dex_constant": "NATIONAL_DEX_UMBREON"
+    },
+    {
+      "dex_num": 198,
+      "species": "SPECIES_MURKROW",
+      "dex_constant": "NATIONAL_DEX_MURKROW"
+    },
+    {
+      "dex_num": 199,
+      "species": "SPECIES_SLOWKING",
+      "dex_constant": "NATIONAL_DEX_SLOWKING"
+    },
+    {
+      "dex_num": 200,
+      "species": "SPECIES_MISDREAVUS",
+      "dex_constant": "NATIONAL_DEX_MISDREAVUS"
+    },
+    {
+      "dex_num": 201,
+      "species": "SPECIES_UNOWN",
+      "dex_constant": "NATIONAL_DEX_UNOWN"
+    },
+    {
+      "dex_num": 202,
+      "species": "SPECIES_WOBBUFFET",
+      "dex_constant": "NATIONAL_DEX_WOBBUFFET"
+    },
+    {
+      "dex_num": 203,
+      "species": "SPECIES_GIRAFARIG",
+      "dex_constant": "NATIONAL_DEX_GIRAFARIG"
+    },
+    {
+      "dex_num": 204,
+      "species": "SPECIES_PINECO",
+      "dex_constant": "NATIONAL_DEX_PINECO"
+    },
+    {
+      "dex_num": 205,
+      "species": "SPECIES_FORRETRESS",
+      "dex_constant": "NATIONAL_DEX_FORRETRESS"
+    },
+    {
+      "dex_num": 206,
+      "species": "SPECIES_DUNSPARCE",
+      "dex_constant": "NATIONAL_DEX_DUNSPARCE"
+    },
+    {
+      "dex_num": 207,
+      "species": "SPECIES_GLIGAR",
+      "dex_constant": "NATIONAL_DEX_GLIGAR"
+    },
+    {
+      "dex_num": 208,
+      "species": "SPECIES_STEELIX",
+      "dex_constant": "NATIONAL_DEX_STEELIX"
+    },
+    {
+      "dex_num": 209,
+      "species": "SPECIES_SNUBBULL",
+      "dex_constant": "NATIONAL_DEX_SNUBBULL"
+    },
+    {
+      "dex_num": 210,
+      "species": "SPECIES_GRANBULL",
+      "dex_constant": "NATIONAL_DEX_GRANBULL"
+    },
+    {
+      "dex_num": 211,
+      "species": "SPECIES_QWILFISH",
+      "dex_constant": "NATIONAL_DEX_QWILFISH"
+    },
+    {
+      "dex_num": 212,
+      "species": "SPECIES_SCIZOR",
+      "dex_constant": "NATIONAL_DEX_SCIZOR"
+    },
+    {
+      "dex_num": 213,
+      "species": "SPECIES_SHUCKLE",
+      "dex_constant": "NATIONAL_DEX_SHUCKLE"
+    },
+    {
+      "dex_num": 214,
+      "species": "SPECIES_HERACROSS",
+      "dex_constant": "NATIONAL_DEX_HERACROSS"
+    },
+    {
+      "dex_num": 215,
+      "species": "SPECIES_SNEASEL",
+      "dex_constant": "NATIONAL_DEX_SNEASEL"
+    },
+    {
+      "dex_num": 216,
+      "species": "SPECIES_TEDDIURSA",
+      "dex_constant": "NATIONAL_DEX_TEDDIURSA"
+    },
+    {
+      "dex_num": 217,
+      "species": "SPECIES_URSARING",
+      "dex_constant": "NATIONAL_DEX_URSARING"
+    },
+    {
+      "dex_num": 218,
+      "species": "SPECIES_SLUGMA",
+      "dex_constant": "NATIONAL_DEX_SLUGMA"
+    },
+    {
+      "dex_num": 219,
+      "species": "SPECIES_MAGCARGO",
+      "dex_constant": "NATIONAL_DEX_MAGCARGO"
+    },
+    {
+      "dex_num": 220,
+      "species": "SPECIES_SWINUB",
+      "dex_constant": "NATIONAL_DEX_SWINUB"
+    },
+    {
+      "dex_num": 221,
+      "species": "SPECIES_PILOSWINE",
+      "dex_constant": "NATIONAL_DEX_PILOSWINE"
+    },
+    {
+      "dex_num": 222,
+      "species": "SPECIES_CORSOLA",
+      "dex_constant": "NATIONAL_DEX_CORSOLA"
+    },
+    {
+      "dex_num": 223,
+      "species": "SPECIES_REMORAID",
+      "dex_constant": "NATIONAL_DEX_REMORAID"
+    },
+    {
+      "dex_num": 224,
+      "species": "SPECIES_OCTILLERY",
+      "dex_constant": "NATIONAL_DEX_OCTILLERY"
+    },
+    {
+      "dex_num": 225,
+      "species": "SPECIES_DELIBIRD",
+      "dex_constant": "NATIONAL_DEX_DELIBIRD"
+    },
+    {
+      "dex_num": 226,
+      "species": "SPECIES_MANTINE",
+      "dex_constant": "NATIONAL_DEX_MANTINE"
+    },
+    {
+      "dex_num": 227,
+      "species": "SPECIES_SKARMORY",
+      "dex_constant": "NATIONAL_DEX_SKARMORY"
+    },
+    {
+      "dex_num": 228,
+      "species": "SPECIES_HOUNDOUR",
+      "dex_constant": "NATIONAL_DEX_HOUNDOUR"
+    },
+    {
+      "dex_num": 229,
+      "species": "SPECIES_HOUNDOOM",
+      "dex_constant": "NATIONAL_DEX_HOUNDOOM"
+    },
+    {
+      "dex_num": 230,
+      "species": "SPECIES_KINGDRA",
+      "dex_constant": "NATIONAL_DEX_KINGDRA"
+    },
+    {
+      "dex_num": 231,
+      "species": "SPECIES_PHANPY",
+      "dex_constant": "NATIONAL_DEX_PHANPY"
+    },
+    {
+      "dex_num": 232,
+      "species": "SPECIES_DONPHAN",
+      "dex_constant": "NATIONAL_DEX_DONPHAN"
+    },
+    {
+      "dex_num": 233,
+      "species": "SPECIES_PORYGON2",
+      "dex_constant": "NATIONAL_DEX_PORYGON2"
+    },
+    {
+      "dex_num": 234,
+      "species": "SPECIES_STANTLER",
+      "dex_constant": "NATIONAL_DEX_STANTLER"
+    },
+    {
+      "dex_num": 235,
+      "species": "SPECIES_SMEARGLE",
+      "dex_constant": "NATIONAL_DEX_SMEARGLE"
+    },
+    {
+      "dex_num": 236,
+      "species": "SPECIES_TYROGUE",
+      "dex_constant": "NATIONAL_DEX_TYROGUE"
+    },
+    {
+      "dex_num": 237,
+      "species": "SPECIES_HITMONTOP",
+      "dex_constant": "NATIONAL_DEX_HITMONTOP"
+    },
+    {
+      "dex_num": 238,
+      "species": "SPECIES_SMOOCHUM",
+      "dex_constant": "NATIONAL_DEX_SMOOCHUM"
+    },
+    {
+      "dex_num": 239,
+      "species": "SPECIES_ELEKID",
+      "dex_constant": "NATIONAL_DEX_ELEKID"
+    },
+    {
+      "dex_num": 240,
+      "species": "SPECIES_MAGBY",
+      "dex_constant": "NATIONAL_DEX_MAGBY"
+    },
+    {
+      "dex_num": 241,
+      "species": "SPECIES_MILTANK",
+      "dex_constant": "NATIONAL_DEX_MILTANK"
+    },
+    {
+      "dex_num": 242,
+      "species": "SPECIES_BLISSEY",
+      "dex_constant": "NATIONAL_DEX_BLISSEY"
+    },
+    {
+      "dex_num": 243,
+      "species": "SPECIES_RAIKOU",
+      "dex_constant": "NATIONAL_DEX_RAIKOU"
+    },
+    {
+      "dex_num": 244,
+      "species": "SPECIES_ENTEI",
+      "dex_constant": "NATIONAL_DEX_ENTEI"
+    },
+    {
+      "dex_num": 245,
+      "species": "SPECIES_SUICUNE",
+      "dex_constant": "NATIONAL_DEX_SUICUNE"
+    },
+    {
+      "dex_num": 246,
+      "species": "SPECIES_LARVITAR",
+      "dex_constant": "NATIONAL_DEX_LARVITAR"
+    },
+    {
+      "dex_num": 247,
+      "species": "SPECIES_PUPITAR",
+      "dex_constant": "NATIONAL_DEX_PUPITAR"
+    },
+    {
+      "dex_num": 248,
+      "species": "SPECIES_TYRANITAR",
+      "dex_constant": "NATIONAL_DEX_TYRANITAR"
+    },
+    {
+      "dex_num": 249,
+      "species": "SPECIES_LUGIA",
+      "dex_constant": "NATIONAL_DEX_LUGIA"
+    },
+    {
+      "dex_num": 250,
+      "species": "SPECIES_HO_OH",
+      "dex_constant": "NATIONAL_DEX_HO_OH"
+    },
+    {
+      "dex_num": 251,
+      "species": "SPECIES_CELEBI",
+      "dex_constant": "NATIONAL_DEX_CELEBI"
+    },
+    {
+      "dex_num": 252,
+      "species": "SPECIES_TREECKO",
+      "dex_constant": "NATIONAL_DEX_TREECKO"
+    },
+    {
+      "dex_num": 253,
+      "species": "SPECIES_GROVYLE",
+      "dex_constant": "NATIONAL_DEX_GROVYLE"
+    },
+    {
+      "dex_num": 254,
+      "species": "SPECIES_SCEPTILE",
+      "dex_constant": "NATIONAL_DEX_SCEPTILE"
+    },
+    {
+      "dex_num": 255,
+      "species": "SPECIES_TORCHIC",
+      "dex_constant": "NATIONAL_DEX_TORCHIC"
+    },
+    {
+      "dex_num": 256,
+      "species": "SPECIES_COMBUSKEN",
+      "dex_constant": "NATIONAL_DEX_COMBUSKEN"
+    },
+    {
+      "dex_num": 257,
+      "species": "SPECIES_BLAZIKEN",
+      "dex_constant": "NATIONAL_DEX_BLAZIKEN"
+    },
+    {
+      "dex_num": 258,
+      "species": "SPECIES_MUDKIP",
+      "dex_constant": "NATIONAL_DEX_MUDKIP"
+    },
+    {
+      "dex_num": 259,
+      "species": "SPECIES_MARSHTOMP",
+      "dex_constant": "NATIONAL_DEX_MARSHTOMP"
+    },
+    {
+      "dex_num": 260,
+      "species": "SPECIES_SWAMPERT",
+      "dex_constant": "NATIONAL_DEX_SWAMPERT"
+    },
+    {
+      "dex_num": 261,
+      "species": "SPECIES_POOCHYENA",
+      "dex_constant": "NATIONAL_DEX_POOCHYENA"
+    },
+    {
+      "dex_num": 262,
+      "species": "SPECIES_MIGHTYENA",
+      "dex_constant": "NATIONAL_DEX_MIGHTYENA"
+    },
+    {
+      "dex_num": 263,
+      "species": "SPECIES_ZIGZAGOON",
+      "dex_constant": "NATIONAL_DEX_ZIGZAGOON"
+    },
+    {
+      "dex_num": 264,
+      "species": "SPECIES_LINOONE",
+      "dex_constant": "NATIONAL_DEX_LINOONE"
+    },
+    {
+      "dex_num": 265,
+      "species": "SPECIES_WURMPLE",
+      "dex_constant": "NATIONAL_DEX_WURMPLE"
+    },
+    {
+      "dex_num": 266,
+      "species": "SPECIES_SILCOON",
+      "dex_constant": "NATIONAL_DEX_SILCOON"
+    },
+    {
+      "dex_num": 267,
+      "species": "SPECIES_BEAUTIFLY",
+      "dex_constant": "NATIONAL_DEX_BEAUTIFLY"
+    },
+    {
+      "dex_num": 268,
+      "species": "SPECIES_CASCOON",
+      "dex_constant": "NATIONAL_DEX_CASCOON"
+    },
+    {
+      "dex_num": 269,
+      "species": "SPECIES_DUSTOX",
+      "dex_constant": "NATIONAL_DEX_DUSTOX"
+    },
+    {
+      "dex_num": 270,
+      "species": "SPECIES_LOTAD",
+      "dex_constant": "NATIONAL_DEX_LOTAD"
+    },
+    {
+      "dex_num": 271,
+      "species": "SPECIES_LOMBRE",
+      "dex_constant": "NATIONAL_DEX_LOMBRE"
+    },
+    {
+      "dex_num": 272,
+      "species": "SPECIES_LUDICOLO",
+      "dex_constant": "NATIONAL_DEX_LUDICOLO"
+    },
+    {
+      "dex_num": 273,
+      "species": "SPECIES_SEEDOT",
+      "dex_constant": "NATIONAL_DEX_SEEDOT"
+    },
+    {
+      "dex_num": 274,
+      "species": "SPECIES_NUZLEAF",
+      "dex_constant": "NATIONAL_DEX_NUZLEAF"
+    },
+    {
+      "dex_num": 275,
+      "species": "SPECIES_SHIFTRY",
+      "dex_constant": "NATIONAL_DEX_SHIFTRY"
+    },
+    {
+      "dex_num": 276,
+      "species": "SPECIES_TAILLOW",
+      "dex_constant": "NATIONAL_DEX_TAILLOW"
+    },
+    {
+      "dex_num": 277,
+      "species": "SPECIES_SWELLOW",
+      "dex_constant": "NATIONAL_DEX_SWELLOW"
+    },
+    {
+      "dex_num": 278,
+      "species": "SPECIES_WINGULL",
+      "dex_constant": "NATIONAL_DEX_WINGULL"
+    },
+    {
+      "dex_num": 279,
+      "species": "SPECIES_PELIPPER",
+      "dex_constant": "NATIONAL_DEX_PELIPPER"
+    },
+    {
+      "dex_num": 280,
+      "species": "SPECIES_RALTS",
+      "dex_constant": "NATIONAL_DEX_RALTS"
+    },
+    {
+      "dex_num": 281,
+      "species": "SPECIES_KIRLIA",
+      "dex_constant": "NATIONAL_DEX_KIRLIA"
+    },
+    {
+      "dex_num": 282,
+      "species": "SPECIES_GARDEVOIR",
+      "dex_constant": "NATIONAL_DEX_GARDEVOIR"
+    },
+    {
+      "dex_num": 283,
+      "species": "SPECIES_SURSKIT",
+      "dex_constant": "NATIONAL_DEX_SURSKIT"
+    },
+    {
+      "dex_num": 284,
+      "species": "SPECIES_MASQUERAIN",
+      "dex_constant": "NATIONAL_DEX_MASQUERAIN"
+    },
+    {
+      "dex_num": 285,
+      "species": "SPECIES_SHROOMISH",
+      "dex_constant": "NATIONAL_DEX_SHROOMISH"
+    },
+    {
+      "dex_num": 286,
+      "species": "SPECIES_BRELOOM",
+      "dex_constant": "NATIONAL_DEX_BRELOOM"
+    },
+    {
+      "dex_num": 287,
+      "species": "SPECIES_SLAKOTH",
+      "dex_constant": "NATIONAL_DEX_SLAKOTH"
+    },
+    {
+      "dex_num": 288,
+      "species": "SPECIES_VIGOROTH",
+      "dex_constant": "NATIONAL_DEX_VIGOROTH"
+    },
+    {
+      "dex_num": 289,
+      "species": "SPECIES_SLAKING",
+      "dex_constant": "NATIONAL_DEX_SLAKING"
+    },
+    {
+      "dex_num": 290,
+      "species": "SPECIES_NINCADA",
+      "dex_constant": "NATIONAL_DEX_NINCADA"
+    },
+    {
+      "dex_num": 291,
+      "species": "SPECIES_NINJASK",
+      "dex_constant": "NATIONAL_DEX_NINJASK"
+    },
+    {
+      "dex_num": 292,
+      "species": "SPECIES_SHEDINJA",
+      "dex_constant": "NATIONAL_DEX_SHEDINJA"
+    },
+    {
+      "dex_num": 293,
+      "species": "SPECIES_WHISMUR",
+      "dex_constant": "NATIONAL_DEX_WHISMUR"
+    },
+    {
+      "dex_num": 294,
+      "species": "SPECIES_LOUDRED",
+      "dex_constant": "NATIONAL_DEX_LOUDRED"
+    },
+    {
+      "dex_num": 295,
+      "species": "SPECIES_EXPLOUD",
+      "dex_constant": "NATIONAL_DEX_EXPLOUD"
+    },
+    {
+      "dex_num": 296,
+      "species": "SPECIES_MAKUHITA",
+      "dex_constant": "NATIONAL_DEX_MAKUHITA"
+    },
+    {
+      "dex_num": 297,
+      "species": "SPECIES_HARIYAMA",
+      "dex_constant": "NATIONAL_DEX_HARIYAMA"
+    },
+    {
+      "dex_num": 298,
+      "species": "SPECIES_AZURILL",
+      "dex_constant": "NATIONAL_DEX_AZURILL"
+    },
+    {
+      "dex_num": 299,
+      "species": "SPECIES_NOSEPASS",
+      "dex_constant": "NATIONAL_DEX_NOSEPASS"
+    },
+    {
+      "dex_num": 300,
+      "species": "SPECIES_SKITTY",
+      "dex_constant": "NATIONAL_DEX_SKITTY"
+    },
+    {
+      "dex_num": 301,
+      "species": "SPECIES_DELCATTY",
+      "dex_constant": "NATIONAL_DEX_DELCATTY"
+    },
+    {
+      "dex_num": 302,
+      "species": "SPECIES_SABLEYE",
+      "dex_constant": "NATIONAL_DEX_SABLEYE"
+    },
+    {
+      "dex_num": 303,
+      "species": "SPECIES_MAWILE",
+      "dex_constant": "NATIONAL_DEX_MAWILE"
+    },
+    {
+      "dex_num": 304,
+      "species": "SPECIES_ARON",
+      "dex_constant": "NATIONAL_DEX_ARON"
+    },
+    {
+      "dex_num": 305,
+      "species": "SPECIES_LAIRON",
+      "dex_constant": "NATIONAL_DEX_LAIRON"
+    },
+    {
+      "dex_num": 306,
+      "species": "SPECIES_AGGRON",
+      "dex_constant": "NATIONAL_DEX_AGGRON"
+    },
+    {
+      "dex_num": 307,
+      "species": "SPECIES_MEDITITE",
+      "dex_constant": "NATIONAL_DEX_MEDITITE"
+    },
+    {
+      "dex_num": 308,
+      "species": "SPECIES_MEDICHAM",
+      "dex_constant": "NATIONAL_DEX_MEDICHAM"
+    },
+    {
+      "dex_num": 309,
+      "species": "SPECIES_ELECTRIKE",
+      "dex_constant": "NATIONAL_DEX_ELECTRIKE"
+    },
+    {
+      "dex_num": 310,
+      "species": "SPECIES_MANECTRIC",
+      "dex_constant": "NATIONAL_DEX_MANECTRIC"
+    },
+    {
+      "dex_num": 311,
+      "species": "SPECIES_PLUSLE",
+      "dex_constant": "NATIONAL_DEX_PLUSLE"
+    },
+    {
+      "dex_num": 312,
+      "species": "SPECIES_MINUN",
+      "dex_constant": "NATIONAL_DEX_MINUN"
+    },
+    {
+      "dex_num": 313,
+      "species": "SPECIES_VOLBEAT",
+      "dex_constant": "NATIONAL_DEX_VOLBEAT"
+    },
+    {
+      "dex_num": 314,
+      "species": "SPECIES_ILLUMISE",
+      "dex_constant": "NATIONAL_DEX_ILLUMISE"
+    },
+    {
+      "dex_num": 315,
+      "species": "SPECIES_ROSELIA",
+      "dex_constant": "NATIONAL_DEX_ROSELIA"
+    },
+    {
+      "dex_num": 316,
+      "species": "SPECIES_GULPIN",
+      "dex_constant": "NATIONAL_DEX_GULPIN"
+    },
+    {
+      "dex_num": 317,
+      "species": "SPECIES_SWALOT",
+      "dex_constant": "NATIONAL_DEX_SWALOT"
+    },
+    {
+      "dex_num": 318,
+      "species": "SPECIES_CARVANHA",
+      "dex_constant": "NATIONAL_DEX_CARVANHA"
+    },
+    {
+      "dex_num": 319,
+      "species": "SPECIES_SHARPEDO",
+      "dex_constant": "NATIONAL_DEX_SHARPEDO"
+    },
+    {
+      "dex_num": 320,
+      "species": "SPECIES_WAILMER",
+      "dex_constant": "NATIONAL_DEX_WAILMER"
+    },
+    {
+      "dex_num": 321,
+      "species": "SPECIES_WAILORD",
+      "dex_constant": "NATIONAL_DEX_WAILORD"
+    },
+    {
+      "dex_num": 322,
+      "species": "SPECIES_NUMEL",
+      "dex_constant": "NATIONAL_DEX_NUMEL"
+    },
+    {
+      "dex_num": 323,
+      "species": "SPECIES_CAMERUPT",
+      "dex_constant": "NATIONAL_DEX_CAMERUPT"
+    },
+    {
+      "dex_num": 324,
+      "species": "SPECIES_TORKOAL",
+      "dex_constant": "NATIONAL_DEX_TORKOAL"
+    },
+    {
+      "dex_num": 325,
+      "species": "SPECIES_SPOINK",
+      "dex_constant": "NATIONAL_DEX_SPOINK"
+    },
+    {
+      "dex_num": 326,
+      "species": "SPECIES_GRUMPIG",
+      "dex_constant": "NATIONAL_DEX_GRUMPIG"
+    },
+    {
+      "dex_num": 327,
+      "species": "SPECIES_SPINDA",
+      "dex_constant": "NATIONAL_DEX_SPINDA"
+    },
+    {
+      "dex_num": 328,
+      "species": "SPECIES_TRAPINCH",
+      "dex_constant": "NATIONAL_DEX_TRAPINCH"
+    },
+    {
+      "dex_num": 329,
+      "species": "SPECIES_VIBRAVA",
+      "dex_constant": "NATIONAL_DEX_VIBRAVA"
+    },
+    {
+      "dex_num": 330,
+      "species": "SPECIES_FLYGON",
+      "dex_constant": "NATIONAL_DEX_FLYGON"
+    },
+    {
+      "dex_num": 331,
+      "species": "SPECIES_CACNEA",
+      "dex_constant": "NATIONAL_DEX_CACNEA"
+    },
+    {
+      "dex_num": 332,
+      "species": "SPECIES_CACTURNE",
+      "dex_constant": "NATIONAL_DEX_CACTURNE"
+    },
+    {
+      "dex_num": 333,
+      "species": "SPECIES_SWABLU",
+      "dex_constant": "NATIONAL_DEX_SWABLU"
+    },
+    {
+      "dex_num": 334,
+      "species": "SPECIES_ALTARIA",
+      "dex_constant": "NATIONAL_DEX_ALTARIA"
+    },
+    {
+      "dex_num": 335,
+      "species": "SPECIES_ZANGOOSE",
+      "dex_constant": "NATIONAL_DEX_ZANGOOSE"
+    },
+    {
+      "dex_num": 336,
+      "species": "SPECIES_SEVIPER",
+      "dex_constant": "NATIONAL_DEX_SEVIPER"
+    },
+    {
+      "dex_num": 337,
+      "species": "SPECIES_LUNATONE",
+      "dex_constant": "NATIONAL_DEX_LUNATONE"
+    },
+    {
+      "dex_num": 338,
+      "species": "SPECIES_SOLROCK",
+      "dex_constant": "NATIONAL_DEX_SOLROCK"
+    },
+    {
+      "dex_num": 339,
+      "species": "SPECIES_BARBOACH",
+      "dex_constant": "NATIONAL_DEX_BARBOACH"
+    },
+    {
+      "dex_num": 340,
+      "species": "SPECIES_WHISCASH",
+      "dex_constant": "NATIONAL_DEX_WHISCASH"
+    },
+    {
+      "dex_num": 341,
+      "species": "SPECIES_CORPHISH",
+      "dex_constant": "NATIONAL_DEX_CORPHISH"
+    },
+    {
+      "dex_num": 342,
+      "species": "SPECIES_CRAWDAUNT",
+      "dex_constant": "NATIONAL_DEX_CRAWDAUNT"
+    },
+    {
+      "dex_num": 343,
+      "species": "SPECIES_BALTOY",
+      "dex_constant": "NATIONAL_DEX_BALTOY"
+    },
+    {
+      "dex_num": 344,
+      "species": "SPECIES_CLAYDOL",
+      "dex_constant": "NATIONAL_DEX_CLAYDOL"
+    },
+    {
+      "dex_num": 345,
+      "species": "SPECIES_LILEEP",
+      "dex_constant": "NATIONAL_DEX_LILEEP"
+    },
+    {
+      "dex_num": 346,
+      "species": "SPECIES_CRADILY",
+      "dex_constant": "NATIONAL_DEX_CRADILY"
+    },
+    {
+      "dex_num": 347,
+      "species": "SPECIES_ANORITH",
+      "dex_constant": "NATIONAL_DEX_ANORITH"
+    },
+    {
+      "dex_num": 348,
+      "species": "SPECIES_ARMALDO",
+      "dex_constant": "NATIONAL_DEX_ARMALDO"
+    },
+    {
+      "dex_num": 349,
+      "species": "SPECIES_FEEBAS",
+      "dex_constant": "NATIONAL_DEX_FEEBAS"
+    },
+    {
+      "dex_num": 350,
+      "species": "SPECIES_MILOTIC",
+      "dex_constant": "NATIONAL_DEX_MILOTIC"
+    },
+    {
+      "dex_num": 351,
+      "species": "SPECIES_CASTFORM",
+      "dex_constant": "NATIONAL_DEX_CASTFORM"
+    },
+    {
+      "dex_num": 352,
+      "species": "SPECIES_KECLEON",
+      "dex_constant": "NATIONAL_DEX_KECLEON"
+    },
+    {
+      "dex_num": 353,
+      "species": "SPECIES_SHUPPET",
+      "dex_constant": "NATIONAL_DEX_SHUPPET"
+    },
+    {
+      "dex_num": 354,
+      "species": "SPECIES_BANETTE",
+      "dex_constant": "NATIONAL_DEX_BANETTE"
+    },
+    {
+      "dex_num": 355,
+      "species": "SPECIES_DUSKULL",
+      "dex_constant": "NATIONAL_DEX_DUSKULL"
+    },
+    {
+      "dex_num": 356,
+      "species": "SPECIES_DUSCLOPS",
+      "dex_constant": "NATIONAL_DEX_DUSCLOPS"
+    },
+    {
+      "dex_num": 357,
+      "species": "SPECIES_TROPIUS",
+      "dex_constant": "NATIONAL_DEX_TROPIUS"
+    },
+    {
+      "dex_num": 358,
+      "species": "SPECIES_CHIMECHO",
+      "dex_constant": "NATIONAL_DEX_CHIMECHO"
+    },
+    {
+      "dex_num": 359,
+      "species": "SPECIES_ABSOL",
+      "dex_constant": "NATIONAL_DEX_ABSOL"
+    },
+    {
+      "dex_num": 360,
+      "species": "SPECIES_WYNAUT",
+      "dex_constant": "NATIONAL_DEX_WYNAUT"
+    },
+    {
+      "dex_num": 361,
+      "species": "SPECIES_SNORUNT",
+      "dex_constant": "NATIONAL_DEX_SNORUNT"
+    },
+    {
+      "dex_num": 362,
+      "species": "SPECIES_GLALIE",
+      "dex_constant": "NATIONAL_DEX_GLALIE"
+    },
+    {
+      "dex_num": 363,
+      "species": "SPECIES_SPHEAL",
+      "dex_constant": "NATIONAL_DEX_SPHEAL"
+    },
+    {
+      "dex_num": 364,
+      "species": "SPECIES_SEALEO",
+      "dex_constant": "NATIONAL_DEX_SEALEO"
+    },
+    {
+      "dex_num": 365,
+      "species": "SPECIES_WALREIN",
+      "dex_constant": "NATIONAL_DEX_WALREIN"
+    },
+    {
+      "dex_num": 366,
+      "species": "SPECIES_CLAMPERL",
+      "dex_constant": "NATIONAL_DEX_CLAMPERL"
+    },
+    {
+      "dex_num": 367,
+      "species": "SPECIES_HUNTAIL",
+      "dex_constant": "NATIONAL_DEX_HUNTAIL"
+    },
+    {
+      "dex_num": 368,
+      "species": "SPECIES_GOREBYSS",
+      "dex_constant": "NATIONAL_DEX_GOREBYSS"
+    },
+    {
+      "dex_num": 369,
+      "species": "SPECIES_RELICANTH",
+      "dex_constant": "NATIONAL_DEX_RELICANTH"
+    },
+    {
+      "dex_num": 370,
+      "species": "SPECIES_LUVDISC",
+      "dex_constant": "NATIONAL_DEX_LUVDISC"
+    },
+    {
+      "dex_num": 371,
+      "species": "SPECIES_BAGON",
+      "dex_constant": "NATIONAL_DEX_BAGON"
+    },
+    {
+      "dex_num": 372,
+      "species": "SPECIES_SHELGON",
+      "dex_constant": "NATIONAL_DEX_SHELGON"
+    },
+    {
+      "dex_num": 373,
+      "species": "SPECIES_SALAMENCE",
+      "dex_constant": "NATIONAL_DEX_SALAMENCE"
+    },
+    {
+      "dex_num": 374,
+      "species": "SPECIES_BELDUM",
+      "dex_constant": "NATIONAL_DEX_BELDUM"
+    },
+    {
+      "dex_num": 375,
+      "species": "SPECIES_METANG",
+      "dex_constant": "NATIONAL_DEX_METANG"
+    },
+    {
+      "dex_num": 376,
+      "species": "SPECIES_METAGROSS",
+      "dex_constant": "NATIONAL_DEX_METAGROSS"
+    },
+    {
+      "dex_num": 377,
+      "species": "SPECIES_REGIROCK",
+      "dex_constant": "NATIONAL_DEX_REGIROCK"
+    },
+    {
+      "dex_num": 378,
+      "species": "SPECIES_REGICE",
+      "dex_constant": "NATIONAL_DEX_REGICE"
+    },
+    {
+      "dex_num": 379,
+      "species": "SPECIES_REGISTEEL",
+      "dex_constant": "NATIONAL_DEX_REGISTEEL"
+    },
+    {
+      "dex_num": 380,
+      "species": "SPECIES_LATIAS",
+      "dex_constant": "NATIONAL_DEX_LATIAS"
+    },
+    {
+      "dex_num": 381,
+      "species": "SPECIES_LATIOS",
+      "dex_constant": "NATIONAL_DEX_LATIOS"
+    },
+    {
+      "dex_num": 382,
+      "species": "SPECIES_KYOGRE",
+      "dex_constant": "NATIONAL_DEX_KYOGRE"
+    },
+    {
+      "dex_num": 383,
+      "species": "SPECIES_GROUDON",
+      "dex_constant": "NATIONAL_DEX_GROUDON"
+    },
+    {
+      "dex_num": 384,
+      "species": "SPECIES_RAYQUAZA",
+      "dex_constant": "NATIONAL_DEX_RAYQUAZA"
+    },
+    {
+      "dex_num": 385,
+      "species": "SPECIES_JIRACHI",
+      "dex_constant": "NATIONAL_DEX_JIRACHI"
+    },
+    {
+      "dex_num": 386,
+      "species": "SPECIES_DEOXYS",
+      "dex_constant": "NATIONAL_DEX_DEOXYS"
+    },
+    {
+      "dex_num": 387,
+      "species": "SPECIES_TURTWIG",
+      "dex_constant": "NATIONAL_DEX_TURTWIG"
+    },
+    {
+      "dex_num": 388,
+      "species": "SPECIES_GROTLE",
+      "dex_constant": "NATIONAL_DEX_GROTLE"
+    },
+    {
+      "dex_num": 389,
+      "species": "SPECIES_TORTERRA",
+      "dex_constant": "NATIONAL_DEX_TORTERRA"
+    },
+    {
+      "dex_num": 390,
+      "species": "SPECIES_CHIMCHAR",
+      "dex_constant": "NATIONAL_DEX_CHIMCHAR"
+    },
+    {
+      "dex_num": 391,
+      "species": "SPECIES_MONFERNO",
+      "dex_constant": "NATIONAL_DEX_MONFERNO"
+    },
+    {
+      "dex_num": 392,
+      "species": "SPECIES_INFERNAPE",
+      "dex_constant": "NATIONAL_DEX_INFERNAPE"
+    },
+    {
+      "dex_num": 393,
+      "species": "SPECIES_PIPLUP",
+      "dex_constant": "NATIONAL_DEX_PIPLUP"
+    },
+    {
+      "dex_num": 394,
+      "species": "SPECIES_PRINPLUP",
+      "dex_constant": "NATIONAL_DEX_PRINPLUP"
+    },
+    {
+      "dex_num": 395,
+      "species": "SPECIES_EMPOLEON",
+      "dex_constant": "NATIONAL_DEX_EMPOLEON"
+    },
+    {
+      "dex_num": 396,
+      "species": "SPECIES_STARLY",
+      "dex_constant": "NATIONAL_DEX_STARLY"
+    },
+    {
+      "dex_num": 397,
+      "species": "SPECIES_STARAVIA",
+      "dex_constant": "NATIONAL_DEX_STARAVIA"
+    },
+    {
+      "dex_num": 398,
+      "species": "SPECIES_STARAPTOR",
+      "dex_constant": "NATIONAL_DEX_STARAPTOR"
+    },
+    {
+      "dex_num": 399,
+      "species": "SPECIES_BIDOOF",
+      "dex_constant": "NATIONAL_DEX_BIDOOF"
+    },
+    {
+      "dex_num": 400,
+      "species": "SPECIES_BIBAREL",
+      "dex_constant": "NATIONAL_DEX_BIBAREL"
+    },
+    {
+      "dex_num": 401,
+      "species": "SPECIES_KRICKETOT",
+      "dex_constant": "NATIONAL_DEX_KRICKETOT"
+    },
+    {
+      "dex_num": 402,
+      "species": "SPECIES_KRICKETUNE",
+      "dex_constant": "NATIONAL_DEX_KRICKETUNE"
+    },
+    {
+      "dex_num": 403,
+      "species": "SPECIES_SHINX",
+      "dex_constant": "NATIONAL_DEX_SHINX"
+    },
+    {
+      "dex_num": 404,
+      "species": "SPECIES_LUXIO",
+      "dex_constant": "NATIONAL_DEX_LUXIO"
+    },
+    {
+      "dex_num": 405,
+      "species": "SPECIES_LUXRAY",
+      "dex_constant": "NATIONAL_DEX_LUXRAY"
+    },
+    {
+      "dex_num": 406,
+      "species": "SPECIES_BUDEW",
+      "dex_constant": "NATIONAL_DEX_BUDEW"
+    },
+    {
+      "dex_num": 407,
+      "species": "SPECIES_ROSERADE",
+      "dex_constant": "NATIONAL_DEX_ROSERADE"
+    },
+    {
+      "dex_num": 408,
+      "species": "SPECIES_CRANIDOS",
+      "dex_constant": "NATIONAL_DEX_CRANIDOS"
+    },
+    {
+      "dex_num": 409,
+      "species": "SPECIES_RAMPARDOS",
+      "dex_constant": "NATIONAL_DEX_RAMPARDOS"
+    },
+    {
+      "dex_num": 410,
+      "species": "SPECIES_SHIELDON",
+      "dex_constant": "NATIONAL_DEX_SHIELDON"
+    },
+    {
+      "dex_num": 411,
+      "species": "SPECIES_BASTIODON",
+      "dex_constant": "NATIONAL_DEX_BASTIODON"
+    },
+    {
+      "dex_num": 412,
+      "species": "SPECIES_BURMY",
+      "dex_constant": "NATIONAL_DEX_BURMY"
+    },
+    {
+      "dex_num": 413,
+      "species": "SPECIES_WORMADAM",
+      "dex_constant": "NATIONAL_DEX_WORMADAM"
+    },
+    {
+      "dex_num": 414,
+      "species": "SPECIES_MOTHIM",
+      "dex_constant": "NATIONAL_DEX_MOTHIM"
+    },
+    {
+      "dex_num": 415,
+      "species": "SPECIES_COMBEE",
+      "dex_constant": "NATIONAL_DEX_COMBEE"
+    },
+    {
+      "dex_num": 416,
+      "species": "SPECIES_VESPIQUEN",
+      "dex_constant": "NATIONAL_DEX_VESPIQUEN"
+    },
+    {
+      "dex_num": 417,
+      "species": "SPECIES_PACHIRISU",
+      "dex_constant": "NATIONAL_DEX_PACHIRISU"
+    },
+    {
+      "dex_num": 418,
+      "species": "SPECIES_BUIZEL",
+      "dex_constant": "NATIONAL_DEX_BUIZEL"
+    },
+    {
+      "dex_num": 419,
+      "species": "SPECIES_FLOATZEL",
+      "dex_constant": "NATIONAL_DEX_FLOATZEL"
+    },
+    {
+      "dex_num": 420,
+      "species": "SPECIES_CHERUBI",
+      "dex_constant": "NATIONAL_DEX_CHERUBI"
+    },
+    {
+      "dex_num": 421,
+      "species": "SPECIES_CHERRIM",
+      "dex_constant": "NATIONAL_DEX_CHERRIM"
+    },
+    {
+      "dex_num": 422,
+      "species": "SPECIES_SHELLOS",
+      "dex_constant": "NATIONAL_DEX_SHELLOS"
+    },
+    {
+      "dex_num": 423,
+      "species": "SPECIES_GASTRODON",
+      "dex_constant": "NATIONAL_DEX_GASTRODON"
+    },
+    {
+      "dex_num": 424,
+      "species": "SPECIES_AMBIPOM",
+      "dex_constant": "NATIONAL_DEX_AMBIPOM"
+    },
+    {
+      "dex_num": 425,
+      "species": "SPECIES_DRIFLOON",
+      "dex_constant": "NATIONAL_DEX_DRIFLOON"
+    },
+    {
+      "dex_num": 426,
+      "species": "SPECIES_DRIFBLIM",
+      "dex_constant": "NATIONAL_DEX_DRIFBLIM"
+    },
+    {
+      "dex_num": 427,
+      "species": "SPECIES_BUNEARY",
+      "dex_constant": "NATIONAL_DEX_BUNEARY"
+    },
+    {
+      "dex_num": 428,
+      "species": "SPECIES_LOPUNNY",
+      "dex_constant": "NATIONAL_DEX_LOPUNNY"
+    },
+    {
+      "dex_num": 429,
+      "species": "SPECIES_MISMAGIUS",
+      "dex_constant": "NATIONAL_DEX_MISMAGIUS"
+    },
+    {
+      "dex_num": 430,
+      "species": "SPECIES_HONCHKROW",
+      "dex_constant": "NATIONAL_DEX_HONCHKROW"
+    },
+    {
+      "dex_num": 431,
+      "species": "SPECIES_GLAMEOW",
+      "dex_constant": "NATIONAL_DEX_GLAMEOW"
+    },
+    {
+      "dex_num": 432,
+      "species": "SPECIES_PURUGLY",
+      "dex_constant": "NATIONAL_DEX_PURUGLY"
+    },
+    {
+      "dex_num": 433,
+      "species": "SPECIES_CHINGLING",
+      "dex_constant": "NATIONAL_DEX_CHINGLING"
+    },
+    {
+      "dex_num": 434,
+      "species": "SPECIES_STUNKY",
+      "dex_constant": "NATIONAL_DEX_STUNKY"
+    },
+    {
+      "dex_num": 435,
+      "species": "SPECIES_SKUNTANK",
+      "dex_constant": "NATIONAL_DEX_SKUNTANK"
+    },
+    {
+      "dex_num": 436,
+      "species": "SPECIES_BRONZOR",
+      "dex_constant": "NATIONAL_DEX_BRONZOR"
+    },
+    {
+      "dex_num": 437,
+      "species": "SPECIES_BRONZONG",
+      "dex_constant": "NATIONAL_DEX_BRONZONG"
+    },
+    {
+      "dex_num": 438,
+      "species": "SPECIES_BONSLY",
+      "dex_constant": "NATIONAL_DEX_BONSLY"
+    },
+    {
+      "dex_num": 439,
+      "species": "SPECIES_MIME_JR",
+      "dex_constant": "NATIONAL_DEX_MIME_JR"
+    },
+    {
+      "dex_num": 440,
+      "species": "SPECIES_HAPPINY",
+      "dex_constant": "NATIONAL_DEX_HAPPINY"
+    },
+    {
+      "dex_num": 441,
+      "species": "SPECIES_CHATOT",
+      "dex_constant": "NATIONAL_DEX_CHATOT"
+    },
+    {
+      "dex_num": 442,
+      "species": "SPECIES_SPIRITOMB",
+      "dex_constant": "NATIONAL_DEX_SPIRITOMB"
+    },
+    {
+      "dex_num": 443,
+      "species": "SPECIES_GIBLE",
+      "dex_constant": "NATIONAL_DEX_GIBLE"
+    },
+    {
+      "dex_num": 444,
+      "species": "SPECIES_GABITE",
+      "dex_constant": "NATIONAL_DEX_GABITE"
+    },
+    {
+      "dex_num": 445,
+      "species": "SPECIES_GARCHOMP",
+      "dex_constant": "NATIONAL_DEX_GARCHOMP"
+    },
+    {
+      "dex_num": 446,
+      "species": "SPECIES_MUNCHLAX",
+      "dex_constant": "NATIONAL_DEX_MUNCHLAX"
+    },
+    {
+      "dex_num": 447,
+      "species": "SPECIES_RIOLU",
+      "dex_constant": "NATIONAL_DEX_RIOLU"
+    },
+    {
+      "dex_num": 448,
+      "species": "SPECIES_LUCARIO",
+      "dex_constant": "NATIONAL_DEX_LUCARIO"
+    },
+    {
+      "dex_num": 449,
+      "species": "SPECIES_HIPPOPOTAS",
+      "dex_constant": "NATIONAL_DEX_HIPPOPOTAS"
+    },
+    {
+      "dex_num": 450,
+      "species": "SPECIES_HIPPOWDON",
+      "dex_constant": "NATIONAL_DEX_HIPPOWDON"
+    },
+    {
+      "dex_num": 451,
+      "species": "SPECIES_SKORUPI",
+      "dex_constant": "NATIONAL_DEX_SKORUPI"
+    },
+    {
+      "dex_num": 452,
+      "species": "SPECIES_DRAPION",
+      "dex_constant": "NATIONAL_DEX_DRAPION"
+    },
+    {
+      "dex_num": 453,
+      "species": "SPECIES_CROAGUNK",
+      "dex_constant": "NATIONAL_DEX_CROAGUNK"
+    },
+    {
+      "dex_num": 454,
+      "species": "SPECIES_TOXICROAK",
+      "dex_constant": "NATIONAL_DEX_TOXICROAK"
+    },
+    {
+      "dex_num": 455,
+      "species": "SPECIES_CARNIVINE",
+      "dex_constant": "NATIONAL_DEX_CARNIVINE"
+    },
+    {
+      "dex_num": 456,
+      "species": "SPECIES_FINNEON",
+      "dex_constant": "NATIONAL_DEX_FINNEON"
+    },
+    {
+      "dex_num": 457,
+      "species": "SPECIES_LUMINEON",
+      "dex_constant": "NATIONAL_DEX_LUMINEON"
+    },
+    {
+      "dex_num": 458,
+      "species": "SPECIES_MANTYKE",
+      "dex_constant": "NATIONAL_DEX_MANTYKE"
+    },
+    {
+      "dex_num": 459,
+      "species": "SPECIES_SNOVER",
+      "dex_constant": "NATIONAL_DEX_SNOVER"
+    },
+    {
+      "dex_num": 460,
+      "species": "SPECIES_ABOMASNOW",
+      "dex_constant": "NATIONAL_DEX_ABOMASNOW"
+    },
+    {
+      "dex_num": 461,
+      "species": "SPECIES_WEAVILE",
+      "dex_constant": "NATIONAL_DEX_WEAVILE"
+    },
+    {
+      "dex_num": 462,
+      "species": "SPECIES_MAGNEZONE",
+      "dex_constant": "NATIONAL_DEX_MAGNEZONE"
+    },
+    {
+      "dex_num": 463,
+      "species": "SPECIES_LICKILICKY",
+      "dex_constant": "NATIONAL_DEX_LICKILICKY"
+    },
+    {
+      "dex_num": 464,
+      "species": "SPECIES_RHYPERIOR",
+      "dex_constant": "NATIONAL_DEX_RHYPERIOR"
+    },
+    {
+      "dex_num": 465,
+      "species": "SPECIES_TANGROWTH",
+      "dex_constant": "NATIONAL_DEX_TANGROWTH"
+    },
+    {
+      "dex_num": 466,
+      "species": "SPECIES_ELECTIVIRE",
+      "dex_constant": "NATIONAL_DEX_ELECTIVIRE"
+    },
+    {
+      "dex_num": 467,
+      "species": "SPECIES_MAGMORTAR",
+      "dex_constant": "NATIONAL_DEX_MAGMORTAR"
+    },
+    {
+      "dex_num": 468,
+      "species": "SPECIES_TOGEKISS",
+      "dex_constant": "NATIONAL_DEX_TOGEKISS"
+    },
+    {
+      "dex_num": 469,
+      "species": "SPECIES_YANMEGA",
+      "dex_constant": "NATIONAL_DEX_YANMEGA"
+    },
+    {
+      "dex_num": 470,
+      "species": "SPECIES_LEAFEON",
+      "dex_constant": "NATIONAL_DEX_LEAFEON"
+    },
+    {
+      "dex_num": 471,
+      "species": "SPECIES_GLACEON",
+      "dex_constant": "NATIONAL_DEX_GLACEON"
+    },
+    {
+      "dex_num": 472,
+      "species": "SPECIES_GLISCOR",
+      "dex_constant": "NATIONAL_DEX_GLISCOR"
+    },
+    {
+      "dex_num": 473,
+      "species": "SPECIES_MAMOSWINE",
+      "dex_constant": "NATIONAL_DEX_MAMOSWINE"
+    },
+    {
+      "dex_num": 474,
+      "species": "SPECIES_PORYGON_Z",
+      "dex_constant": "NATIONAL_DEX_PORYGON_Z"
+    },
+    {
+      "dex_num": 475,
+      "species": "SPECIES_GALLADE",
+      "dex_constant": "NATIONAL_DEX_GALLADE"
+    },
+    {
+      "dex_num": 476,
+      "species": "SPECIES_PROBOPASS",
+      "dex_constant": "NATIONAL_DEX_PROBOPASS"
+    },
+    {
+      "dex_num": 477,
+      "species": "SPECIES_DUSKNOIR",
+      "dex_constant": "NATIONAL_DEX_DUSKNOIR"
+    },
+    {
+      "dex_num": 478,
+      "species": "SPECIES_FROSLASS",
+      "dex_constant": "NATIONAL_DEX_FROSLASS"
+    },
+    {
+      "dex_num": 479,
+      "species": "SPECIES_ROTOM",
+      "dex_constant": "NATIONAL_DEX_ROTOM"
+    },
+    {
+      "dex_num": 480,
+      "species": "SPECIES_UXIE",
+      "dex_constant": "NATIONAL_DEX_UXIE"
+    },
+    {
+      "dex_num": 481,
+      "species": "SPECIES_MESPRIT",
+      "dex_constant": "NATIONAL_DEX_MESPRIT"
+    },
+    {
+      "dex_num": 482,
+      "species": "SPECIES_AZELF",
+      "dex_constant": "NATIONAL_DEX_AZELF"
+    },
+    {
+      "dex_num": 483,
+      "species": "SPECIES_DIALGA",
+      "dex_constant": "NATIONAL_DEX_DIALGA"
+    },
+    {
+      "dex_num": 484,
+      "species": "SPECIES_PALKIA",
+      "dex_constant": "NATIONAL_DEX_PALKIA"
+    },
+    {
+      "dex_num": 485,
+      "species": "SPECIES_HEATRAN",
+      "dex_constant": "NATIONAL_DEX_HEATRAN"
+    },
+    {
+      "dex_num": 486,
+      "species": "SPECIES_REGIGIGAS",
+      "dex_constant": "NATIONAL_DEX_REGIGIGAS"
+    },
+    {
+      "dex_num": 487,
+      "species": "SPECIES_GIRATINA",
+      "dex_constant": "NATIONAL_DEX_GIRATINA"
+    },
+    {
+      "dex_num": 488,
+      "species": "SPECIES_CRESSELIA",
+      "dex_constant": "NATIONAL_DEX_CRESSELIA"
+    },
+    {
+      "dex_num": 489,
+      "species": "SPECIES_PHIONE",
+      "dex_constant": "NATIONAL_DEX_PHIONE"
+    },
+    {
+      "dex_num": 490,
+      "species": "SPECIES_MANAPHY",
+      "dex_constant": "NATIONAL_DEX_MANAPHY"
+    },
+    {
+      "dex_num": 491,
+      "species": "SPECIES_DARKRAI",
+      "dex_constant": "NATIONAL_DEX_DARKRAI"
+    },
+    {
+      "dex_num": 492,
+      "species": "SPECIES_SHAYMIN",
+      "dex_constant": "NATIONAL_DEX_SHAYMIN"
+    },
+    {
+      "dex_num": 493,
+      "species": "SPECIES_ARCEUS",
+      "dex_constant": "NATIONAL_DEX_ARCEUS"
+    },
+    {
+      "dex_num": 494,
+      "species": "SPECIES_VICTINI",
+      "dex_constant": "NATIONAL_DEX_VICTINI"
+    },
+    {
+      "dex_num": 495,
+      "species": "SPECIES_SNIVY",
+      "dex_constant": "NATIONAL_DEX_SNIVY"
+    },
+    {
+      "dex_num": 496,
+      "species": "SPECIES_SERVINE",
+      "dex_constant": "NATIONAL_DEX_SERVINE"
+    },
+    {
+      "dex_num": 497,
+      "species": "SPECIES_SERPERIOR",
+      "dex_constant": "NATIONAL_DEX_SERPERIOR"
+    },
+    {
+      "dex_num": 498,
+      "species": "SPECIES_TEPIG",
+      "dex_constant": "NATIONAL_DEX_TEPIG"
+    },
+    {
+      "dex_num": 499,
+      "species": "SPECIES_PIGNITE",
+      "dex_constant": "NATIONAL_DEX_PIGNITE"
+    },
+    {
+      "dex_num": 500,
+      "species": "SPECIES_EMBOAR",
+      "dex_constant": "NATIONAL_DEX_EMBOAR"
+    },
+    {
+      "dex_num": 501,
+      "species": "SPECIES_OSHAWOTT",
+      "dex_constant": "NATIONAL_DEX_OSHAWOTT"
+    },
+    {
+      "dex_num": 502,
+      "species": "SPECIES_DEWOTT",
+      "dex_constant": "NATIONAL_DEX_DEWOTT"
+    },
+    {
+      "dex_num": 503,
+      "species": "SPECIES_SAMUROTT",
+      "dex_constant": "NATIONAL_DEX_SAMUROTT"
+    },
+    {
+      "dex_num": 504,
+      "species": "SPECIES_PATRAT",
+      "dex_constant": "NATIONAL_DEX_PATRAT"
+    },
+    {
+      "dex_num": 505,
+      "species": "SPECIES_WATCHOG",
+      "dex_constant": "NATIONAL_DEX_WATCHOG"
+    },
+    {
+      "dex_num": 506,
+      "species": "SPECIES_LILLIPUP",
+      "dex_constant": "NATIONAL_DEX_LILLIPUP"
+    },
+    {
+      "dex_num": 507,
+      "species": "SPECIES_HERDIER",
+      "dex_constant": "NATIONAL_DEX_HERDIER"
+    },
+    {
+      "dex_num": 508,
+      "species": "SPECIES_STOUTLAND",
+      "dex_constant": "NATIONAL_DEX_STOUTLAND"
+    },
+    {
+      "dex_num": 509,
+      "species": "SPECIES_PURRLOIN",
+      "dex_constant": "NATIONAL_DEX_PURRLOIN"
+    },
+    {
+      "dex_num": 510,
+      "species": "SPECIES_LIEPARD",
+      "dex_constant": "NATIONAL_DEX_LIEPARD"
+    },
+    {
+      "dex_num": 511,
+      "species": "SPECIES_PANSAGE",
+      "dex_constant": "NATIONAL_DEX_PANSAGE"
+    },
+    {
+      "dex_num": 512,
+      "species": "SPECIES_SIMISAGE",
+      "dex_constant": "NATIONAL_DEX_SIMISAGE"
+    },
+    {
+      "dex_num": 513,
+      "species": "SPECIES_PANSEAR",
+      "dex_constant": "NATIONAL_DEX_PANSEAR"
+    },
+    {
+      "dex_num": 514,
+      "species": "SPECIES_SIMISEAR",
+      "dex_constant": "NATIONAL_DEX_SIMISEAR"
+    },
+    {
+      "dex_num": 515,
+      "species": "SPECIES_PANPOUR",
+      "dex_constant": "NATIONAL_DEX_PANPOUR"
+    },
+    {
+      "dex_num": 516,
+      "species": "SPECIES_SIMIPOUR",
+      "dex_constant": "NATIONAL_DEX_SIMIPOUR"
+    },
+    {
+      "dex_num": 517,
+      "species": "SPECIES_MUNNA",
+      "dex_constant": "NATIONAL_DEX_MUNNA"
+    },
+    {
+      "dex_num": 518,
+      "species": "SPECIES_MUSHARNA",
+      "dex_constant": "NATIONAL_DEX_MUSHARNA"
+    },
+    {
+      "dex_num": 519,
+      "species": "SPECIES_PIDOVE",
+      "dex_constant": "NATIONAL_DEX_PIDOVE"
+    },
+    {
+      "dex_num": 520,
+      "species": "SPECIES_TRANQUILL",
+      "dex_constant": "NATIONAL_DEX_TRANQUILL"
+    },
+    {
+      "dex_num": 521,
+      "species": "SPECIES_UNFEZANT",
+      "dex_constant": "NATIONAL_DEX_UNFEZANT"
+    },
+    {
+      "dex_num": 522,
+      "species": "SPECIES_BLITZLE",
+      "dex_constant": "NATIONAL_DEX_BLITZLE"
+    },
+    {
+      "dex_num": 523,
+      "species": "SPECIES_ZEBSTRIKA",
+      "dex_constant": "NATIONAL_DEX_ZEBSTRIKA"
+    },
+    {
+      "dex_num": 524,
+      "species": "SPECIES_ROGGENROLA",
+      "dex_constant": "NATIONAL_DEX_ROGGENROLA"
+    },
+    {
+      "dex_num": 525,
+      "species": "SPECIES_BOLDORE",
+      "dex_constant": "NATIONAL_DEX_BOLDORE"
+    },
+    {
+      "dex_num": 526,
+      "species": "SPECIES_GIGALITH",
+      "dex_constant": "NATIONAL_DEX_GIGALITH"
+    },
+    {
+      "dex_num": 527,
+      "species": "SPECIES_WOOBAT",
+      "dex_constant": "NATIONAL_DEX_WOOBAT"
+    },
+    {
+      "dex_num": 528,
+      "species": "SPECIES_SWOOBAT",
+      "dex_constant": "NATIONAL_DEX_SWOOBAT"
+    },
+    {
+      "dex_num": 529,
+      "species": "SPECIES_DRILBUR",
+      "dex_constant": "NATIONAL_DEX_DRILBUR"
+    },
+    {
+      "dex_num": 530,
+      "species": "SPECIES_EXCADRILL",
+      "dex_constant": "NATIONAL_DEX_EXCADRILL"
+    },
+    {
+      "dex_num": 531,
+      "species": "SPECIES_AUDINO",
+      "dex_constant": "NATIONAL_DEX_AUDINO"
+    },
+    {
+      "dex_num": 532,
+      "species": "SPECIES_TIMBURR",
+      "dex_constant": "NATIONAL_DEX_TIMBURR"
+    },
+    {
+      "dex_num": 533,
+      "species": "SPECIES_GURDURR",
+      "dex_constant": "NATIONAL_DEX_GURDURR"
+    },
+    {
+      "dex_num": 534,
+      "species": "SPECIES_CONKELDURR",
+      "dex_constant": "NATIONAL_DEX_CONKELDURR"
+    },
+    {
+      "dex_num": 535,
+      "species": "SPECIES_TYMPOLE",
+      "dex_constant": "NATIONAL_DEX_TYMPOLE"
+    },
+    {
+      "dex_num": 536,
+      "species": "SPECIES_PALPITOAD",
+      "dex_constant": "NATIONAL_DEX_PALPITOAD"
+    },
+    {
+      "dex_num": 537,
+      "species": "SPECIES_SEISMITOAD",
+      "dex_constant": "NATIONAL_DEX_SEISMITOAD"
+    },
+    {
+      "dex_num": 538,
+      "species": "SPECIES_THROH",
+      "dex_constant": "NATIONAL_DEX_THROH"
+    },
+    {
+      "dex_num": 539,
+      "species": "SPECIES_SAWK",
+      "dex_constant": "NATIONAL_DEX_SAWK"
+    },
+    {
+      "dex_num": 540,
+      "species": "SPECIES_SEWADDLE",
+      "dex_constant": "NATIONAL_DEX_SEWADDLE"
+    },
+    {
+      "dex_num": 541,
+      "species": "SPECIES_SWADLOON",
+      "dex_constant": "NATIONAL_DEX_SWADLOON"
+    },
+    {
+      "dex_num": 542,
+      "species": "SPECIES_LEAVANNY",
+      "dex_constant": "NATIONAL_DEX_LEAVANNY"
+    },
+    {
+      "dex_num": 543,
+      "species": "SPECIES_VENIPEDE",
+      "dex_constant": "NATIONAL_DEX_VENIPEDE"
+    },
+    {
+      "dex_num": 544,
+      "species": "SPECIES_WHIRLIPEDE",
+      "dex_constant": "NATIONAL_DEX_WHIRLIPEDE"
+    },
+    {
+      "dex_num": 545,
+      "species": "SPECIES_SCOLIPEDE",
+      "dex_constant": "NATIONAL_DEX_SCOLIPEDE"
+    },
+    {
+      "dex_num": 546,
+      "species": "SPECIES_COTTONEE",
+      "dex_constant": "NATIONAL_DEX_COTTONEE"
+    },
+    {
+      "dex_num": 547,
+      "species": "SPECIES_WHIMSICOTT",
+      "dex_constant": "NATIONAL_DEX_WHIMSICOTT"
+    },
+    {
+      "dex_num": 548,
+      "species": "SPECIES_PETILIL",
+      "dex_constant": "NATIONAL_DEX_PETILIL"
+    },
+    {
+      "dex_num": 549,
+      "species": "SPECIES_LILLIGANT",
+      "dex_constant": "NATIONAL_DEX_LILLIGANT"
+    },
+    {
+      "dex_num": 550,
+      "species": "SPECIES_BASCULIN",
+      "dex_constant": "NATIONAL_DEX_BASCULIN"
+    },
+    {
+      "dex_num": 551,
+      "species": "SPECIES_SANDILE",
+      "dex_constant": "NATIONAL_DEX_SANDILE"
+    },
+    {
+      "dex_num": 552,
+      "species": "SPECIES_KROKOROK",
+      "dex_constant": "NATIONAL_DEX_KROKOROK"
+    },
+    {
+      "dex_num": 553,
+      "species": "SPECIES_KROOKODILE",
+      "dex_constant": "NATIONAL_DEX_KROOKODILE"
+    },
+    {
+      "dex_num": 554,
+      "species": "SPECIES_DARUMAKA",
+      "dex_constant": "NATIONAL_DEX_DARUMAKA"
+    },
+    {
+      "dex_num": 555,
+      "species": "SPECIES_DARMANITAN",
+      "dex_constant": "NATIONAL_DEX_DARMANITAN"
+    },
+    {
+      "dex_num": 556,
+      "species": "SPECIES_MARACTUS",
+      "dex_constant": "NATIONAL_DEX_MARACTUS"
+    },
+    {
+      "dex_num": 557,
+      "species": "SPECIES_DWEBBLE",
+      "dex_constant": "NATIONAL_DEX_DWEBBLE"
+    },
+    {
+      "dex_num": 558,
+      "species": "SPECIES_CRUSTLE",
+      "dex_constant": "NATIONAL_DEX_CRUSTLE"
+    },
+    {
+      "dex_num": 559,
+      "species": "SPECIES_SCRAGGY",
+      "dex_constant": "NATIONAL_DEX_SCRAGGY"
+    },
+    {
+      "dex_num": 560,
+      "species": "SPECIES_SCRAFTY",
+      "dex_constant": "NATIONAL_DEX_SCRAFTY"
+    },
+    {
+      "dex_num": 561,
+      "species": "SPECIES_SIGILYPH",
+      "dex_constant": "NATIONAL_DEX_SIGILYPH"
+    },
+    {
+      "dex_num": 562,
+      "species": "SPECIES_YAMASK",
+      "dex_constant": "NATIONAL_DEX_YAMASK"
+    },
+    {
+      "dex_num": 563,
+      "species": "SPECIES_COFAGRIGUS",
+      "dex_constant": "NATIONAL_DEX_COFAGRIGUS"
+    },
+    {
+      "dex_num": 564,
+      "species": "SPECIES_TIRTOUGA",
+      "dex_constant": "NATIONAL_DEX_TIRTOUGA"
+    },
+    {
+      "dex_num": 565,
+      "species": "SPECIES_CARRACOSTA",
+      "dex_constant": "NATIONAL_DEX_CARRACOSTA"
+    },
+    {
+      "dex_num": 566,
+      "species": "SPECIES_ARCHEN",
+      "dex_constant": "NATIONAL_DEX_ARCHEN"
+    },
+    {
+      "dex_num": 567,
+      "species": "SPECIES_ARCHEOPS",
+      "dex_constant": "NATIONAL_DEX_ARCHEOPS"
+    },
+    {
+      "dex_num": 568,
+      "species": "SPECIES_TRUBBISH",
+      "dex_constant": "NATIONAL_DEX_TRUBBISH"
+    },
+    {
+      "dex_num": 569,
+      "species": "SPECIES_GARBODOR",
+      "dex_constant": "NATIONAL_DEX_GARBODOR"
+    },
+    {
+      "dex_num": 570,
+      "species": "SPECIES_ZORUA",
+      "dex_constant": "NATIONAL_DEX_ZORUA"
+    },
+    {
+      "dex_num": 571,
+      "species": "SPECIES_ZOROARK",
+      "dex_constant": "NATIONAL_DEX_ZOROARK"
+    },
+    {
+      "dex_num": 572,
+      "species": "SPECIES_MINCCINO",
+      "dex_constant": "NATIONAL_DEX_MINCCINO"
+    },
+    {
+      "dex_num": 573,
+      "species": "SPECIES_CINCCINO",
+      "dex_constant": "NATIONAL_DEX_CINCCINO"
+    },
+    {
+      "dex_num": 574,
+      "species": "SPECIES_GOTHITA",
+      "dex_constant": "NATIONAL_DEX_GOTHITA"
+    },
+    {
+      "dex_num": 575,
+      "species": "SPECIES_GOTHORITA",
+      "dex_constant": "NATIONAL_DEX_GOTHORITA"
+    },
+    {
+      "dex_num": 576,
+      "species": "SPECIES_GOTHITELLE",
+      "dex_constant": "NATIONAL_DEX_GOTHITELLE"
+    },
+    {
+      "dex_num": 577,
+      "species": "SPECIES_SOLOSIS",
+      "dex_constant": "NATIONAL_DEX_SOLOSIS"
+    },
+    {
+      "dex_num": 578,
+      "species": "SPECIES_DUOSION",
+      "dex_constant": "NATIONAL_DEX_DUOSION"
+    },
+    {
+      "dex_num": 579,
+      "species": "SPECIES_REUNICLUS",
+      "dex_constant": "NATIONAL_DEX_REUNICLUS"
+    },
+    {
+      "dex_num": 580,
+      "species": "SPECIES_DUCKLETT",
+      "dex_constant": "NATIONAL_DEX_DUCKLETT"
+    },
+    {
+      "dex_num": 581,
+      "species": "SPECIES_SWANNA",
+      "dex_constant": "NATIONAL_DEX_SWANNA"
+    },
+    {
+      "dex_num": 582,
+      "species": "SPECIES_VANILLITE",
+      "dex_constant": "NATIONAL_DEX_VANILLITE"
+    },
+    {
+      "dex_num": 583,
+      "species": "SPECIES_VANILLISH",
+      "dex_constant": "NATIONAL_DEX_VANILLISH"
+    },
+    {
+      "dex_num": 584,
+      "species": "SPECIES_VANILLUXE",
+      "dex_constant": "NATIONAL_DEX_VANILLUXE"
+    },
+    {
+      "dex_num": 585,
+      "species": "SPECIES_DEERLING",
+      "dex_constant": "NATIONAL_DEX_DEERLING"
+    },
+    {
+      "dex_num": 586,
+      "species": "SPECIES_SAWSBUCK",
+      "dex_constant": "NATIONAL_DEX_SAWSBUCK"
+    },
+    {
+      "dex_num": 587,
+      "species": "SPECIES_EMOLGA",
+      "dex_constant": "NATIONAL_DEX_EMOLGA"
+    },
+    {
+      "dex_num": 588,
+      "species": "SPECIES_KARRABLAST",
+      "dex_constant": "NATIONAL_DEX_KARRABLAST"
+    },
+    {
+      "dex_num": 589,
+      "species": "SPECIES_ESCAVALIER",
+      "dex_constant": "NATIONAL_DEX_ESCAVALIER"
+    },
+    {
+      "dex_num": 590,
+      "species": "SPECIES_FOONGUS",
+      "dex_constant": "NATIONAL_DEX_FOONGUS"
+    },
+    {
+      "dex_num": 591,
+      "species": "SPECIES_AMOONGUSS",
+      "dex_constant": "NATIONAL_DEX_AMOONGUSS"
+    },
+    {
+      "dex_num": 592,
+      "species": "SPECIES_FRILLISH",
+      "dex_constant": "NATIONAL_DEX_FRILLISH"
+    },
+    {
+      "dex_num": 593,
+      "species": "SPECIES_JELLICENT",
+      "dex_constant": "NATIONAL_DEX_JELLICENT"
+    },
+    {
+      "dex_num": 594,
+      "species": "SPECIES_ALOMOMOLA",
+      "dex_constant": "NATIONAL_DEX_ALOMOMOLA"
+    },
+    {
+      "dex_num": 595,
+      "species": "SPECIES_JOLTIK",
+      "dex_constant": "NATIONAL_DEX_JOLTIK"
+    },
+    {
+      "dex_num": 596,
+      "species": "SPECIES_GALVANTULA",
+      "dex_constant": "NATIONAL_DEX_GALVANTULA"
+    },
+    {
+      "dex_num": 597,
+      "species": "SPECIES_FERROSEED",
+      "dex_constant": "NATIONAL_DEX_FERROSEED"
+    },
+    {
+      "dex_num": 598,
+      "species": "SPECIES_FERROTHORN",
+      "dex_constant": "NATIONAL_DEX_FERROTHORN"
+    },
+    {
+      "dex_num": 599,
+      "species": "SPECIES_KLINK",
+      "dex_constant": "NATIONAL_DEX_KLINK"
+    },
+    {
+      "dex_num": 600,
+      "species": "SPECIES_KLANG",
+      "dex_constant": "NATIONAL_DEX_KLANG"
+    },
+    {
+      "dex_num": 601,
+      "species": "SPECIES_KLINKLANG",
+      "dex_constant": "NATIONAL_DEX_KLINKLANG"
+    },
+    {
+      "dex_num": 602,
+      "species": "SPECIES_TYNAMO",
+      "dex_constant": "NATIONAL_DEX_TYNAMO"
+    },
+    {
+      "dex_num": 603,
+      "species": "SPECIES_EELEKTRIK",
+      "dex_constant": "NATIONAL_DEX_EELEKTRIK"
+    },
+    {
+      "dex_num": 604,
+      "species": "SPECIES_EELEKTROSS",
+      "dex_constant": "NATIONAL_DEX_EELEKTROSS"
+    },
+    {
+      "dex_num": 605,
+      "species": "SPECIES_ELGYEM",
+      "dex_constant": "NATIONAL_DEX_ELGYEM"
+    },
+    {
+      "dex_num": 606,
+      "species": "SPECIES_BEHEEYEM",
+      "dex_constant": "NATIONAL_DEX_BEHEEYEM"
+    },
+    {
+      "dex_num": 607,
+      "species": "SPECIES_LITWICK",
+      "dex_constant": "NATIONAL_DEX_LITWICK"
+    },
+    {
+      "dex_num": 608,
+      "species": "SPECIES_LAMPENT",
+      "dex_constant": "NATIONAL_DEX_LAMPENT"
+    },
+    {
+      "dex_num": 609,
+      "species": "SPECIES_CHANDELURE",
+      "dex_constant": "NATIONAL_DEX_CHANDELURE"
+    },
+    {
+      "dex_num": 610,
+      "species": "SPECIES_AXEW",
+      "dex_constant": "NATIONAL_DEX_AXEW"
+    },
+    {
+      "dex_num": 611,
+      "species": "SPECIES_FRAXURE",
+      "dex_constant": "NATIONAL_DEX_FRAXURE"
+    },
+    {
+      "dex_num": 612,
+      "species": "SPECIES_HAXORUS",
+      "dex_constant": "NATIONAL_DEX_HAXORUS"
+    },
+    {
+      "dex_num": 613,
+      "species": "SPECIES_CUBCHOO",
+      "dex_constant": "NATIONAL_DEX_CUBCHOO"
+    },
+    {
+      "dex_num": 614,
+      "species": "SPECIES_BEARTIC",
+      "dex_constant": "NATIONAL_DEX_BEARTIC"
+    },
+    {
+      "dex_num": 615,
+      "species": "SPECIES_CRYOGONAL",
+      "dex_constant": "NATIONAL_DEX_CRYOGONAL"
+    },
+    {
+      "dex_num": 616,
+      "species": "SPECIES_SHELMET",
+      "dex_constant": "NATIONAL_DEX_SHELMET"
+    },
+    {
+      "dex_num": 617,
+      "species": "SPECIES_ACCELGOR",
+      "dex_constant": "NATIONAL_DEX_ACCELGOR"
+    },
+    {
+      "dex_num": 618,
+      "species": "SPECIES_STUNFISK",
+      "dex_constant": "NATIONAL_DEX_STUNFISK"
+    },
+    {
+      "dex_num": 619,
+      "species": "SPECIES_MIENFOO",
+      "dex_constant": "NATIONAL_DEX_MIENFOO"
+    },
+    {
+      "dex_num": 620,
+      "species": "SPECIES_MIENSHAO",
+      "dex_constant": "NATIONAL_DEX_MIENSHAO"
+    },
+    {
+      "dex_num": 621,
+      "species": "SPECIES_DRUDDIGON",
+      "dex_constant": "NATIONAL_DEX_DRUDDIGON"
+    },
+    {
+      "dex_num": 622,
+      "species": "SPECIES_GOLETT",
+      "dex_constant": "NATIONAL_DEX_GOLETT"
+    },
+    {
+      "dex_num": 623,
+      "species": "SPECIES_GOLURK",
+      "dex_constant": "NATIONAL_DEX_GOLURK"
+    },
+    {
+      "dex_num": 624,
+      "species": "SPECIES_PAWNIARD",
+      "dex_constant": "NATIONAL_DEX_PAWNIARD"
+    },
+    {
+      "dex_num": 625,
+      "species": "SPECIES_BISHARP",
+      "dex_constant": "NATIONAL_DEX_BISHARP"
+    },
+    {
+      "dex_num": 626,
+      "species": "SPECIES_BOUFFALANT",
+      "dex_constant": "NATIONAL_DEX_BOUFFALANT"
+    },
+    {
+      "dex_num": 627,
+      "species": "SPECIES_RUFFLET",
+      "dex_constant": "NATIONAL_DEX_RUFFLET"
+    },
+    {
+      "dex_num": 628,
+      "species": "SPECIES_BRAVIARY",
+      "dex_constant": "NATIONAL_DEX_BRAVIARY"
+    },
+    {
+      "dex_num": 629,
+      "species": "SPECIES_VULLABY",
+      "dex_constant": "NATIONAL_DEX_VULLABY"
+    },
+    {
+      "dex_num": 630,
+      "species": "SPECIES_MANDIBUZZ",
+      "dex_constant": "NATIONAL_DEX_MANDIBUZZ"
+    },
+    {
+      "dex_num": 631,
+      "species": "SPECIES_HEATMOR",
+      "dex_constant": "NATIONAL_DEX_HEATMOR"
+    },
+    {
+      "dex_num": 632,
+      "species": "SPECIES_DURANT",
+      "dex_constant": "NATIONAL_DEX_DURANT"
+    },
+    {
+      "dex_num": 633,
+      "species": "SPECIES_DEINO",
+      "dex_constant": "NATIONAL_DEX_DEINO"
+    },
+    {
+      "dex_num": 634,
+      "species": "SPECIES_ZWEILOUS",
+      "dex_constant": "NATIONAL_DEX_ZWEILOUS"
+    },
+    {
+      "dex_num": 635,
+      "species": "SPECIES_HYDREIGON",
+      "dex_constant": "NATIONAL_DEX_HYDREIGON"
+    },
+    {
+      "dex_num": 636,
+      "species": "SPECIES_LARVESTA",
+      "dex_constant": "NATIONAL_DEX_LARVESTA"
+    },
+    {
+      "dex_num": 637,
+      "species": "SPECIES_VOLCARONA",
+      "dex_constant": "NATIONAL_DEX_VOLCARONA"
+    },
+    {
+      "dex_num": 638,
+      "species": "SPECIES_COBALION",
+      "dex_constant": "NATIONAL_DEX_COBALION"
+    },
+    {
+      "dex_num": 639,
+      "species": "SPECIES_TERRAKION",
+      "dex_constant": "NATIONAL_DEX_TERRAKION"
+    },
+    {
+      "dex_num": 640,
+      "species": "SPECIES_VIRIZION",
+      "dex_constant": "NATIONAL_DEX_VIRIZION"
+    },
+    {
+      "dex_num": 641,
+      "species": "SPECIES_TORNADUS",
+      "dex_constant": "NATIONAL_DEX_TORNADUS"
+    },
+    {
+      "dex_num": 642,
+      "species": "SPECIES_THUNDURUS",
+      "dex_constant": "NATIONAL_DEX_THUNDURUS"
+    },
+    {
+      "dex_num": 643,
+      "species": "SPECIES_RESHIRAM",
+      "dex_constant": "NATIONAL_DEX_RESHIRAM"
+    },
+    {
+      "dex_num": 644,
+      "species": "SPECIES_ZEKROM",
+      "dex_constant": "NATIONAL_DEX_ZEKROM"
+    },
+    {
+      "dex_num": 645,
+      "species": "SPECIES_LANDORUS",
+      "dex_constant": "NATIONAL_DEX_LANDORUS"
+    },
+    {
+      "dex_num": 646,
+      "species": "SPECIES_KYUREM",
+      "dex_constant": "NATIONAL_DEX_KYUREM"
+    },
+    {
+      "dex_num": 647,
+      "species": "SPECIES_KELDEO",
+      "dex_constant": "NATIONAL_DEX_KELDEO"
+    },
+    {
+      "dex_num": 648,
+      "species": "SPECIES_MELOETTA",
+      "dex_constant": "NATIONAL_DEX_MELOETTA"
+    },
+    {
+      "dex_num": 649,
+      "species": "SPECIES_GENESECT",
+      "dex_constant": "NATIONAL_DEX_GENESECT"
+    },
+    {
+      "dex_num": 650,
+      "species": "SPECIES_CHESPIN",
+      "dex_constant": "NATIONAL_DEX_CHESPIN"
+    },
+    {
+      "dex_num": 651,
+      "species": "SPECIES_QUILLADIN",
+      "dex_constant": "NATIONAL_DEX_QUILLADIN"
+    },
+    {
+      "dex_num": 652,
+      "species": "SPECIES_CHESNAUGHT",
+      "dex_constant": "NATIONAL_DEX_CHESNAUGHT"
+    },
+    {
+      "dex_num": 653,
+      "species": "SPECIES_FENNEKIN",
+      "dex_constant": "NATIONAL_DEX_FENNEKIN"
+    },
+    {
+      "dex_num": 654,
+      "species": "SPECIES_BRAIXEN",
+      "dex_constant": "NATIONAL_DEX_BRAIXEN"
+    },
+    {
+      "dex_num": 655,
+      "species": "SPECIES_DELPHOX",
+      "dex_constant": "NATIONAL_DEX_DELPHOX"
+    },
+    {
+      "dex_num": 656,
+      "species": "SPECIES_FROAKIE",
+      "dex_constant": "NATIONAL_DEX_FROAKIE"
+    },
+    {
+      "dex_num": 657,
+      "species": "SPECIES_FROGADIER",
+      "dex_constant": "NATIONAL_DEX_FROGADIER"
+    },
+    {
+      "dex_num": 658,
+      "species": "SPECIES_GRENINJA",
+      "dex_constant": "NATIONAL_DEX_GRENINJA"
+    },
+    {
+      "dex_num": 659,
+      "species": "SPECIES_BUNNELBY",
+      "dex_constant": "NATIONAL_DEX_BUNNELBY"
+    },
+    {
+      "dex_num": 660,
+      "species": "SPECIES_DIGGERSBY",
+      "dex_constant": "NATIONAL_DEX_DIGGERSBY"
+    },
+    {
+      "dex_num": 661,
+      "species": "SPECIES_FLETCHLING",
+      "dex_constant": "NATIONAL_DEX_FLETCHLING"
+    },
+    {
+      "dex_num": 662,
+      "species": "SPECIES_FLETCHINDER",
+      "dex_constant": "NATIONAL_DEX_FLETCHINDER"
+    },
+    {
+      "dex_num": 663,
+      "species": "SPECIES_TALONFLAME",
+      "dex_constant": "NATIONAL_DEX_TALONFLAME"
+    },
+    {
+      "dex_num": 664,
+      "species": "SPECIES_SCATTERBUG",
+      "dex_constant": "NATIONAL_DEX_SCATTERBUG"
+    },
+    {
+      "dex_num": 665,
+      "species": "SPECIES_SPEWPA",
+      "dex_constant": "NATIONAL_DEX_SPEWPA"
+    },
+    {
+      "dex_num": 666,
+      "species": "SPECIES_VIVILLON",
+      "dex_constant": "NATIONAL_DEX_VIVILLON"
+    },
+    {
+      "dex_num": 667,
+      "species": "SPECIES_LITLEO",
+      "dex_constant": "NATIONAL_DEX_LITLEO"
+    },
+    {
+      "dex_num": 668,
+      "species": "SPECIES_PYROAR",
+      "dex_constant": "NATIONAL_DEX_PYROAR"
+    },
+    {
+      "dex_num": 669,
+      "species": "SPECIES_FLABEBE",
+      "dex_constant": "NATIONAL_DEX_FLABEBE"
+    },
+    {
+      "dex_num": 670,
+      "species": "SPECIES_FLOETTE",
+      "dex_constant": "NATIONAL_DEX_FLOETTE"
+    },
+    {
+      "dex_num": 671,
+      "species": "SPECIES_FLORGES",
+      "dex_constant": "NATIONAL_DEX_FLORGES"
+    },
+    {
+      "dex_num": 672,
+      "species": "SPECIES_SKIDDO",
+      "dex_constant": "NATIONAL_DEX_SKIDDO"
+    },
+    {
+      "dex_num": 673,
+      "species": "SPECIES_GOGOAT",
+      "dex_constant": "NATIONAL_DEX_GOGOAT"
+    },
+    {
+      "dex_num": 674,
+      "species": "SPECIES_PANCHAM",
+      "dex_constant": "NATIONAL_DEX_PANCHAM"
+    },
+    {
+      "dex_num": 675,
+      "species": "SPECIES_PANGORO",
+      "dex_constant": "NATIONAL_DEX_PANGORO"
+    },
+    {
+      "dex_num": 676,
+      "species": "SPECIES_FURFROU",
+      "dex_constant": "NATIONAL_DEX_FURFROU"
+    },
+    {
+      "dex_num": 677,
+      "species": "SPECIES_ESPURR",
+      "dex_constant": "NATIONAL_DEX_ESPURR"
+    },
+    {
+      "dex_num": 678,
+      "species": "SPECIES_MEOWSTIC",
+      "dex_constant": "NATIONAL_DEX_MEOWSTIC"
+    },
+    {
+      "dex_num": 679,
+      "species": "SPECIES_HONEDGE",
+      "dex_constant": "NATIONAL_DEX_HONEDGE"
+    },
+    {
+      "dex_num": 680,
+      "species": "SPECIES_DOUBLADE",
+      "dex_constant": "NATIONAL_DEX_DOUBLADE"
+    },
+    {
+      "dex_num": 681,
+      "species": "SPECIES_AEGISLASH",
+      "dex_constant": "NATIONAL_DEX_AEGISLASH"
+    },
+    {
+      "dex_num": 682,
+      "species": "SPECIES_SPRITZEE",
+      "dex_constant": "NATIONAL_DEX_SPRITZEE"
+    },
+    {
+      "dex_num": 683,
+      "species": "SPECIES_AROMATISSE",
+      "dex_constant": "NATIONAL_DEX_AROMATISSE"
+    },
+    {
+      "dex_num": 684,
+      "species": "SPECIES_SWIRLIX",
+      "dex_constant": "NATIONAL_DEX_SWIRLIX"
+    },
+    {
+      "dex_num": 685,
+      "species": "SPECIES_SLURPUFF",
+      "dex_constant": "NATIONAL_DEX_SLURPUFF"
+    },
+    {
+      "dex_num": 686,
+      "species": "SPECIES_INKAY",
+      "dex_constant": "NATIONAL_DEX_INKAY"
+    },
+    {
+      "dex_num": 687,
+      "species": "SPECIES_MALAMAR",
+      "dex_constant": "NATIONAL_DEX_MALAMAR"
+    },
+    {
+      "dex_num": 688,
+      "species": "SPECIES_BINACLE",
+      "dex_constant": "NATIONAL_DEX_BINACLE"
+    },
+    {
+      "dex_num": 689,
+      "species": "SPECIES_BARBARACLE",
+      "dex_constant": "NATIONAL_DEX_BARBARACLE"
+    },
+    {
+      "dex_num": 690,
+      "species": "SPECIES_SKRELP",
+      "dex_constant": "NATIONAL_DEX_SKRELP"
+    },
+    {
+      "dex_num": 691,
+      "species": "SPECIES_DRAGALGE",
+      "dex_constant": "NATIONAL_DEX_DRAGALGE"
+    },
+    {
+      "dex_num": 692,
+      "species": "SPECIES_CLAUNCHER",
+      "dex_constant": "NATIONAL_DEX_CLAUNCHER"
+    },
+    {
+      "dex_num": 693,
+      "species": "SPECIES_CLAWITZER",
+      "dex_constant": "NATIONAL_DEX_CLAWITZER"
+    },
+    {
+      "dex_num": 694,
+      "species": "SPECIES_HELIOPTILE",
+      "dex_constant": "NATIONAL_DEX_HELIOPTILE"
+    },
+    {
+      "dex_num": 695,
+      "species": "SPECIES_HELIOLISK",
+      "dex_constant": "NATIONAL_DEX_HELIOLISK"
+    },
+    {
+      "dex_num": 696,
+      "species": "SPECIES_TYRUNT",
+      "dex_constant": "NATIONAL_DEX_TYRUNT"
+    },
+    {
+      "dex_num": 697,
+      "species": "SPECIES_TYRANTRUM",
+      "dex_constant": "NATIONAL_DEX_TYRANTRUM"
+    },
+    {
+      "dex_num": 698,
+      "species": "SPECIES_AMAURA",
+      "dex_constant": "NATIONAL_DEX_AMAURA"
+    },
+    {
+      "dex_num": 699,
+      "species": "SPECIES_AURORUS",
+      "dex_constant": "NATIONAL_DEX_AURORUS"
+    },
+    {
+      "dex_num": 700,
+      "species": "SPECIES_SYLVEON",
+      "dex_constant": "NATIONAL_DEX_SYLVEON"
+    },
+    {
+      "dex_num": 701,
+      "species": "SPECIES_HAWLUCHA",
+      "dex_constant": "NATIONAL_DEX_HAWLUCHA"
+    },
+    {
+      "dex_num": 702,
+      "species": "SPECIES_DEDENNE",
+      "dex_constant": "NATIONAL_DEX_DEDENNE"
+    },
+    {
+      "dex_num": 703,
+      "species": "SPECIES_CARBINK",
+      "dex_constant": "NATIONAL_DEX_CARBINK"
+    },
+    {
+      "dex_num": 704,
+      "species": "SPECIES_GOOMY",
+      "dex_constant": "NATIONAL_DEX_GOOMY"
+    },
+    {
+      "dex_num": 705,
+      "species": "SPECIES_SLIGGOO",
+      "dex_constant": "NATIONAL_DEX_SLIGGOO"
+    },
+    {
+      "dex_num": 706,
+      "species": "SPECIES_GOODRA",
+      "dex_constant": "NATIONAL_DEX_GOODRA"
+    },
+    {
+      "dex_num": 707,
+      "species": "SPECIES_KLEFKI",
+      "dex_constant": "NATIONAL_DEX_KLEFKI"
+    },
+    {
+      "dex_num": 708,
+      "species": "SPECIES_PHANTUMP",
+      "dex_constant": "NATIONAL_DEX_PHANTUMP"
+    },
+    {
+      "dex_num": 709,
+      "species": "SPECIES_TREVENANT",
+      "dex_constant": "NATIONAL_DEX_TREVENANT"
+    },
+    {
+      "dex_num": 710,
+      "species": "SPECIES_PUMPKABOO",
+      "dex_constant": "NATIONAL_DEX_PUMPKABOO"
+    },
+    {
+      "dex_num": 711,
+      "species": "SPECIES_GOURGEIST",
+      "dex_constant": "NATIONAL_DEX_GOURGEIST"
+    },
+    {
+      "dex_num": 712,
+      "species": "SPECIES_BERGMITE",
+      "dex_constant": "NATIONAL_DEX_BERGMITE"
+    },
+    {
+      "dex_num": 713,
+      "species": "SPECIES_AVALUGG",
+      "dex_constant": "NATIONAL_DEX_AVALUGG"
+    },
+    {
+      "dex_num": 714,
+      "species": "SPECIES_NOIBAT",
+      "dex_constant": "NATIONAL_DEX_NOIBAT"
+    },
+    {
+      "dex_num": 715,
+      "species": "SPECIES_NOIVERN",
+      "dex_constant": "NATIONAL_DEX_NOIVERN"
+    },
+    {
+      "dex_num": 716,
+      "species": "SPECIES_XERNEAS",
+      "dex_constant": "NATIONAL_DEX_XERNEAS"
+    },
+    {
+      "dex_num": 717,
+      "species": "SPECIES_YVELTAL",
+      "dex_constant": "NATIONAL_DEX_YVELTAL"
+    },
+    {
+      "dex_num": 718,
+      "species": "SPECIES_ZYGARDE",
+      "dex_constant": "NATIONAL_DEX_ZYGARDE"
+    },
+    {
+      "dex_num": 719,
+      "species": "SPECIES_DIANCIE",
+      "dex_constant": "NATIONAL_DEX_DIANCIE"
+    },
+    {
+      "dex_num": 720,
+      "species": "SPECIES_HOOPA",
+      "dex_constant": "NATIONAL_DEX_HOOPA"
+    },
+    {
+      "dex_num": 721,
+      "species": "SPECIES_VOLCANION",
+      "dex_constant": "NATIONAL_DEX_VOLCANION"
+    },
+    {
+      "dex_num": 722,
+      "species": "SPECIES_ROWLET",
+      "dex_constant": "NATIONAL_DEX_ROWLET"
+    },
+    {
+      "dex_num": 723,
+      "species": "SPECIES_DARTRIX",
+      "dex_constant": "NATIONAL_DEX_DARTRIX"
+    },
+    {
+      "dex_num": 724,
+      "species": "SPECIES_DECIDUEYE",
+      "dex_constant": "NATIONAL_DEX_DECIDUEYE"
+    },
+    {
+      "dex_num": 725,
+      "species": "SPECIES_LITTEN",
+      "dex_constant": "NATIONAL_DEX_LITTEN"
+    },
+    {
+      "dex_num": 726,
+      "species": "SPECIES_TORRACAT",
+      "dex_constant": "NATIONAL_DEX_TORRACAT"
+    },
+    {
+      "dex_num": 727,
+      "species": "SPECIES_INCINEROAR",
+      "dex_constant": "NATIONAL_DEX_INCINEROAR"
+    },
+    {
+      "dex_num": 728,
+      "species": "SPECIES_POPPLIO",
+      "dex_constant": "NATIONAL_DEX_POPPLIO"
+    },
+    {
+      "dex_num": 729,
+      "species": "SPECIES_BRIONNE",
+      "dex_constant": "NATIONAL_DEX_BRIONNE"
+    },
+    {
+      "dex_num": 730,
+      "species": "SPECIES_PRIMARINA",
+      "dex_constant": "NATIONAL_DEX_PRIMARINA"
+    },
+    {
+      "dex_num": 731,
+      "species": "SPECIES_PIKIPEK",
+      "dex_constant": "NATIONAL_DEX_PIKIPEK"
+    },
+    {
+      "dex_num": 732,
+      "species": "SPECIES_TRUMBEAK",
+      "dex_constant": "NATIONAL_DEX_TRUMBEAK"
+    },
+    {
+      "dex_num": 733,
+      "species": "SPECIES_TOUCANNON",
+      "dex_constant": "NATIONAL_DEX_TOUCANNON"
+    },
+    {
+      "dex_num": 734,
+      "species": "SPECIES_YUNGOOS",
+      "dex_constant": "NATIONAL_DEX_YUNGOOS"
+    },
+    {
+      "dex_num": 735,
+      "species": "SPECIES_GUMSHOOS",
+      "dex_constant": "NATIONAL_DEX_GUMSHOOS"
+    },
+    {
+      "dex_num": 736,
+      "species": "SPECIES_GRUBBIN",
+      "dex_constant": "NATIONAL_DEX_GRUBBIN"
+    },
+    {
+      "dex_num": 737,
+      "species": "SPECIES_CHARJABUG",
+      "dex_constant": "NATIONAL_DEX_CHARJABUG"
+    },
+    {
+      "dex_num": 738,
+      "species": "SPECIES_VIKAVOLT",
+      "dex_constant": "NATIONAL_DEX_VIKAVOLT"
+    },
+    {
+      "dex_num": 739,
+      "species": "SPECIES_CRABRAWLER",
+      "dex_constant": "NATIONAL_DEX_CRABRAWLER"
+    },
+    {
+      "dex_num": 740,
+      "species": "SPECIES_CRABOMINABLE",
+      "dex_constant": "NATIONAL_DEX_CRABOMINABLE"
+    },
+    {
+      "dex_num": 741,
+      "species": "SPECIES_ORICORIO",
+      "dex_constant": "NATIONAL_DEX_ORICORIO"
+    },
+    {
+      "dex_num": 742,
+      "species": "SPECIES_CUTIEFLY",
+      "dex_constant": "NATIONAL_DEX_CUTIEFLY"
+    },
+    {
+      "dex_num": 743,
+      "species": "SPECIES_RIBOMBEE",
+      "dex_constant": "NATIONAL_DEX_RIBOMBEE"
+    },
+    {
+      "dex_num": 744,
+      "species": "SPECIES_ROCKRUFF",
+      "dex_constant": "NATIONAL_DEX_ROCKRUFF"
+    },
+    {
+      "dex_num": 745,
+      "species": "SPECIES_LYCANROC",
+      "dex_constant": "NATIONAL_DEX_LYCANROC"
+    },
+    {
+      "dex_num": 746,
+      "species": "SPECIES_WISHIWASHI",
+      "dex_constant": "NATIONAL_DEX_WISHIWASHI"
+    },
+    {
+      "dex_num": 747,
+      "species": "SPECIES_MAREANIE",
+      "dex_constant": "NATIONAL_DEX_MAREANIE"
+    },
+    {
+      "dex_num": 748,
+      "species": "SPECIES_TOXAPEX",
+      "dex_constant": "NATIONAL_DEX_TOXAPEX"
+    },
+    {
+      "dex_num": 749,
+      "species": "SPECIES_MUDBRAY",
+      "dex_constant": "NATIONAL_DEX_MUDBRAY"
+    },
+    {
+      "dex_num": 750,
+      "species": "SPECIES_MUDSDALE",
+      "dex_constant": "NATIONAL_DEX_MUDSDALE"
+    },
+    {
+      "dex_num": 751,
+      "species": "SPECIES_DEWPIDER",
+      "dex_constant": "NATIONAL_DEX_DEWPIDER"
+    },
+    {
+      "dex_num": 752,
+      "species": "SPECIES_ARAQUANID",
+      "dex_constant": "NATIONAL_DEX_ARAQUANID"
+    },
+    {
+      "dex_num": 753,
+      "species": "SPECIES_FOMANTIS",
+      "dex_constant": "NATIONAL_DEX_FOMANTIS"
+    },
+    {
+      "dex_num": 754,
+      "species": "SPECIES_LURANTIS",
+      "dex_constant": "NATIONAL_DEX_LURANTIS"
+    },
+    {
+      "dex_num": 755,
+      "species": "SPECIES_MORELULL",
+      "dex_constant": "NATIONAL_DEX_MORELULL"
+    },
+    {
+      "dex_num": 756,
+      "species": "SPECIES_SHIINOTIC",
+      "dex_constant": "NATIONAL_DEX_SHIINOTIC"
+    },
+    {
+      "dex_num": 757,
+      "species": "SPECIES_SALANDIT",
+      "dex_constant": "NATIONAL_DEX_SALANDIT"
+    },
+    {
+      "dex_num": 758,
+      "species": "SPECIES_SALAZZLE",
+      "dex_constant": "NATIONAL_DEX_SALAZZLE"
+    },
+    {
+      "dex_num": 759,
+      "species": "SPECIES_STUFFUL",
+      "dex_constant": "NATIONAL_DEX_STUFFUL"
+    },
+    {
+      "dex_num": 760,
+      "species": "SPECIES_BEWEAR",
+      "dex_constant": "NATIONAL_DEX_BEWEAR"
+    },
+    {
+      "dex_num": 761,
+      "species": "SPECIES_BOUNSWEET",
+      "dex_constant": "NATIONAL_DEX_BOUNSWEET"
+    },
+    {
+      "dex_num": 762,
+      "species": "SPECIES_STEENEE",
+      "dex_constant": "NATIONAL_DEX_STEENEE"
+    },
+    {
+      "dex_num": 763,
+      "species": "SPECIES_TSAREENA",
+      "dex_constant": "NATIONAL_DEX_TSAREENA"
+    },
+    {
+      "dex_num": 764,
+      "species": "SPECIES_COMFEY",
+      "dex_constant": "NATIONAL_DEX_COMFEY"
+    },
+    {
+      "dex_num": 765,
+      "species": "SPECIES_ORANGURU",
+      "dex_constant": "NATIONAL_DEX_ORANGURU"
+    },
+    {
+      "dex_num": 766,
+      "species": "SPECIES_PASSIMIAN",
+      "dex_constant": "NATIONAL_DEX_PASSIMIAN"
+    },
+    {
+      "dex_num": 767,
+      "species": "SPECIES_WIMPOD",
+      "dex_constant": "NATIONAL_DEX_WIMPOD"
+    },
+    {
+      "dex_num": 768,
+      "species": "SPECIES_GOLISOPOD",
+      "dex_constant": "NATIONAL_DEX_GOLISOPOD"
+    },
+    {
+      "dex_num": 769,
+      "species": "SPECIES_SANDYGAST",
+      "dex_constant": "NATIONAL_DEX_SANDYGAST"
+    },
+    {
+      "dex_num": 770,
+      "species": "SPECIES_PALOSSAND",
+      "dex_constant": "NATIONAL_DEX_PALOSSAND"
+    },
+    {
+      "dex_num": 771,
+      "species": "SPECIES_PYUKUMUKU",
+      "dex_constant": "NATIONAL_DEX_PYUKUMUKU"
+    },
+    {
+      "dex_num": 772,
+      "species": "SPECIES_TYPE_NULL",
+      "dex_constant": "NATIONAL_DEX_TYPE_NULL"
+    },
+    {
+      "dex_num": 773,
+      "species": "SPECIES_SILVALLY",
+      "dex_constant": "NATIONAL_DEX_SILVALLY"
+    },
+    {
+      "dex_num": 774,
+      "species": "SPECIES_MINIOR",
+      "dex_constant": "NATIONAL_DEX_MINIOR"
+    },
+    {
+      "dex_num": 775,
+      "species": "SPECIES_KOMALA",
+      "dex_constant": "NATIONAL_DEX_KOMALA"
+    },
+    {
+      "dex_num": 776,
+      "species": "SPECIES_TURTONATOR",
+      "dex_constant": "NATIONAL_DEX_TURTONATOR"
+    },
+    {
+      "dex_num": 777,
+      "species": "SPECIES_TOGEDEMARU",
+      "dex_constant": "NATIONAL_DEX_TOGEDEMARU"
+    },
+    {
+      "dex_num": 778,
+      "species": "SPECIES_MIMIKYU",
+      "dex_constant": "NATIONAL_DEX_MIMIKYU"
+    },
+    {
+      "dex_num": 779,
+      "species": "SPECIES_BRUXISH",
+      "dex_constant": "NATIONAL_DEX_BRUXISH"
+    },
+    {
+      "dex_num": 780,
+      "species": "SPECIES_DRAMPA",
+      "dex_constant": "NATIONAL_DEX_DRAMPA"
+    },
+    {
+      "dex_num": 781,
+      "species": "SPECIES_DHELMISE",
+      "dex_constant": "NATIONAL_DEX_DHELMISE"
+    },
+    {
+      "dex_num": 782,
+      "species": "SPECIES_JANGMO_O",
+      "dex_constant": "NATIONAL_DEX_JANGMO_O"
+    },
+    {
+      "dex_num": 783,
+      "species": "SPECIES_HAKAMO_O",
+      "dex_constant": "NATIONAL_DEX_HAKAMO_O"
+    },
+    {
+      "dex_num": 784,
+      "species": "SPECIES_KOMMO_O",
+      "dex_constant": "NATIONAL_DEX_KOMMO_O"
+    },
+    {
+      "dex_num": 785,
+      "species": "SPECIES_TAPU_KOKO",
+      "dex_constant": "NATIONAL_DEX_TAPU_KOKO"
+    },
+    {
+      "dex_num": 786,
+      "species": "SPECIES_TAPU_LELE",
+      "dex_constant": "NATIONAL_DEX_TAPU_LELE"
+    },
+    {
+      "dex_num": 787,
+      "species": "SPECIES_TAPU_BULU",
+      "dex_constant": "NATIONAL_DEX_TAPU_BULU"
+    },
+    {
+      "dex_num": 788,
+      "species": "SPECIES_TAPU_FINI",
+      "dex_constant": "NATIONAL_DEX_TAPU_FINI"
+    },
+    {
+      "dex_num": 789,
+      "species": "SPECIES_COSMOG",
+      "dex_constant": "NATIONAL_DEX_COSMOG"
+    },
+    {
+      "dex_num": 790,
+      "species": "SPECIES_COSMOEM",
+      "dex_constant": "NATIONAL_DEX_COSMOEM"
+    },
+    {
+      "dex_num": 791,
+      "species": "SPECIES_SOLGALEO",
+      "dex_constant": "NATIONAL_DEX_SOLGALEO"
+    },
+    {
+      "dex_num": 792,
+      "species": "SPECIES_LUNALA",
+      "dex_constant": "NATIONAL_DEX_LUNALA"
+    },
+    {
+      "dex_num": 793,
+      "species": "SPECIES_NIHILEGO",
+      "dex_constant": "NATIONAL_DEX_NIHILEGO"
+    },
+    {
+      "dex_num": 794,
+      "species": "SPECIES_BUZZWOLE",
+      "dex_constant": "NATIONAL_DEX_BUZZWOLE"
+    },
+    {
+      "dex_num": 795,
+      "species": "SPECIES_PHEROMOSA",
+      "dex_constant": "NATIONAL_DEX_PHEROMOSA"
+    },
+    {
+      "dex_num": 796,
+      "species": "SPECIES_XURKITREE",
+      "dex_constant": "NATIONAL_DEX_XURKITREE"
+    },
+    {
+      "dex_num": 797,
+      "species": "SPECIES_CELESTEELA",
+      "dex_constant": "NATIONAL_DEX_CELESTEELA"
+    },
+    {
+      "dex_num": 798,
+      "species": "SPECIES_KARTANA",
+      "dex_constant": "NATIONAL_DEX_KARTANA"
+    },
+    {
+      "dex_num": 799,
+      "species": "SPECIES_GUZZLORD",
+      "dex_constant": "NATIONAL_DEX_GUZZLORD"
+    },
+    {
+      "dex_num": 800,
+      "species": "SPECIES_NECROZMA",
+      "dex_constant": "NATIONAL_DEX_NECROZMA"
+    },
+    {
+      "dex_num": 801,
+      "species": "SPECIES_MAGEARNA",
+      "dex_constant": "NATIONAL_DEX_MAGEARNA"
+    },
+    {
+      "dex_num": 802,
+      "species": "SPECIES_MARSHADOW",
+      "dex_constant": "NATIONAL_DEX_MARSHADOW"
+    },
+    {
+      "dex_num": 803,
+      "species": "SPECIES_POIPOLE",
+      "dex_constant": "NATIONAL_DEX_POIPOLE"
+    },
+    {
+      "dex_num": 804,
+      "species": "SPECIES_NAGANADEL",
+      "dex_constant": "NATIONAL_DEX_NAGANADEL"
+    },
+    {
+      "dex_num": 805,
+      "species": "SPECIES_STAKATAKA",
+      "dex_constant": "NATIONAL_DEX_STAKATAKA"
+    },
+    {
+      "dex_num": 806,
+      "species": "SPECIES_BLACEPHALON",
+      "dex_constant": "NATIONAL_DEX_BLACEPHALON"
+    },
+    {
+      "dex_num": 807,
+      "species": "SPECIES_ZERAORA",
+      "dex_constant": "NATIONAL_DEX_ZERAORA"
+    },
+    {
+      "dex_num": 808,
+      "species": "SPECIES_MELTAN",
+      "dex_constant": "NATIONAL_DEX_MELTAN"
+    },
+    {
+      "dex_num": 809,
+      "species": "SPECIES_MELMETAL",
+      "dex_constant": "NATIONAL_DEX_MELMETAL"
+    },
+    {
+      "dex_num": 810,
+      "species": "SPECIES_GROOKEY",
+      "dex_constant": "NATIONAL_DEX_GROOKEY"
+    },
+    {
+      "dex_num": 811,
+      "species": "SPECIES_THWACKEY",
+      "dex_constant": "NATIONAL_DEX_THWACKEY"
+    },
+    {
+      "dex_num": 812,
+      "species": "SPECIES_RILLABOOM",
+      "dex_constant": "NATIONAL_DEX_RILLABOOM"
+    },
+    {
+      "dex_num": 813,
+      "species": "SPECIES_SCORBUNNY",
+      "dex_constant": "NATIONAL_DEX_SCORBUNNY"
+    },
+    {
+      "dex_num": 814,
+      "species": "SPECIES_RABOOT",
+      "dex_constant": "NATIONAL_DEX_RABOOT"
+    },
+    {
+      "dex_num": 815,
+      "species": "SPECIES_CINDERACE",
+      "dex_constant": "NATIONAL_DEX_CINDERACE"
+    },
+    {
+      "dex_num": 816,
+      "species": "SPECIES_SOBBLE",
+      "dex_constant": "NATIONAL_DEX_SOBBLE"
+    },
+    {
+      "dex_num": 817,
+      "species": "SPECIES_DRIZZILE",
+      "dex_constant": "NATIONAL_DEX_DRIZZILE"
+    },
+    {
+      "dex_num": 818,
+      "species": "SPECIES_INTELEON",
+      "dex_constant": "NATIONAL_DEX_INTELEON"
+    },
+    {
+      "dex_num": 819,
+      "species": "SPECIES_SKWOVET",
+      "dex_constant": "NATIONAL_DEX_SKWOVET"
+    },
+    {
+      "dex_num": 820,
+      "species": "SPECIES_GREEDENT",
+      "dex_constant": "NATIONAL_DEX_GREEDENT"
+    },
+    {
+      "dex_num": 821,
+      "species": "SPECIES_ROOKIDEE",
+      "dex_constant": "NATIONAL_DEX_ROOKIDEE"
+    },
+    {
+      "dex_num": 822,
+      "species": "SPECIES_CORVISQUIRE",
+      "dex_constant": "NATIONAL_DEX_CORVISQUIRE"
+    },
+    {
+      "dex_num": 823,
+      "species": "SPECIES_CORVIKNIGHT",
+      "dex_constant": "NATIONAL_DEX_CORVIKNIGHT"
+    },
+    {
+      "dex_num": 824,
+      "species": "SPECIES_BLIPBUG",
+      "dex_constant": "NATIONAL_DEX_BLIPBUG"
+    },
+    {
+      "dex_num": 825,
+      "species": "SPECIES_DOTTLER",
+      "dex_constant": "NATIONAL_DEX_DOTTLER"
+    },
+    {
+      "dex_num": 826,
+      "species": "SPECIES_ORBEETLE",
+      "dex_constant": "NATIONAL_DEX_ORBEETLE"
+    },
+    {
+      "dex_num": 827,
+      "species": "SPECIES_NICKIT",
+      "dex_constant": "NATIONAL_DEX_NICKIT"
+    },
+    {
+      "dex_num": 828,
+      "species": "SPECIES_THIEVUL",
+      "dex_constant": "NATIONAL_DEX_THIEVUL"
+    },
+    {
+      "dex_num": 829,
+      "species": "SPECIES_GOSSIFLEUR",
+      "dex_constant": "NATIONAL_DEX_GOSSIFLEUR"
+    },
+    {
+      "dex_num": 830,
+      "species": "SPECIES_ELDEGOSS",
+      "dex_constant": "NATIONAL_DEX_ELDEGOSS"
+    },
+    {
+      "dex_num": 831,
+      "species": "SPECIES_WOOLOO",
+      "dex_constant": "NATIONAL_DEX_WOOLOO"
+    },
+    {
+      "dex_num": 832,
+      "species": "SPECIES_DUBWOOL",
+      "dex_constant": "NATIONAL_DEX_DUBWOOL"
+    },
+    {
+      "dex_num": 833,
+      "species": "SPECIES_CHEWTLE",
+      "dex_constant": "NATIONAL_DEX_CHEWTLE"
+    },
+    {
+      "dex_num": 834,
+      "species": "SPECIES_DREDNAW",
+      "dex_constant": "NATIONAL_DEX_DREDNAW"
+    },
+    {
+      "dex_num": 835,
+      "species": "SPECIES_YAMPER",
+      "dex_constant": "NATIONAL_DEX_YAMPER"
+    },
+    {
+      "dex_num": 836,
+      "species": "SPECIES_BOLTUND",
+      "dex_constant": "NATIONAL_DEX_BOLTUND"
+    },
+    {
+      "dex_num": 837,
+      "species": "SPECIES_ROLYCOLY",
+      "dex_constant": "NATIONAL_DEX_ROLYCOLY"
+    },
+    {
+      "dex_num": 838,
+      "species": "SPECIES_CARKOL",
+      "dex_constant": "NATIONAL_DEX_CARKOL"
+    },
+    {
+      "dex_num": 839,
+      "species": "SPECIES_COALOSSAL",
+      "dex_constant": "NATIONAL_DEX_COALOSSAL"
+    },
+    {
+      "dex_num": 840,
+      "species": "SPECIES_APPLIN",
+      "dex_constant": "NATIONAL_DEX_APPLIN"
+    },
+    {
+      "dex_num": 841,
+      "species": "SPECIES_FLAPPLE",
+      "dex_constant": "NATIONAL_DEX_FLAPPLE"
+    },
+    {
+      "dex_num": 842,
+      "species": "SPECIES_APPLETUN",
+      "dex_constant": "NATIONAL_DEX_APPLETUN"
+    },
+    {
+      "dex_num": 843,
+      "species": "SPECIES_SILICOBRA",
+      "dex_constant": "NATIONAL_DEX_SILICOBRA"
+    },
+    {
+      "dex_num": 844,
+      "species": "SPECIES_SANDACONDA",
+      "dex_constant": "NATIONAL_DEX_SANDACONDA"
+    },
+    {
+      "dex_num": 845,
+      "species": "SPECIES_CRAMORANT",
+      "dex_constant": "NATIONAL_DEX_CRAMORANT"
+    },
+    {
+      "dex_num": 846,
+      "species": "SPECIES_ARROKUDA",
+      "dex_constant": "NATIONAL_DEX_ARROKUDA"
+    },
+    {
+      "dex_num": 847,
+      "species": "SPECIES_BARRASKEWDA",
+      "dex_constant": "NATIONAL_DEX_BARRASKEWDA"
+    },
+    {
+      "dex_num": 848,
+      "species": "SPECIES_TOXEL",
+      "dex_constant": "NATIONAL_DEX_TOXEL"
+    },
+    {
+      "dex_num": 849,
+      "species": "SPECIES_TOXTRICITY",
+      "dex_constant": "NATIONAL_DEX_TOXTRICITY"
+    },
+    {
+      "dex_num": 850,
+      "species": "SPECIES_SIZZLIPEDE",
+      "dex_constant": "NATIONAL_DEX_SIZZLIPEDE"
+    },
+    {
+      "dex_num": 851,
+      "species": "SPECIES_CENTISKORCH",
+      "dex_constant": "NATIONAL_DEX_CENTISKORCH"
+    },
+    {
+      "dex_num": 852,
+      "species": "SPECIES_CLOBBOPUS",
+      "dex_constant": "NATIONAL_DEX_CLOBBOPUS"
+    },
+    {
+      "dex_num": 853,
+      "species": "SPECIES_GRAPPLOCT",
+      "dex_constant": "NATIONAL_DEX_GRAPPLOCT"
+    },
+    {
+      "dex_num": 854,
+      "species": "SPECIES_SINISTEA",
+      "dex_constant": "NATIONAL_DEX_SINISTEA"
+    },
+    {
+      "dex_num": 855,
+      "species": "SPECIES_POLTEAGEIST",
+      "dex_constant": "NATIONAL_DEX_POLTEAGEIST"
+    },
+    {
+      "dex_num": 856,
+      "species": "SPECIES_HATENNA",
+      "dex_constant": "NATIONAL_DEX_HATENNA"
+    },
+    {
+      "dex_num": 857,
+      "species": "SPECIES_HATTREM",
+      "dex_constant": "NATIONAL_DEX_HATTREM"
+    },
+    {
+      "dex_num": 858,
+      "species": "SPECIES_HATTERENE",
+      "dex_constant": "NATIONAL_DEX_HATTERENE"
+    },
+    {
+      "dex_num": 859,
+      "species": "SPECIES_IMPIDIMP",
+      "dex_constant": "NATIONAL_DEX_IMPIDIMP"
+    },
+    {
+      "dex_num": 860,
+      "species": "SPECIES_MORGREM",
+      "dex_constant": "NATIONAL_DEX_MORGREM"
+    },
+    {
+      "dex_num": 861,
+      "species": "SPECIES_GRIMMSNARL",
+      "dex_constant": "NATIONAL_DEX_GRIMMSNARL"
+    },
+    {
+      "dex_num": 862,
+      "species": "SPECIES_OBSTAGOON",
+      "dex_constant": "NATIONAL_DEX_OBSTAGOON"
+    },
+    {
+      "dex_num": 863,
+      "species": "SPECIES_PERRSERKER",
+      "dex_constant": "NATIONAL_DEX_PERRSERKER"
+    },
+    {
+      "dex_num": 864,
+      "species": "SPECIES_CURSOLA",
+      "dex_constant": "NATIONAL_DEX_CURSOLA"
+    },
+    {
+      "dex_num": 865,
+      "species": "SPECIES_SIRFETCHD",
+      "dex_constant": "NATIONAL_DEX_SIRFETCHD"
+    },
+    {
+      "dex_num": 866,
+      "species": "SPECIES_MR_RIME",
+      "dex_constant": "NATIONAL_DEX_MR_RIME"
+    },
+    {
+      "dex_num": 867,
+      "species": "SPECIES_RUNERIGUS",
+      "dex_constant": "NATIONAL_DEX_RUNERIGUS"
+    },
+    {
+      "dex_num": 868,
+      "species": "SPECIES_MILCERY",
+      "dex_constant": "NATIONAL_DEX_MILCERY"
+    },
+    {
+      "dex_num": 869,
+      "species": "SPECIES_ALCREMIE",
+      "dex_constant": "NATIONAL_DEX_ALCREMIE"
+    },
+    {
+      "dex_num": 870,
+      "species": "SPECIES_FALINKS",
+      "dex_constant": "NATIONAL_DEX_FALINKS"
+    },
+    {
+      "dex_num": 871,
+      "species": "SPECIES_PINCURCHIN",
+      "dex_constant": "NATIONAL_DEX_PINCURCHIN"
+    },
+    {
+      "dex_num": 872,
+      "species": "SPECIES_SNOM",
+      "dex_constant": "NATIONAL_DEX_SNOM"
+    },
+    {
+      "dex_num": 873,
+      "species": "SPECIES_FROSMOTH",
+      "dex_constant": "NATIONAL_DEX_FROSMOTH"
+    },
+    {
+      "dex_num": 874,
+      "species": "SPECIES_STONJOURNER",
+      "dex_constant": "NATIONAL_DEX_STONJOURNER"
+    },
+    {
+      "dex_num": 875,
+      "species": "SPECIES_EISCUE",
+      "dex_constant": "NATIONAL_DEX_EISCUE"
+    },
+    {
+      "dex_num": 876,
+      "species": "SPECIES_INDEEDEE",
+      "dex_constant": "NATIONAL_DEX_INDEEDEE"
+    },
+    {
+      "dex_num": 877,
+      "species": "SPECIES_MORPEKO",
+      "dex_constant": "NATIONAL_DEX_MORPEKO"
+    },
+    {
+      "dex_num": 878,
+      "species": "SPECIES_CUFANT",
+      "dex_constant": "NATIONAL_DEX_CUFANT"
+    },
+    {
+      "dex_num": 879,
+      "species": "SPECIES_COPPERAJAH",
+      "dex_constant": "NATIONAL_DEX_COPPERAJAH"
+    },
+    {
+      "dex_num": 880,
+      "species": "SPECIES_DRACOZOLT",
+      "dex_constant": "NATIONAL_DEX_DRACOZOLT"
+    },
+    {
+      "dex_num": 881,
+      "species": "SPECIES_ARCTOZOLT",
+      "dex_constant": "NATIONAL_DEX_ARCTOZOLT"
+    },
+    {
+      "dex_num": 882,
+      "species": "SPECIES_DRACOVISH",
+      "dex_constant": "NATIONAL_DEX_DRACOVISH"
+    },
+    {
+      "dex_num": 883,
+      "species": "SPECIES_ARCTOVISH",
+      "dex_constant": "NATIONAL_DEX_ARCTOVISH"
+    },
+    {
+      "dex_num": 884,
+      "species": "SPECIES_DURALUDON",
+      "dex_constant": "NATIONAL_DEX_DURALUDON"
+    },
+    {
+      "dex_num": 885,
+      "species": "SPECIES_DREEPY",
+      "dex_constant": "NATIONAL_DEX_DREEPY"
+    },
+    {
+      "dex_num": 886,
+      "species": "SPECIES_DRAKLOAK",
+      "dex_constant": "NATIONAL_DEX_DRAKLOAK"
+    },
+    {
+      "dex_num": 887,
+      "species": "SPECIES_DRAGAPULT",
+      "dex_constant": "NATIONAL_DEX_DRAGAPULT"
+    },
+    {
+      "dex_num": 888,
+      "species": "SPECIES_ZACIAN",
+      "dex_constant": "NATIONAL_DEX_ZACIAN"
+    },
+    {
+      "dex_num": 889,
+      "species": "SPECIES_ZAMAZENTA",
+      "dex_constant": "NATIONAL_DEX_ZAMAZENTA"
+    },
+    {
+      "dex_num": 890,
+      "species": "SPECIES_ETERNATUS",
+      "dex_constant": "NATIONAL_DEX_ETERNATUS"
+    },
+    {
+      "dex_num": 891,
+      "species": "SPECIES_KUBFU",
+      "dex_constant": "NATIONAL_DEX_KUBFU"
+    },
+    {
+      "dex_num": 892,
+      "species": "SPECIES_URSHIFU",
+      "dex_constant": "NATIONAL_DEX_URSHIFU"
+    },
+    {
+      "dex_num": 893,
+      "species": "SPECIES_ZARUDE",
+      "dex_constant": "NATIONAL_DEX_ZARUDE"
+    },
+    {
+      "dex_num": 894,
+      "species": "SPECIES_REGIELEKI",
+      "dex_constant": "NATIONAL_DEX_REGIELEKI"
+    },
+    {
+      "dex_num": 895,
+      "species": "SPECIES_REGIDRAGO",
+      "dex_constant": "NATIONAL_DEX_REGIDRAGO"
+    },
+    {
+      "dex_num": 896,
+      "species": "SPECIES_GLASTRIER",
+      "dex_constant": "NATIONAL_DEX_GLASTRIER"
+    },
+    {
+      "dex_num": 897,
+      "species": "SPECIES_SPECTRIER",
+      "dex_constant": "NATIONAL_DEX_SPECTRIER"
+    },
+    {
+      "dex_num": 898,
+      "species": "SPECIES_CALYREX",
+      "dex_constant": "NATIONAL_DEX_CALYREX"
+    },
+    {
+      "dex_num": 899,
+      "species": "SPECIES_WYRDEER",
+      "dex_constant": "NATIONAL_DEX_WYRDEER"
+    },
+    {
+      "dex_num": 900,
+      "species": "SPECIES_KLEAVOR",
+      "dex_constant": "NATIONAL_DEX_KLEAVOR"
+    },
+    {
+      "dex_num": 901,
+      "species": "SPECIES_URSALUNA",
+      "dex_constant": "NATIONAL_DEX_URSALUNA"
+    },
+    {
+      "dex_num": 902,
+      "species": "SPECIES_BASCULEGION",
+      "dex_constant": "NATIONAL_DEX_BASCULEGION"
+    },
+    {
+      "dex_num": 903,
+      "species": "SPECIES_SNEASLER",
+      "dex_constant": "NATIONAL_DEX_SNEASLER"
+    },
+    {
+      "dex_num": 904,
+      "species": "SPECIES_OVERQWIL",
+      "dex_constant": "NATIONAL_DEX_OVERQWIL"
+    },
+    {
+      "dex_num": 905,
+      "species": "SPECIES_ENAMORUS",
+      "dex_constant": "NATIONAL_DEX_ENAMORUS"
+    },
+    {
+      "dex_num": 906,
+      "species": "SPECIES_SPRIGATITO",
+      "dex_constant": "NATIONAL_DEX_SPRIGATITO"
+    },
+    {
+      "dex_num": 907,
+      "species": "SPECIES_FLORAGATO",
+      "dex_constant": "NATIONAL_DEX_FLORAGATO"
+    },
+    {
+      "dex_num": 908,
+      "species": "SPECIES_MEOWSCARADA",
+      "dex_constant": "NATIONAL_DEX_MEOWSCARADA"
+    },
+    {
+      "dex_num": 909,
+      "species": "SPECIES_FUECOCO",
+      "dex_constant": "NATIONAL_DEX_FUECOCO"
+    },
+    {
+      "dex_num": 910,
+      "species": "SPECIES_CROCALOR",
+      "dex_constant": "NATIONAL_DEX_CROCALOR"
+    },
+    {
+      "dex_num": 911,
+      "species": "SPECIES_SKELEDIRGE",
+      "dex_constant": "NATIONAL_DEX_SKELEDIRGE"
+    },
+    {
+      "dex_num": 912,
+      "species": "SPECIES_QUAXLY",
+      "dex_constant": "NATIONAL_DEX_QUAXLY"
+    },
+    {
+      "dex_num": 913,
+      "species": "SPECIES_QUAXWELL",
+      "dex_constant": "NATIONAL_DEX_QUAXWELL"
+    },
+    {
+      "dex_num": 914,
+      "species": "SPECIES_QUAQUAVAL",
+      "dex_constant": "NATIONAL_DEX_QUAQUAVAL"
+    },
+    {
+      "dex_num": 915,
+      "species": "SPECIES_LECHONK",
+      "dex_constant": "NATIONAL_DEX_LECHONK"
+    },
+    {
+      "dex_num": 916,
+      "species": "SPECIES_OINKOLOGNE",
+      "dex_constant": "NATIONAL_DEX_OINKOLOGNE"
+    },
+    {
+      "dex_num": 917,
+      "species": "SPECIES_TAROUNTULA",
+      "dex_constant": "NATIONAL_DEX_TAROUNTULA"
+    },
+    {
+      "dex_num": 918,
+      "species": "SPECIES_SPIDOPS",
+      "dex_constant": "NATIONAL_DEX_SPIDOPS"
+    },
+    {
+      "dex_num": 919,
+      "species": "SPECIES_NYMBLE",
+      "dex_constant": "NATIONAL_DEX_NYMBLE"
+    },
+    {
+      "dex_num": 920,
+      "species": "SPECIES_LOKIX",
+      "dex_constant": "NATIONAL_DEX_LOKIX"
+    },
+    {
+      "dex_num": 921,
+      "species": "SPECIES_PAWMI",
+      "dex_constant": "NATIONAL_DEX_PAWMI"
+    },
+    {
+      "dex_num": 922,
+      "species": "SPECIES_PAWMO",
+      "dex_constant": "NATIONAL_DEX_PAWMO"
+    },
+    {
+      "dex_num": 923,
+      "species": "SPECIES_PAWMOT",
+      "dex_constant": "NATIONAL_DEX_PAWMOT"
+    },
+    {
+      "dex_num": 924,
+      "species": "SPECIES_TANDEMAUS",
+      "dex_constant": "NATIONAL_DEX_TANDEMAUS"
+    },
+    {
+      "dex_num": 925,
+      "species": "SPECIES_MAUSHOLD",
+      "dex_constant": "NATIONAL_DEX_MAUSHOLD"
+    },
+    {
+      "dex_num": 926,
+      "species": "SPECIES_FIDOUGH",
+      "dex_constant": "NATIONAL_DEX_FIDOUGH"
+    },
+    {
+      "dex_num": 927,
+      "species": "SPECIES_DACHSBUN",
+      "dex_constant": "NATIONAL_DEX_DACHSBUN"
+    },
+    {
+      "dex_num": 928,
+      "species": "SPECIES_SMOLIV",
+      "dex_constant": "NATIONAL_DEX_SMOLIV"
+    },
+    {
+      "dex_num": 929,
+      "species": "SPECIES_DOLLIV",
+      "dex_constant": "NATIONAL_DEX_DOLLIV"
+    },
+    {
+      "dex_num": 930,
+      "species": "SPECIES_ARBOLIVA",
+      "dex_constant": "NATIONAL_DEX_ARBOLIVA"
+    },
+    {
+      "dex_num": 931,
+      "species": "SPECIES_SQUAWKABILLY",
+      "dex_constant": "NATIONAL_DEX_SQUAWKABILLY"
+    },
+    {
+      "dex_num": 932,
+      "species": "SPECIES_NACLI",
+      "dex_constant": "NATIONAL_DEX_NACLI"
+    },
+    {
+      "dex_num": 933,
+      "species": "SPECIES_NACLSTACK",
+      "dex_constant": "NATIONAL_DEX_NACLSTACK"
+    },
+    {
+      "dex_num": 934,
+      "species": "SPECIES_GARGANACL",
+      "dex_constant": "NATIONAL_DEX_GARGANACL"
+    },
+    {
+      "dex_num": 935,
+      "species": "SPECIES_CHARCADET",
+      "dex_constant": "NATIONAL_DEX_CHARCADET"
+    },
+    {
+      "dex_num": 936,
+      "species": "SPECIES_ARMAROUGE",
+      "dex_constant": "NATIONAL_DEX_ARMAROUGE"
+    },
+    {
+      "dex_num": 937,
+      "species": "SPECIES_CERULEDGE",
+      "dex_constant": "NATIONAL_DEX_CERULEDGE"
+    },
+    {
+      "dex_num": 938,
+      "species": "SPECIES_TADBULB",
+      "dex_constant": "NATIONAL_DEX_TADBULB"
+    },
+    {
+      "dex_num": 939,
+      "species": "SPECIES_BELLIBOLT",
+      "dex_constant": "NATIONAL_DEX_BELLIBOLT"
+    },
+    {
+      "dex_num": 940,
+      "species": "SPECIES_WATTREL",
+      "dex_constant": "NATIONAL_DEX_WATTREL"
+    },
+    {
+      "dex_num": 941,
+      "species": "SPECIES_KILOWATTREL",
+      "dex_constant": "NATIONAL_DEX_KILOWATTREL"
+    },
+    {
+      "dex_num": 942,
+      "species": "SPECIES_MASCHIFF",
+      "dex_constant": "NATIONAL_DEX_MASCHIFF"
+    },
+    {
+      "dex_num": 943,
+      "species": "SPECIES_MABOSSTIFF",
+      "dex_constant": "NATIONAL_DEX_MABOSSTIFF"
+    },
+    {
+      "dex_num": 944,
+      "species": "SPECIES_SHROODLE",
+      "dex_constant": "NATIONAL_DEX_SHROODLE"
+    },
+    {
+      "dex_num": 945,
+      "species": "SPECIES_GRAFAIAI",
+      "dex_constant": "NATIONAL_DEX_GRAFAIAI"
+    },
+    {
+      "dex_num": 946,
+      "species": "SPECIES_BRAMBLIN",
+      "dex_constant": "NATIONAL_DEX_BRAMBLIN"
+    },
+    {
+      "dex_num": 947,
+      "species": "SPECIES_BRAMBLEGHAST",
+      "dex_constant": "NATIONAL_DEX_BRAMBLEGHAST"
+    },
+    {
+      "dex_num": 948,
+      "species": "SPECIES_TOEDSCOOL",
+      "dex_constant": "NATIONAL_DEX_TOEDSCOOL"
+    },
+    {
+      "dex_num": 949,
+      "species": "SPECIES_TOEDSCRUEL",
+      "dex_constant": "NATIONAL_DEX_TOEDSCRUEL"
+    },
+    {
+      "dex_num": 950,
+      "species": "SPECIES_KLAWF",
+      "dex_constant": "NATIONAL_DEX_KLAWF"
+    },
+    {
+      "dex_num": 951,
+      "species": "SPECIES_CAPSAKID",
+      "dex_constant": "NATIONAL_DEX_CAPSAKID"
+    },
+    {
+      "dex_num": 952,
+      "species": "SPECIES_SCOVILLAIN",
+      "dex_constant": "NATIONAL_DEX_SCOVILLAIN"
+    },
+    {
+      "dex_num": 953,
+      "species": "SPECIES_RELLOR",
+      "dex_constant": "NATIONAL_DEX_RELLOR"
+    },
+    {
+      "dex_num": 954,
+      "species": "SPECIES_RABSCA",
+      "dex_constant": "NATIONAL_DEX_RABSCA"
+    },
+    {
+      "dex_num": 955,
+      "species": "SPECIES_FLITTLE",
+      "dex_constant": "NATIONAL_DEX_FLITTLE"
+    },
+    {
+      "dex_num": 956,
+      "species": "SPECIES_ESPATHRA",
+      "dex_constant": "NATIONAL_DEX_ESPATHRA"
+    },
+    {
+      "dex_num": 957,
+      "species": "SPECIES_TINKATINK",
+      "dex_constant": "NATIONAL_DEX_TINKATINK"
+    },
+    {
+      "dex_num": 958,
+      "species": "SPECIES_TINKATUFF",
+      "dex_constant": "NATIONAL_DEX_TINKATUFF"
+    },
+    {
+      "dex_num": 959,
+      "species": "SPECIES_TINKATON",
+      "dex_constant": "NATIONAL_DEX_TINKATON"
+    },
+    {
+      "dex_num": 960,
+      "species": "SPECIES_WIGLETT",
+      "dex_constant": "NATIONAL_DEX_WIGLETT"
+    },
+    {
+      "dex_num": 961,
+      "species": "SPECIES_WUGTRIO",
+      "dex_constant": "NATIONAL_DEX_WUGTRIO"
+    },
+    {
+      "dex_num": 962,
+      "species": "SPECIES_BOMBIRDIER",
+      "dex_constant": "NATIONAL_DEX_BOMBIRDIER"
+    },
+    {
+      "dex_num": 963,
+      "species": "SPECIES_FINIZEN",
+      "dex_constant": "NATIONAL_DEX_FINIZEN"
+    },
+    {
+      "dex_num": 964,
+      "species": "SPECIES_PALAFIN",
+      "dex_constant": "NATIONAL_DEX_PALAFIN"
+    },
+    {
+      "dex_num": 965,
+      "species": "SPECIES_VAROOM",
+      "dex_constant": "NATIONAL_DEX_VAROOM"
+    },
+    {
+      "dex_num": 966,
+      "species": "SPECIES_REVAVROOM",
+      "dex_constant": "NATIONAL_DEX_REVAVROOM"
+    },
+    {
+      "dex_num": 967,
+      "species": "SPECIES_CYCLIZAR",
+      "dex_constant": "NATIONAL_DEX_CYCLIZAR"
+    },
+    {
+      "dex_num": 968,
+      "species": "SPECIES_ORTHWORM",
+      "dex_constant": "NATIONAL_DEX_ORTHWORM"
+    },
+    {
+      "dex_num": 969,
+      "species": "SPECIES_GLIMMET",
+      "dex_constant": "NATIONAL_DEX_GLIMMET"
+    },
+    {
+      "dex_num": 970,
+      "species": "SPECIES_GLIMMORA",
+      "dex_constant": "NATIONAL_DEX_GLIMMORA"
+    },
+    {
+      "dex_num": 971,
+      "species": "SPECIES_GREAVARD",
+      "dex_constant": "NATIONAL_DEX_GREAVARD"
+    },
+    {
+      "dex_num": 972,
+      "species": "SPECIES_HOUNDSTONE",
+      "dex_constant": "NATIONAL_DEX_HOUNDSTONE"
+    },
+    {
+      "dex_num": 973,
+      "species": "SPECIES_FLAMIGO",
+      "dex_constant": "NATIONAL_DEX_FLAMIGO"
+    },
+    {
+      "dex_num": 974,
+      "species": "SPECIES_CETODDLE",
+      "dex_constant": "NATIONAL_DEX_CETODDLE"
+    },
+    {
+      "dex_num": 975,
+      "species": "SPECIES_CETITAN",
+      "dex_constant": "NATIONAL_DEX_CETITAN"
+    },
+    {
+      "dex_num": 976,
+      "species": "SPECIES_VELUZA",
+      "dex_constant": "NATIONAL_DEX_VELUZA"
+    },
+    {
+      "dex_num": 977,
+      "species": "SPECIES_DONDOZO",
+      "dex_constant": "NATIONAL_DEX_DONDOZO"
+    },
+    {
+      "dex_num": 978,
+      "species": "SPECIES_TATSUGIRI",
+      "dex_constant": "NATIONAL_DEX_TATSUGIRI"
+    },
+    {
+      "dex_num": 979,
+      "species": "SPECIES_ANNIHILAPE",
+      "dex_constant": "NATIONAL_DEX_ANNIHILAPE"
+    },
+    {
+      "dex_num": 980,
+      "species": "SPECIES_CLODSIRE",
+      "dex_constant": "NATIONAL_DEX_CLODSIRE"
+    },
+    {
+      "dex_num": 981,
+      "species": "SPECIES_FARIGIRAF",
+      "dex_constant": "NATIONAL_DEX_FARIGIRAF"
+    },
+    {
+      "dex_num": 982,
+      "species": "SPECIES_DUDUNSPARCE",
+      "dex_constant": "NATIONAL_DEX_DUDUNSPARCE"
+    },
+    {
+      "dex_num": 983,
+      "species": "SPECIES_KINGAMBIT",
+      "dex_constant": "NATIONAL_DEX_KINGAMBIT"
+    },
+    {
+      "dex_num": 984,
+      "species": "SPECIES_GREAT_TUSK",
+      "dex_constant": "NATIONAL_DEX_GREAT_TUSK"
+    },
+    {
+      "dex_num": 985,
+      "species": "SPECIES_SCREAM_TAIL",
+      "dex_constant": "NATIONAL_DEX_SCREAM_TAIL"
+    },
+    {
+      "dex_num": 986,
+      "species": "SPECIES_BRUTE_BONNET",
+      "dex_constant": "NATIONAL_DEX_BRUTE_BONNET"
+    },
+    {
+      "dex_num": 987,
+      "species": "SPECIES_FLUTTER_MANE",
+      "dex_constant": "NATIONAL_DEX_FLUTTER_MANE"
+    },
+    {
+      "dex_num": 988,
+      "species": "SPECIES_SLITHER_WING",
+      "dex_constant": "NATIONAL_DEX_SLITHER_WING"
+    },
+    {
+      "dex_num": 989,
+      "species": "SPECIES_SANDY_SHOCKS",
+      "dex_constant": "NATIONAL_DEX_SANDY_SHOCKS"
+    },
+    {
+      "dex_num": 990,
+      "species": "SPECIES_IRON_TREADS",
+      "dex_constant": "NATIONAL_DEX_IRON_TREADS"
+    },
+    {
+      "dex_num": 991,
+      "species": "SPECIES_IRON_BUNDLE",
+      "dex_constant": "NATIONAL_DEX_IRON_BUNDLE"
+    },
+    {
+      "dex_num": 992,
+      "species": "SPECIES_IRON_HANDS",
+      "dex_constant": "NATIONAL_DEX_IRON_HANDS"
+    },
+    {
+      "dex_num": 993,
+      "species": "SPECIES_IRON_JUGULIS",
+      "dex_constant": "NATIONAL_DEX_IRON_JUGULIS"
+    },
+    {
+      "dex_num": 994,
+      "species": "SPECIES_IRON_MOTH",
+      "dex_constant": "NATIONAL_DEX_IRON_MOTH"
+    },
+    {
+      "dex_num": 995,
+      "species": "SPECIES_IRON_THORNS",
+      "dex_constant": "NATIONAL_DEX_IRON_THORNS"
+    },
+    {
+      "dex_num": 996,
+      "species": "SPECIES_FRIGIBAX",
+      "dex_constant": "NATIONAL_DEX_FRIGIBAX"
+    },
+    {
+      "dex_num": 997,
+      "species": "SPECIES_ARCTIBAX",
+      "dex_constant": "NATIONAL_DEX_ARCTIBAX"
+    },
+    {
+      "dex_num": 998,
+      "species": "SPECIES_BAXCALIBUR",
+      "dex_constant": "NATIONAL_DEX_BAXCALIBUR"
+    },
+    {
+      "dex_num": 999,
+      "species": "SPECIES_GIMMIGHOUL",
+      "dex_constant": "NATIONAL_DEX_GIMMIGHOUL"
+    },
+    {
+      "dex_num": 1000,
+      "species": "SPECIES_GHOLDENGO",
+      "dex_constant": "NATIONAL_DEX_GHOLDENGO"
+    },
+    {
+      "dex_num": 1001,
+      "species": "SPECIES_WO_CHIEN",
+      "dex_constant": "NATIONAL_DEX_WO_CHIEN"
+    },
+    {
+      "dex_num": 1002,
+      "species": "SPECIES_CHIEN_PAO",
+      "dex_constant": "NATIONAL_DEX_CHIEN_PAO"
+    },
+    {
+      "dex_num": 1003,
+      "species": "SPECIES_TING_LU",
+      "dex_constant": "NATIONAL_DEX_TING_LU"
+    },
+    {
+      "dex_num": 1004,
+      "species": "SPECIES_CHI_YU",
+      "dex_constant": "NATIONAL_DEX_CHI_YU"
+    },
+    {
+      "dex_num": 1005,
+      "species": "SPECIES_ROARING_MOON",
+      "dex_constant": "NATIONAL_DEX_ROARING_MOON"
+    },
+    {
+      "dex_num": 1006,
+      "species": "SPECIES_IRON_VALIANT",
+      "dex_constant": "NATIONAL_DEX_IRON_VALIANT"
+    },
+    {
+      "dex_num": 1007,
+      "species": "SPECIES_KORAIDON",
+      "dex_constant": "NATIONAL_DEX_KORAIDON"
+    },
+    {
+      "dex_num": 1008,
+      "species": "SPECIES_MIRAIDON",
+      "dex_constant": "NATIONAL_DEX_MIRAIDON"
+    },
+    {
+      "dex_num": 1009,
+      "species": "SPECIES_WALKING_WAKE",
+      "dex_constant": "NATIONAL_DEX_WALKING_WAKE"
+    },
+    {
+      "dex_num": 1010,
+      "species": "SPECIES_IRON_LEAVES",
+      "dex_constant": "NATIONAL_DEX_IRON_LEAVES"
+    },
+    {
+      "dex_num": 1011,
+      "species": "SPECIES_DIPPLIN",
+      "dex_constant": "NATIONAL_DEX_DIPPLIN"
+    },
+    {
+      "dex_num": 1012,
+      "species": "SPECIES_POLTCHAGEIST",
+      "dex_constant": "NATIONAL_DEX_POLTCHAGEIST"
+    },
+    {
+      "dex_num": 1013,
+      "species": "SPECIES_SINISTCHA",
+      "dex_constant": "NATIONAL_DEX_SINISTCHA"
+    },
+    {
+      "dex_num": 1014,
+      "species": "SPECIES_OKIDOGI",
+      "dex_constant": "NATIONAL_DEX_OKIDOGI"
+    },
+    {
+      "dex_num": 1015,
+      "species": "SPECIES_MUNKIDORI",
+      "dex_constant": "NATIONAL_DEX_MUNKIDORI"
+    },
+    {
+      "dex_num": 1016,
+      "species": "SPECIES_FEZANDIPITI",
+      "dex_constant": "NATIONAL_DEX_FEZANDIPITI"
+    },
+    {
+      "dex_num": 1017,
+      "species": "SPECIES_OGERPON",
+      "dex_constant": "NATIONAL_DEX_OGERPON"
+    },
+    {
+      "dex_num": 1018,
+      "species": "SPECIES_ARCHALUDON",
+      "dex_constant": "NATIONAL_DEX_ARCHALUDON"
+    },
+    {
+      "dex_num": 1019,
+      "species": "SPECIES_HYDRAPPLE",
+      "dex_constant": "NATIONAL_DEX_HYDRAPPLE"
+    },
+    {
+      "dex_num": 1020,
+      "species": "SPECIES_GOUGING_FIRE",
+      "dex_constant": "NATIONAL_DEX_GOUGING_FIRE"
+    },
+    {
+      "dex_num": 1021,
+      "species": "SPECIES_RAGING_BOLT",
+      "dex_constant": "NATIONAL_DEX_RAGING_BOLT"
+    },
+    {
+      "dex_num": 1022,
+      "species": "SPECIES_IRON_BOULDER",
+      "dex_constant": "NATIONAL_DEX_IRON_BOULDER"
+    },
+    {
+      "dex_num": 1023,
+      "species": "SPECIES_IRON_CROWN",
+      "dex_constant": "NATIONAL_DEX_IRON_CROWN"
+    },
+    {
+      "dex_num": 1024,
+      "species": "SPECIES_TERAPAGOS",
+      "dex_constant": "NATIONAL_DEX_TERAPAGOS"
+    },
+    {
+      "dex_num": 1025,
+      "species": "SPECIES_PECHARUNT",
+      "dex_constant": "NATIONAL_DEX_PECHARUNT"
+    }
+  ],
+  "regional_dex": [
+    {
+      "dex_constant": "NATIONAL_DEX_BULBASAUR"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_IVYSAUR"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_VENUSAUR"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_CHARMANDER"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_CHARMELEON"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_CHARIZARD"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SQUIRTLE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_WARTORTLE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_BLASTOISE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_CATERPIE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_METAPOD"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_BUTTERFREE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_WEEDLE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_KAKUNA"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_BEEDRILL"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PIDGEY"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PIDGEOTTO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PIDGEOT"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_RATTATA"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_RATICATE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SPEAROW"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_FEAROW"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_EKANS"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ARBOK"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PIKACHU"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_RAICHU"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SANDSHREW"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SANDSLASH"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_NIDORAN_F"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_NIDORINA"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_NIDOQUEEN"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_NIDORAN_M"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_NIDORINO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_NIDOKING"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_CLEFAIRY"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_CLEFABLE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_VULPIX"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_NINETALES"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_JIGGLYPUFF"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_WIGGLYTUFF"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ZUBAT"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GOLBAT"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ODDISH"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GLOOM"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_VILEPLUME"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PARAS"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PARASECT"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_VENONAT"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_VENOMOTH"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_DIGLETT"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_DUGTRIO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MEOWTH"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PERSIAN"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PSYDUCK"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GOLDUCK"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MANKEY"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PRIMEAPE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GROWLITHE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ARCANINE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_POLIWAG"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_POLIWHIRL"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_POLIWRATH"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ABRA"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_KADABRA"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ALAKAZAM"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MACHOP"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MACHOKE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MACHAMP"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_BELLSPROUT"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_WEEPINBELL"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_VICTREEBEL"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_TENTACOOL"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_TENTACRUEL"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GEODUDE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GRAVELER"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GOLEM"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PONYTA"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_RAPIDASH"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SLOWPOKE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SLOWBRO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MAGNEMITE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MAGNETON"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_FARFETCHD"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_DODUO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_DODRIO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SEEL"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_DEWGONG"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GRIMER"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MUK"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SHELLDER"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_CLOYSTER"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GASTLY"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_HAUNTER"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GENGAR"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ONIX"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_DROWZEE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_HYPNO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_KRABBY"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_KINGLER"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_VOLTORB"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ELECTRODE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_EXEGGCUTE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_EXEGGUTOR"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_CUBONE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MAROWAK"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_HITMONLEE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_HITMONCHAN"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_LICKITUNG"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_KOFFING"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_WEEZING"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_RHYHORN"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_RHYDON"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_CHANSEY"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_TANGELA"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_KANGASKHAN"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_HORSEA"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SEADRA"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GOLDEEN"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SEAKING"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_STARYU"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_STARMIE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MR_MIME"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SCYTHER"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_JYNX"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ELECTABUZZ"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MAGMAR"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PINSIR"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_TAUROS"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MAGIKARP"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_GYARADOS"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_LAPRAS"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_DITTO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_EEVEE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_VAPOREON"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_JOLTEON"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_FLAREON"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_PORYGON"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_OMANYTE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_OMASTAR"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_KABUTO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_KABUTOPS"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_AERODACTYL"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_SNORLAX"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ARTICUNO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_ZAPDOS"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MOLTRES"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_DRATINI"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_DRAGONAIR"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_DRAGONITE"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MEWTWO"
+    },
+    {
+      "dex_constant": "NATIONAL_DEX_MEW"
+    }
+  ]
+}
