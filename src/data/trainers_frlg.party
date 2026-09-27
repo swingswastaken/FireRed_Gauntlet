@@ -6,6 +6,74 @@ Gender: Male
 Music: Male
 Double Battle: No
 
+=== TRAINER_OPTIONAL_BEAUTY_ROSE_BULBASAUR ===
+Name: ROSE
+Class: Beauty Frlg
+Pic: Beauty Frlg
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Flabebe
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vine Whip
+- Fairy Wind
+- Tearful Look
+
+Marill
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Sing
+- Bubble Beam
+
+=== TRAINER_OPTIONAL_BEAUTY_ROSE_SQUIRTLE ===
+Name: ROSE
+Class: Beauty Frlg
+Pic: Beauty Frlg
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Flabebe
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fairy Wind
+- Copycat
+- Tearful Look
+
+Bonsly
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Flail
+
+=== TRAINER_OPTIONAL_BEAUTY_ROSE_CHARMANDER ===
+Name: ROSE
+Class: Beauty Frlg
+Pic: Beauty Frlg
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Flabebe
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vine Whip
+- Fairy Wind
+- Tearful Look
+
+Sunkern
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Growth
+- Leech Seed
+
 === TRAINER_YOUNGSTER_BEN ===
 Name: BEN
 Class: Youngster Frlg
