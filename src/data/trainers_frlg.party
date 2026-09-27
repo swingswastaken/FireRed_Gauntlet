@@ -17,14 +17,14 @@ AI: Check Bad Move
 
 Illumise
 Bashful Nature
-Level: 5
+Level: 4
 Ability: Prankster
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Play Nice
 
 Spewpa
 Bashful Nature
-Level: 5
+Level: 7
 Ability: Shed Skin
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Harden
@@ -41,18 +41,17 @@ AI: Check Bad Move
 
 Charjabug
 Bashful Nature
-Level: 5
+Level: 4
 Ability: Battery
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Eerie Impulse
 
-Rellor
+Anorith
 Bashful Nature
-Level: 5
-Ability: Shed Skin
+Level: 7
+Ability: Battle Armor
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sand Attack
-- Defense Curl
 
 === TRAINER_BUG_CATCHER_OUROBOROS_CHARMANDER ===
 Name: OUROBOROS
@@ -65,14 +64,14 @@ AI: Check Bad Move
 
 Wimpod
 Bashful Nature
-Level: 5
+Level: 7
 Ability: Wimp Out
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sand Attack
 
 Dewpider
 Bashful Nature
-Level: 5
+Level: 4
 Ability: Water Bubble
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Infestation
@@ -87,8 +86,8 @@ Double Battle: No
 AI: Check Bad Move
 
 Blitzle
-Bashful Nature
-Level: 7
+Adamant Nature
+Level: 8
 Ability: Sap Sipper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack
@@ -103,15 +102,13 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wimpod
-Level: 5
+Wooper Paldea
+Adamant Nature
+Level: 8
+Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sand Attack
-
-Dewpider
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Infestation
+- Mud Shot
+- Poison Tail
 
 === TRAINER_YOUNGSTER_JAKE_CHARMANDER ===
 Name: JAKE
@@ -122,15 +119,13 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wimpod
-Level: 5
+Houndour
+Modest Nature
+Level: 8
+Ability: Flash Fire
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sand Attack
-
-Dewpider
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Infestation
+- Ember
+- Howl
 
 === TRAINER_OPTIONAL_BEAUTY_ROSE_BULBASAUR ===
 Name: ROSE
@@ -142,18 +137,22 @@ Double Battle: No
 AI: Check Bad Move
 
 Flabebe
-Level: 6
+Modest Nature
+Level: 9
+Ability: Flower Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Vine Whip
 - Fairy Wind
 - Tearful Look
 
 Marill
-Level: 6
+Adamant Nature
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Huge Power
 - Defense Curl
 - Sing
-- Bubble Beam
+- Tackle
 
 === TRAINER_OPTIONAL_BEAUTY_ROSE_SQUIRTLE ===
 Name: ROSE
@@ -165,17 +164,22 @@ Double Battle: No
 AI: Check Bad Move
 
 Flabebe
-Level: 6
+Modest Nature
+Level: 9
+Ability: Flower Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Fairy Wind
 - Copycat
+- Fairy Wind
 - Tearful Look
 
 Bonsly
-Level: 6
+Adamant Nature
+Level: 10
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rollout
 - Flail
+- Rock Throw
 
 === TRAINER_OPTIONAL_BEAUTY_ROSE_CHARMANDER ===
 Name: ROSE
@@ -187,18 +191,20 @@ Double Battle: No
 AI: Check Bad Move
 
 Flabebe
-Level: 6
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Vine Whip
 - Fairy Wind
 - Tearful Look
 
 Sunkern
-Level: 6
+Modest Nature
+Level: 10
+Ability: Solar Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
 - Growth
 - Leech Seed
+- Absorb
 
 === TRAINER_YOUNGSTER_BEN ===
 Name: BEN

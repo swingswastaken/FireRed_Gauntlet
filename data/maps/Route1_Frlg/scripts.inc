@@ -4,24 +4,24 @@ Route1_Frlg_MapScripts::
 Route1_EventScript_MartClerk::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_BERRY_JUICE_ON_ROUTE_1, Route1_EventScript_AlreadyGotJuice
+	goto_if_set FLAG_GOT_ORAN_BERRY_ON_ROUTE_1, Route1_EventScript_AlreadyGotOranBerry
 	msgbox Route1_Text_WorkAtPokeMartTakeSample
 	textcolor NPC_TEXT_COLOR_NEUTRAL
-	checkitemspace ITEM_BERRY_JUICE
+	checkitemspace ITEM_ORAN_BERRY
 	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
-	bufferitemname STR_VAR_2, ITEM_BERRY_JUICE
+	bufferitemname STR_VAR_2, ITEM_ORAN_BERRY
 	playfanfare MUS_LEVEL_UP
 	message gText_ObtainedTheItem
 	waitmessage
 	waitfanfare
-	additem ITEM_BERRY_JUICE
-	msgbox Route1_Text_PutBerryJuiceAway
+	additem ITEM_ORAN_BERRY
+	msgbox Route1_Text_PutOranBerryAway
 	call EventScript_RestorePrevTextColor
-	setflag FLAG_GOT_BERRY_JUICE_ON_ROUTE_1
+	setflag FLAG_GOT_ORAN_BERRY_ON_ROUTE_1
 	release
 	end
 
-Route1_EventScript_AlreadyGotJuice::
+Route1_EventScript_AlreadyGotOranBerry::
 	msgbox Route1_Text_ComeSeeUsIfYouNeedPokeBalls
 	release
 	end
@@ -48,14 +48,12 @@ Route1_EventScript_AlreadyGotWalkedOutRoute1Gauntlet::
 
 Route1_EventScript_WalkedInTriggerLeft::
 	lockall
-	goto_if_set FLAG_WALKED_OUT_ROUTE_1_GAUNTLET, Route1_EventScript_AlreadyGotWalkedOutRoute1Gauntlet
 	setvar VAR_TEMP_1, 0
 	goto Route1_EventScript_WalkedInTrigger
 	end
 
 Route1_EventScript_WalkedInTriggerRight::
 	lockall
-	goto_if_set FLAG_WALKED_OUT_ROUTE_1_GAUNTLET, Route1_EventScript_AlreadyGotWalkedOutRoute1Gauntlet
 	setvar VAR_TEMP_1, 1
 	goto Route1_EventScript_WalkedInTrigger
 	end
@@ -81,6 +79,7 @@ Route1_EventScript_GauntletStartTriggerLeft::
 Route1_EventScript_GauntletStartTriggerRight::
 	lockall
 	setvar VAR_TEMP_1, 1
+	goto_if_set FLAG_WALKED_OUT_ROUTE_1_GAUNTLET, Route1_EventScript_GauntletEnded
 	goto_if_set FLAG_WALKED_IN_ROUTE_1_GAUNTLET, Route1_EventScript_GauntletStartedTrigger
 	releaseall
 	end
@@ -268,8 +267,8 @@ Route1_Text_ComeSeeUsIfYouNeedPokeBalls::
 	.string "Please come see us if you need\n"
 	.string "POKé BALLS for catching POKéMON.$"
 
-Route1_Text_PutBerryJuiceAway::
-	.string "{PLAYER} put the BERRY JUICE away in\n"
+Route1_Text_PutOranBerryAway::
+	.string "{PLAYER} put the ORAN BERRY away in\n"
 	.string "the BAG's ITEMS POCKET.$"
 
 Route1_Text_CanJumpFromLedges::
