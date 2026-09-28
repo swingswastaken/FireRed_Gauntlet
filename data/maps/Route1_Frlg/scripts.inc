@@ -254,6 +254,28 @@ Route1_EventScript_JakeCharmander::
 	msgbox Route1_Text_JakePostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route1_EventScript_Jane::
+	switch VAR_STARTER_MON
+	case 0, Route1_EventScript_JaneBulbasaur
+	case 1, Route1_EventScript_JaneSquirtle
+	case 2, Route1_EventScript_JaneCharmander
+	end
+
+Route1_EventScript_JaneBulbasaur::
+	trainerbattle_single TRAINER_LASS_JANE_BULBASAUR, Route1_Text_JaneIntro, Route1_Text_JaneDefeat
+	msgbox Route1_Text_JanePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route1_EventScript_JaneSquirtle::
+	trainerbattle_single TRAINER_LASS_JANE_SQUIRTLE, Route1_Text_JaneIntro, Route1_Text_JaneDefeat
+	msgbox Route1_Text_JanePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route1_EventScript_JaneCharmander::
+	trainerbattle_single TRAINER_LASS_JANE_CHARMANDER, Route1_Text_JaneIntro, Route1_Text_JaneDefeat
+	msgbox Route1_Text_JanePostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route1_Text_WorkAtPokeMartTakeSample::
 	.string "Hi!\n"
 	.string "I work at a POKéMON MART.\p"
@@ -342,4 +364,14 @@ Route1_Text_JakeDefeat::
     .string "Awww, that shucks.$"
     
 Route1_Text_JakePostBattle::
-    .string "I bet you cheated!.$"
+    .string "I bet you cheated!$"
+
+Route1_Text_JaneIntro::
+    .string "Hey! Come back here!$"
+
+Route1_Text_JaneDefeat::
+    .string "Huh? You beat us?\p"
+    .string "Woah, you're strong.$"
+    
+Route1_Text_JanePostBattle::
+    .string "My boyfriend says you cheated.$"

@@ -119,13 +119,13 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Houndour
-Modest Nature
+Ponyta
+Adamant Nature
 Level: 8
 Ability: Flash Fire
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Ember
-- Howl
+- Double Kick
+- Tail Whip
 
 === TRAINER_OPTIONAL_BEAUTY_ROSE_BULBASAUR ===
 Name: ROSE
@@ -205,6 +205,60 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Growth
 - Leech Seed
 - Absorb
+
+=== TRAINER_LASS_JANE_BULBASAUR ===
+Name: JANE
+Class: Lass Frlg
+Pic: Lass Frlg
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Greavard @ Eviolite
+Adamant Nature
+Level: 10
+Ability: Fluffy
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Tail Whip
+- Lick
+
+=== TRAINER_LASS_JANE_SQUIRTLE ===
+Name: JANE
+Class: Lass Frlg
+Pic: Lass Frlg
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Psyduck @ Eviolite
+Adamant Nature
+Level: 10
+Ability: Damp
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Tail Whip
+- Fury Swipes
+
+=== TRAINER_LASS_JANE_CHARMANDER ===
+Name: JANE
+Class: Lass Frlg
+Pic: Lass Frlg
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Hippopotas @ Eviolite
+Gentle Nature
+Level: 10
+Ability: Sand Stream
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Curse
+- Bite
 
 === TRAINER_YOUNGSTER_BEN ===
 Name: BEN
