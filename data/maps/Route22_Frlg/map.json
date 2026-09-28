@@ -112,6 +112,78 @@
       "var": "VAR_MAP_SCENE_ROUTE22",
       "var_value": "3",
       "script": "Route22_EventScript_LateRivalTriggerBottom"
+    },
+    {
+      "type": "trigger",
+      "x": 46,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route22_EventScript_WalkedInTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 46,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route22_EventScript_WalkedInTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 46,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route22_EventScript_WalkedInTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 46,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route22_EventScript_WalkedInTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 47,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route22_EventScript_StartGauntletTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 47,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route22_EventScript_StartGauntletTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 47,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route22_EventScript_StartGauntletTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 47,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Route22_EventScript_StartGauntletTrigger"
     }
   ],
   "bg_events": [

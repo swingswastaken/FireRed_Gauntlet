@@ -59,14 +59,17 @@ Route22_EventScript_EarlyRivalApproachBottom::
 
 Route22_EventScript_EarlyRivalSquirtle::
 	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	setflag FLAG_ROUTE22_RIVAL_DEFEATED
 	return
 
 Route22_EventScript_EarlyRivalBulbasaur::
 	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	setflag FLAG_ROUTE22_RIVAL_DEFEATED
 	return
 
 Route22_EventScript_EarlyRivalCharmander::
 	trainerbattle_earlyrival TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER, 0, Route22_Text_EarlyRivalDefeat, Text_RivalVictory
+	setflag FLAG_ROUTE22_RIVAL_DEFEATED
 	return
 
 Route22_EventScript_EarlyRivalExit::
@@ -209,14 +212,17 @@ Route22_EventScript_LateRivalApproachBottom::
 
 Route22_EventScript_LateRivalSquirtle::
 	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE, Route22_Text_LateRivalDefeat
+	setflag FLAG_ROUTE22_RIVAL_DEFEATED
 	return
 
 Route22_EventScript_LateRivalBulbasaur::
 	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR, Route22_Text_LateRivalDefeat
+	setflag FLAG_ROUTE22_RIVAL_DEFEATED
 	return
 
 Route22_EventScript_LateRivalCharmander::
 	trainerbattle_no_intro TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER, Route22_Text_LateRivalDefeat
+	setflag FLAG_ROUTE22_RIVAL_DEFEATED
 	return
 
 Route22_Movement_LateRivalExit::
@@ -231,6 +237,45 @@ Route22_Movement_LateRivalExit::
 
 Route22_EventScript_LeagueGateSign::
 	msgbox Route22_Text_LeagueGateSign, MSGBOX_SIGN
+	end
+
+Route22_EventScript_WalkedInTrigger::
+	lockall
+	goto_if_set FLAG_WALKED_IN_ROUTE_22_GAUNTLET, Route22_EventScript_AlreadyGotWalkedInRoute22Gauntlet
+	setflag FLAG_WALKED_IN_ROUTE_22_GAUNTLET
+	releaseall
+	end
+
+Route22_EventScript_AlreadyGotWalkedInRoute22Gauntlet::
+	releaseall
+	end
+
+Route22_EventScript_StartGauntletTrigger::
+	lockall
+	goto_if_set FLAG_ROUTE22_RIVAL_DEFEATED, Route22_EventScript_GauntletEnded
+	goto_if_set FLAG_WALKED_IN_ROUTE_22_GAUNTLET, Route22_EventScript_GauntletStartedTrigger
+	releaseall
+	end
+	
+Route22_EventScript_GauntletStartedTrigger::	
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 30
+	playbgm MUS_TOO_BAD, 0
+	message Route22_Text_PrideLock
+	waitmessage
+	delay 85
+	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_WalkLeft
+	applymovement LOCALID_PLAYER, Common_Movement_WalkLeft
+	waitmovement 0
+	playse SE_PIN
+	releaseall
+	end
+
+Route22_EventScript_GauntletEnded::
+	releaseall
 	end
 
 Route22_Text_EarlyRivalIntro::
@@ -297,5 +342,8 @@ Route22_Text_LateRivalVictory::
 
 Route22_Text_LeagueGateSign::
 	.string "POKéMON LEAGUE\n"
-	.string "Front Gate$"
+	.string "Too far to wipe now$"
 
+Route22_Text_PrideLock::
+    .string "Your pride prevents you from\n"
+    .string "leaving this area!$"

@@ -755,10 +755,10 @@
 #define FLAG_WALKED_OUT_ROUTE_1_GAUNTLET                 0x301
 #define FLAG_DECLINED_OPTIONAL_FIGHT_ROUTE1              0x302
 #define FLAG_GOT_BUDEW_FROM_ROSE                         0x303
+#define FLAG_WALKED_IN_ROUTE_22_GAUNTLET                 0x304
+#define FLAG_ROUTE22_RIVAL_DEFEATED                      0x305
 
 // Unused?
-#define FLAG_0x304               0x304
-#define FLAG_0x305               0x305
 #define FLAG_0x306               0x306
 #define FLAG_0x307               0x307
 #define FLAG_0x308               0x308

@@ -636,9 +636,9 @@
 #define TRAINER_YOUNGSTER_JAKE_BULBASAUR           630
 #define TRAINER_YOUNGSTER_JAKE_CHARMANDER          631
 #define TRAINER_YOUNGSTER_JAKE_SQUIRTLE            632
-#define TRAINER_LASS_JANE_BULBASAUR           633
-#define TRAINER_LASS_JANE_CHARMANDER          634
-#define TRAINER_LASS_JANE_SQUIRTLE            635
+#define TRAINER_LASS_JANE_BULBASAUR                633
+#define TRAINER_LASS_JANE_CHARMANDER               634
+#define TRAINER_LASS_JANE_SQUIRTLE                 635
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is
 //       only space for 25 additional trainers before trainer flag space overflows.
