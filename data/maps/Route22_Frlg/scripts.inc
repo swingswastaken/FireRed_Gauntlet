@@ -1,6 +1,15 @@
 Route22_Frlg_MapScripts::
 	.byte 0
 
+Route22_OnTransition::
+    call_if_set FLAG_BADGE08_GET, Route22_EventScript_HidePokemon
+    end
+
+Route22_EventScript_HidePokemon::
+    setflag FLAG_HIDE_ROUTE_22_AZURILL
+    setflag FLAG_HIDE_ROUTE_22_MEOWTH_DOLL
+    return
+
 Route22_EventScript_EarlyRivalTriggerTop::
 	lockall
 	setvar VAR_TEMP_1, 0
@@ -241,12 +250,13 @@ Route22_EventScript_LeagueGateSign::
 
 Route22_EventScript_WalkedInTrigger::
 	lockall
-	goto_if_set FLAG_WALKED_IN_ROUTE_22_GAUNTLET, Route22_EventScript_AlreadyGotWalkedInRoute22Gauntlet
+	goto_if_unset FLAG_BADGE08_GET, Route22_EventScript_SkipSetWalkedInRoute22Gauntlet
+	goto_if_set FLAG_WALKED_IN_ROUTE_22_GAUNTLET, Route22_EventScript_SkipSetWalkedInRoute22Gauntlet
 	setflag FLAG_WALKED_IN_ROUTE_22_GAUNTLET
 	releaseall
 	end
 
-Route22_EventScript_AlreadyGotWalkedInRoute22Gauntlet::
+Route22_EventScript_SkipSetWalkedInRoute22Gauntlet::
 	releaseall
 	end
 
@@ -268,6 +278,7 @@ Route22_EventScript_GauntletStartedTrigger::
 	delay 85
 	closemessage
 	applymovement LOCALID_PLAYER, Common_Movement_WalkLeft
+	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkLeft
 	waitmovement 0
 	playse SE_PIN
@@ -276,6 +287,16 @@ Route22_EventScript_GauntletStartedTrigger::
 
 Route22_EventScript_GauntletEnded::
 	releaseall
+	end
+
+Route22_EventScript_Azurill::
+    msgbox Route22_Text_Azurill
+	release
+	end
+
+Route22_EventScript_MeowthDoll::
+    msgbox Route22_Text_MeowthDoll
+	release
 	end
 
 Route22_Text_EarlyRivalIntro::
@@ -347,3 +368,15 @@ Route22_Text_LeagueGateSign::
 Route22_Text_PrideLock::
     .string "Your pride prevents you from\n"
     .string "leaving this area!$"
+
+Route22_Text_Azurill::
+	.string "It's a cute Azurill!\p"
+	.string "It is peacefully hugging its\n"
+	.string "favourite plushie.\p"
+	.string "It doesn't look like it'll\n"
+	.string "move anytime soon.$"
+
+Route22_Text_MeowthDoll::
+	.string "A cute meowth plushie.\p"
+	.string "It doesn't seem like that\n"
+	.string "Azurill wants to let go.$"

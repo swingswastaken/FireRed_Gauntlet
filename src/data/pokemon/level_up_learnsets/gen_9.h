@@ -10127,7 +10127,7 @@ static const struct LevelUpMove sBibarelLevelUpLearnset[] = {
 
 #if P_FAMILY_KRICKETOT
 static const struct LevelUpMove sKricketotLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 6, MOVE_STRUGGLE_BUG),
     LEVEL_UP_MOVE(16, MOVE_BUG_BITE),
@@ -10136,9 +10136,9 @@ static const struct LevelUpMove sKricketotLevelUpLearnset[] = {
 
 static const struct LevelUpMove sKricketuneLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_FURY_CUTTER),
-    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
-    LEVEL_UP_MOVE(14, MOVE_ABSORB),
+    LEVEL_UP_MOVE(14, MOVE_FURY_SWIPES),
     LEVEL_UP_MOVE(18, MOVE_SING),
     LEVEL_UP_MOVE(22, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE(26, MOVE_SLASH),

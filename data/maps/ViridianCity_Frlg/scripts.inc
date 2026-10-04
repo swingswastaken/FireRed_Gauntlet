@@ -148,17 +148,29 @@ ViridianCity_EventScript_TutorialNotReady::
 ViridianCity_EventScript_Youngster::
 	lock
 	faceplayer
-	msgbox ViridianCity_Text_WantToKnowAboutCaterpillarMons, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, ViridianCity_EventScript_YoungsterExplainCaterpillars
-	goto_if_eq VAR_RESULT, NO, ViridianCity_EventScript_YoungsterDeclineExplanation
+	msgbox ViridianCity_Text_WantToGetRareCandies, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, ViridianCity_EventScript_YoungsterGiveCandies
+	goto_if_eq VAR_RESULT, NO, ViridianCity_EventScript_YoungsterDeclineCandies
 	end
 
-ViridianCity_EventScript_YoungsterExplainCaterpillars::
-	msgbox ViridianCity_Text_ExplainCaterpieWeedle
+ViridianCity_EventScript_YoungsterGiveCandies::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	checkitemspace ITEM_RARE_CANDY
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	bufferitemname STR_VAR_2, ITEM_RARE_CANDY
+	playfanfare MUS_LEVEL_UP
+	message gText_ObtainedTheItem
+	waitmessage
+	waitfanfare
+	additem ITEM_RARE_CANDY, 999
+	msgbox ViridianCity_Text_PutRareCandyAway
+	call EventScript_RestorePrevTextColor
+	release
+	end
 	release
 	end
 
-ViridianCity_EventScript_YoungsterDeclineExplanation::
+ViridianCity_EventScript_YoungsterDeclineCandies::
 	msgbox ViridianCity_Text_OhOkayThen
 	release
 	end
@@ -245,18 +257,12 @@ ViridianCity_Text_GymClosedWonderWhoLeaderIs::
 ViridianCity_Text_ViridiansGymLeaderReturned::
 	.string "VIRIDIAN GYM's LEADER returned!$"
 
-ViridianCity_Text_WantToKnowAboutCaterpillarMons::
-	.string "You want to know about the two\n"
-	.string "kinds of caterpillar POKéMON?$"
+ViridianCity_Text_WantToGetRareCandies::
+	.string "Heh, do you want some candies?\n"
+	.string "For FREE!$"
 
 ViridianCity_Text_OhOkayThen::
 	.string "Oh, okay then!$"
-
-ViridianCity_Text_ExplainCaterpieWeedle::
-	.string "CATERPIE has no poison,\n"
-	.string "but WEEDLE does.\p"
-	.string "Watch that your POKéMON aren't\n"
-	.string "stabbed by WEEDLE's POISON STING.$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
 	.string "Oh, Grandpa!\n"
@@ -356,4 +362,8 @@ ViridianCity_Text_GymSign::
 
 ViridianCity_Text_GymDoorsAreLocked::
 	.string "VIRIDIAN GYM's doors are locked…$"
+
+ViridianCity_Text_PutRareCandyAway::
+	.string "{PLAYER} put the RARE CANDY(s) away\n"
+	.string "in the BAG's ITEMS POCKET.$"
 

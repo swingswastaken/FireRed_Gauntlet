@@ -24,9 +24,9 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spewpa
 Bashful Nature
-Level: 7
+Level: 6
 Ability: Shed Skin
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Harden
 - Protect
 
@@ -48,10 +48,11 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Anorith
 Bashful Nature
-Level: 7
+Level: 6
 Ability: Battle Armor
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sand Attack
+- Harden
 
 === TRAINER_BUG_CATCHER_OUROBOROS_CHARMANDER ===
 Name: OUROBOROS
@@ -64,9 +65,9 @@ AI: Check Bad Move
 
 Wimpod
 Bashful Nature
-Level: 7
+Level: 6
 Ability: Wimp Out
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sand Attack
 
 Dewpider
@@ -125,7 +126,6 @@ Level: 8
 Ability: Flash Fire
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Ember
-- Tail Whip
 - Disable
 
 === TRAINER_OPTIONAL_BEAUTY_ROSE_BULBASAUR ===
@@ -4737,17 +4737,33 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgey
-Level: 9
+Snubbull @ Berry Juice
+Adamant Nature
+Level: 12
+Ability: Intimidate
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
-
-Squirtle
-Level: 9
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
+- Thunder Fang
+- Fire Fang
+- Ice Fang
 - Tail Whip
+
+Squirtle @ Eviolite
+Timid Nature
+Level: 15
+Ability: Torrent
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Yawn
+- Withdraw
+- Rapid Spin
+- Water Gun
+
+Rattata-Alola @ Focus Sash 
+Timid Nature 
+Level: 1
+Ability: Gluttony
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Pursuit 
+- Endeavor
 
 === TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR ===
 Name: TERRY
@@ -4758,17 +4774,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgey
-Level: 9
+Snorunt @ Berry Juice
+Timid Nature
+Level: 12
+Ability: Moody
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
+- Powder Snow
+- Block
+- Protect
+- Double Team
 
-Bulbasaur
-Level: 9
+Bulbasaur @ Eviolite
+Adamant Nature
+Level: 14
+Ability: Overgrow
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Growl
+- Leech Seed
+- Growth
+- Razor Leaf
+
+Rattata-Alola @ Focus Sash 
+Timid Nature 
+Level: 1
+Ability: Gluttony
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Pursuit 
+- Endeavor
 
 === TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER ===
 Name: TERRY
@@ -4779,17 +4810,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Pidgey
-Level: 9
+Inkay @ Berry Juice
+Adamant Nature
+Level: 12
+Ability: Infiltrator
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
+- Hypnosis
+- Acupressure
+- Payback
 
-Charmander
-Level: 9
+Charmander @ Eviolite
+Modest Nature
+Level: 14
+Ability: Blaze
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Scratch
-- Growl
+- Ember
+- Dragon Breath
+- Smokescreen
+- Counter
+
+Rattata-Alola @ Focus Sash 
+Timid Nature 
+Level: 1
+Ability: Gluttony
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Pursuit 
+- Endeavor
 
 === TRAINER_RIVAL_CERULEAN_SQUIRTLE ===
 Name: TERRY

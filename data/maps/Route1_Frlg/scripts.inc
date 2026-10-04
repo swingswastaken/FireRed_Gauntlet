@@ -158,7 +158,7 @@ Route1_EventScript_DefeatedRose::
 	goto_if_set FLAG_GOT_BUDEW_FROM_ROSE, Route1_EventScript_AlreadyGotBudew
 	msgbox Route1_Text_RewardForDefeatingRose, MSGBOX_DEFAULT
 	setvar VAR_TEMP_1, SPECIES_BUDEW
-	givemon SPECIES_BUDEW, 5
+	givemon SPECIES_BUDEW, 10
 	goto_if_eq VAR_RESULT, 0, Route1_EventScript_ReceiveBudewParty
 	goto_if_eq VAR_RESULT, 1, Route1_EventScript_ReceiveBudewPC
 	goto_if_eq VAR_RESULT, 2, Common_EventScript_NoMoreRoomForPokemon
