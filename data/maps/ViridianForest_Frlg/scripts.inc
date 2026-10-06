@@ -54,7 +54,7 @@ ViridianForest_EventScript_Sammy::
 	end
 
 ViridianForest_EventScript_Anthony::
-	trainerbattle_single TRAINER_BUG_CATCHER_ANTHONY, ViridianForest_Text_AnthonyIntro, ViridianForest_Text_AnthonyDefeat
+	trainerbattle_single TRAINER_BUG_CATCHER_SANS, ViridianForest_Text_AnthonyIntro, ViridianForest_Text_AnthonyDefeat
 	msgbox ViridianForest_Text_AnthonyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
