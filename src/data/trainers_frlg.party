@@ -9541,7 +9541,7 @@ Grimer
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BUG_CATCHER_SANS ===
+=== TRAINER_OPTIONAL_BUG_CATCHER_SANS ===
 Name: ANTHONY
 Class: Bug Catcher Frlg
 Pic: Bug Catcher Frlg
@@ -9554,7 +9554,7 @@ Caterpie
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Caterpie
+Shedinja
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 

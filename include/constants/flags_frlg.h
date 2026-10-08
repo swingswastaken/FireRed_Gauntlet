@@ -757,12 +757,13 @@
 #define FLAG_GOT_BUDEW_FROM_ROSE                         0x303
 #define FLAG_WALKED_IN_ROUTE_22_GAUNTLET                 0x304
 #define FLAG_ROUTE22_RIVAL_DEFEATED                      0x305
+#define FLAG_WALKED_IN_VIRIDIAN_FOREST_GAUNTLET          0x306
+#define FLAG_GOT_KRICKETOT_FROM_SANS                     0x307
+#define FLAG_WALKED_OUT_VIRIDIAN_FOREST_GAUNTLET         0x308
+#define FLAG_DECLINED_OPTIONAL_FIGHT_VIRIDIAN_FOREST     0x309
 
 // Unused?
-#define FLAG_0x306               0x306
-#define FLAG_0x307               0x307
-#define FLAG_0x308               0x308
-#define FLAG_0x309               0x309
+
 #define FLAG_0x30A               0x30A
 #define FLAG_0x30B               0x30B
 #define FLAG_0x30C               0x30C

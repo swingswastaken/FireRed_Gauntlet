@@ -6,6 +6,35 @@ ViridianForest_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_VIRIDIAN_FOREST
 	end
 
+ViridianForest_EventScript_WalkedInTrigger::
+	lockall
+	goto_if_set FLAG_WALKED_OUT_VIRIDIAN_FOREST_GAUNTLET, ViridianForest_EventScript_SkipSetWalkedInViridianForestGauntlet
+	goto_if_set FLAG_WALKED_IN_VIRIDIAN_FOREST_GAUNTLET, ViridianForest_EventScript_GauntletStarted
+	setflag FLAG_WALKED_IN_VIRIDIAN_FOREST_GAUNTLET
+	releaseall
+	end
+
+ViridianForest_EventScript_SkipSetWalkedInViridianForestGauntlet::
+	releaseall
+	end
+
+ViridianForest_EventScript_GauntletStarted::
+	ViridianForest_EventScript_GauntletStartedTrigger::	
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 30
+	playbgm MUS_TOO_BAD, 0
+	message ViridianForest_Text_PrideLock
+	waitmessage
+	delay 85
+	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_WalkUp2
+	waitmovement 0
+	playse SE_PIN
+	releaseall
+	end
+
 ViridianForest_EventScript_Youngster::
 	msgbox ViridianForest_Text_FriendsItchingToBattle, MSGBOX_NPC
 	end
@@ -53,14 +82,98 @@ ViridianForest_EventScript_Sammy::
 	msgbox ViridianForest_Text_SammyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-ViridianForest_EventScript_Anthony::
-	trainerbattle_single TRAINER_BUG_CATCHER_SANS, ViridianForest_Text_AnthonyIntro, ViridianForest_Text_AnthonyDefeat
-	msgbox ViridianForest_Text_AnthonyPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 ViridianForest_EventScript_Charlie::
 	trainerbattle_single TRAINER_BUG_CATCHER_CHARLIE, ViridianForest_Text_CharlieIntro, ViridianForest_Text_CharlieDefeat
 	msgbox ViridianForest_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+ViridianForest_EventScript_OptionalFightCheckGauntlet::
+	goto_if_set FLAG_GOT_KRICKETOT_FROM_SANS, ViridianForest_EventScript_AlreadyGotKricketot
+	goto_if_unset FLAG_WALKED_OUT_VIRIDIAN_FOREST_GAUNTLET, ViridianForest_EventScript_OptionalFight
+	msgbox ViridianForest_Text_BadKid, MSGBOX_DEFAULT
+	releaseall
+	end
+
+ViridianForest_EventScript_OptionalFight::
+	call_if_set FLAG_DECLINED_OPTIONAL_FIGHT_VIRIDIAN_FOREST, ViridianForest_EventScript_AskToBattleAgain
+	call_if_unset FLAG_DECLINED_OPTIONAL_FIGHT_VIRIDIAN_FOREST, ViridianForest_EventScript_AskToBattle
+	goto_if_eq VAR_RESULT, NO, ViridianForest_EventScript_DeclineBattle
+	goto ViridianForest_EventScript_BattleOptionalSans
+	end
+
+ViridianForest_EventScript_AskToBattleAgain::
+	msgbox ViridianForest_Text_SansBadTime, MSGBOX_YESNO
+	return
+
+ViridianForest_EventScript_AskToBattle::
+	msgbox ViridianForest_Text_SansBadTime, MSGBOX_YESNO
+	return
+
+ViridianForest_EventScript_DeclineBattle::
+	setflag FLAG_DECLINED_OPTIONAL_FIGHT_VIRIDIAN_FOREST
+	msgbox ViridianForest_Text_StrongestAttack, MSGBOX_DEFAULT
+	savebgm MUS_DUMMY
+	fadedefaultbgm
+	release
+	end
+
+ViridianForest_EventScript_BattleOptionalSans::
+	trainerbattle_single TRAINER_OPTIONAL_BUG_CATCHER_SANS, ViridianForest_Text_SansIntro, ViridianForest_Text_SansDefeat
+	goto ViridianForest_EventScript_DefeatedSans
+	end
+
+ViridianForest_EventScript_DefeatedSans::
+	lock
+	goto_if_set FLAG_GOT_KRICKETOT_FROM_SANS, ViridianForest_EventScript_AlreadyGotKricketot
+	msgbox ViridianForest_Text_SansPostBattle, MSGBOX_DEFAULT
+	setvar VAR_TEMP_1, SPECIES_KRICKETOT
+	givemon SPECIES_KRICKETOT, 8
+	goto_if_eq VAR_RESULT, 0, ViridianForest_EventScript_ReceiveKricketotParty
+	goto_if_eq VAR_RESULT, 1, ViridianForest_EventScript_ReceiveKricketotPC
+	goto_if_eq VAR_RESULT, 2, Common_EventScript_NoMoreRoomForPokemon
+	release
+	end
+
+ViridianForest_EventScript_ReceiveKricketotParty::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message ViridianForest_Text_ObtainedKricketotFromSans
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_KRICKETOT
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, ViridianForest_EventScript_EndReceiveKricketot
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto ViridianForest_EventScript_EndReceiveKricketot
+	end
+
+ViridianForest_EventScript_ReceiveKricketotPC::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_LEVEL_UP
+	message ViridianForest_Text_ObtainedKricketotFromSans
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_KRICKETOT
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, ViridianForest_EventScript_KricketotTransferredToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto ViridianForest_EventScript_KricketotTransferredToPC
+	end
+
+ViridianForest_EventScript_KricketotTransferredToPC::
+	call Common_EventScript_TransferredToPC
+	goto ViridianForest_EventScript_EndReceiveKricketot
+	end
+
+ViridianForest_EventScript_EndReceiveKricketot::
+	setflag FLAG_GOT_KRICKETOT_FROM_SANS
+	release
+	end
+
+ViridianForest_EventScript_AlreadyGotKricketot::
+	msgbox ViridianForest_Text_SansPostBattle, MSGBOX_DEFAULT
+	release
 	end
 
 ViridianForest_Text_FriendsItchingToBattle::
@@ -108,16 +221,33 @@ ViridianForest_Text_SammyPostBattle::
 	.string "I'm looking for the stuff I\n"
 	.string "dropped. Can you help me?$"
 
-ViridianForest_Text_AnthonyIntro::
-	.string "I might be little, but I won't like\n"
-	.string "it if you go easy on me!$"
+ViridianForest_Text_SansBadTime::
+	.string "do you wanna have a bad time?$"
 
-ViridianForest_Text_AnthonyDefeat::
-	.string "Oh, boo.\n"
-	.string "Nothing went right.$"
+ViridianForest_Text_StrongestAttack::
+	.string "Always wondered why people never\n"
+	.string "use their strongest attack first.$"
 
-ViridianForest_Text_AnthonyPostBattle::
-	.string "I lost some of my allowance…$"
+ViridianForest_Text_SansIntro::
+	.string "...\n"
+	.string "It's a beautiful day outside.\l"
+	.string "Pidgeys are singing,\l"
+	.string "Budews are blooming...\l"
+	.string "On days like these,\l"
+	.string "kids like you...\l"
+	.string "Should be burning in\l"
+	.string "harsh sunlight.$"
+
+ViridianForest_Text_SansDefeat::
+	.string "Nice one, kiddo.$"
+
+ViridianForest_Text_SansPostBattle::
+	.string "What? You thought I was for real?$"
+
+ViridianForest_Text_BadKid::
+	.string "There was a bad kid here earlier.\n"
+	.string "But I defeated him.\p"
+	.string "Don't worry, you're a good kid.$"
 
 ViridianForest_Text_CharlieIntro::
 	.string "Did you know that POKéMON evolve?$"
@@ -168,3 +298,10 @@ ViridianForest_Text_LeavingViridianForest::
 	.string "LEAVING VIRIDIAN FOREST\n"
 	.string "PEWTER CITY AHEAD$"
 
+ViridianForest_Text_PrideLock::
+    .string "Your pride prevents you from\n"
+    .string "leaving this area!$"
+
+ViridianForest_Text_ObtainedKricketotFromSans::
+	.string "{PLAYER} obtained a KRICKETOT\n"
+	.string "from the trainer SANS!$"
