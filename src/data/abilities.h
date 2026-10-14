@@ -2556,4 +2556,10 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .name = _("Aura Guard"),
         .description = COMPOUND_STRING("Unimplemented."),
     },
+     [ABILITY_LOOKOUT] =
+    {
+        .name = _("Lookout"),
+        .description = COMPOUND_STRING("Normal moves have priority."),
+        .aiRating = 6,
+    }
 };

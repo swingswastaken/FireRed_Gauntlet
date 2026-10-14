@@ -11710,8 +11710,8 @@ static const struct LevelUpMove sPatratLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sWatchogLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_CONFUSE_RAY),
-    LEVEL_UP_MOVE( 1, MOVE_CONFUSE_RAY),
+    LEVEL_UP_MOVE( 0, MOVE_GLARE),
+    LEVEL_UP_MOVE( 1, MOVE_GLARE),
     LEVEL_UP_MOVE( 1, MOVE_ROTOTILLER),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
@@ -11729,7 +11729,7 @@ static const struct LevelUpMove sWatchogLevelUpLearnset[] = {
     LEVEL_UP_MOVE(29, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE(32, MOVE_PSYCH_UP),
     LEVEL_UP_MOVE(36, MOVE_HYPER_FANG),
-    LEVEL_UP_MOVE(39, MOVE_NASTY_PLOT),
+    LEVEL_UP_MOVE(39, MOVE_FOLLOW_ME),
     LEVEL_UP_MOVE(43, MOVE_MEAN_LOOK),
     LEVEL_UP_MOVE(46, MOVE_BATON_PASS),
     LEVEL_UP_MOVE(50, MOVE_SLAM),

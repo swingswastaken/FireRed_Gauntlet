@@ -4477,6 +4477,12 @@ s32 GetBattleMovePriority(enum BattlerId battler, enum Ability ability, enum Mov
     {
         priority++;
     }
+    else if (ability == ABILITY_LOOKOUT
+          && IsBattlerAtMaxHp(battler)
+          && GetMoveType(move) == TYPE_NORMAL)
+    {
+        priority++;
+    }
     else if (IsBattleMoveStatus(move) && IsAbilityAndRecord(battler, ability, ABILITY_PRANKSTER))
     {
         gProtectStructs[battler].pranksterElevated = 1;

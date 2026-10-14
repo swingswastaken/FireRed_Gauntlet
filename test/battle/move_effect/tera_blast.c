@@ -188,3 +188,18 @@ SINGLE_BATTLE_TEST("Flying-type Tera Blast does not have its priority boosted by
         ANIMATION(ANIM_TYPE_MOVE, MOVE_TERA_BLAST, player);
     }
 }
+
+SINGLE_BATTLE_TEST("Normal-type Tera Blast does not have its priority boosted by Lookout")
+{
+    GIVEN {
+        PLAYER(SPECIES_WATCHOG) { Ability(ABILITY_LOOKOUT); TeraType(TYPE_NORMAL); }
+        OPPONENT(SPECIES_WOBBUFFET);
+    } WHEN {
+        TURN { MOVE(player, MOVE_TERA_BLAST, gimmick: GIMMICK_TERA); MOVE(opponent, MOVE_QUICK_ATTACK); }
+    } SCENE {
+        MESSAGE("The opposing Wobbuffet used Quick Attack!");
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_QUICK_ATTACK, opponent);
+        MESSAGE("Watchog used Tera Blast!");
+        ANIMATION(ANIM_TYPE_MOVE, MOVE_TERA_BLAST, player);
+    }
+}

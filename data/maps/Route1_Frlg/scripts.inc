@@ -1,5 +1,38 @@
 Route1_Frlg_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, Route1_Frlg_OnLoad
 	.byte 0
+
+Route1_Frlg_OnLoad::
+	setvar VAR_GAUNTLET_NURSE_HEALS_USED, 0
+	end
+
+Route1_EventScript_CheckHeals::
+	goto_if_ne VAR_GAUNTLET_NURSE_HEALS_USED, 2, Route1_EventScript_Nurse
+	msgbox Route1_Text_CantHealAnymore, MSGBOX_NPC
+	end
+
+Route1_EventScript_Nurse::
+	lock
+	faceplayer
+	msgbox Route1_Text_TakeAShortRest, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route1_EventScript_DeclineHeal
+	closemessage
+	addvar VAR_GAUNTLET_NURSE_HEALS_USED, 1
+	call Common_EventScript_OutOfCenterPartyHeal
+	release
+	end
+
+Route1_EventScript_DeclineHeal::
+	msgbox Route1_Text_TooPrideful, MSGBOX_NPC
+	release
+	end
+
+Route1_EventScript_Gentleman::
+	lock
+	faceplayer
+	msgbox Route1_Text_WIP, MSGBOX_NPC
+	release
+	end
 
 Route1_EventScript_MartClerk::
 	lock
@@ -275,6 +308,23 @@ Route1_EventScript_JaneCharmander::
 	trainerbattle_single TRAINER_LASS_JANE_CHARMANDER, Route1_Text_JaneIntro, Route1_Text_JaneDefeat
 	msgbox Route1_Text_JanePostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route1_Text_TakeAShortRest::
+	.string "Your pokemon look tired, do you want\n"
+	.string "to take a short rest?$"
+
+Route1_Text_TooPrideful::
+	.string "I get you're very prideful but...\n"
+	.string "don't forget to let your pokemon\l"
+	.string "rest and recover.$"
+
+Route1_Text_CantHealAnymore::
+	.string "Sorry, my Audino has run out of\n"
+	.string "Healing Pulse PP.$"
+
+Route1_Text_WIP::
+	.string "Sorry, my services are unavailable.\n"
+	.string "The penguin is working on it.$"
 
 Route1_Text_WorkAtPokeMartTakeSample::
 	.string "Hi!\n"
