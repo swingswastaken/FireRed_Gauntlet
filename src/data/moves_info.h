@@ -1918,7 +1918,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "An attack that absorbs\n"
             "half the damage inflicted."),
         .effect = EFFECT_HIT,
-        .power = 20,
+        .power = 35,
         .type = TYPE_GRASS,
         .accuracy = 100,
         .pp = B_UPDATED_MOVE_DATA >= GEN_4 ? 25 : 20,
@@ -1945,7 +1945,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "An attack that absorbs\n"
             "half the damage inflicted."),
         .effect = EFFECT_HIT,
-        .power = 40,
+        .power = 55,
         .type = TYPE_GRASS,
         .accuracy = 100,
         .pp = B_UPDATED_MOVE_DATA >= GEN_4 ? 15 : 10,
@@ -2649,7 +2649,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "An extremely fast attack\n"
             "that always strikes first."),
         .effect = EFFECT_HIT,
-        .power = 40,
+        .power = 50,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 30,
@@ -6247,7 +6247,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .accuracy = 100,
         .pp = 20,
         .target = TARGET_SELECTED,
-        .priority = 0,
+        .priority = 1,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
         .ignoresKingsRock = (B_UPDATED_MOVE_FLAGS == GEN_3 || B_UPDATED_MOVE_FLAGS == GEN_4),

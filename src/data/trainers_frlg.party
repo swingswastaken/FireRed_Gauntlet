@@ -88,7 +88,7 @@ AI: Check Bad Move
 
 Blitzle
 Adamant Nature
-Level: 8
+Level: 7
 Ability: Sap Sipper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack
@@ -105,7 +105,7 @@ AI: Check Bad Move
 
 Wooper Paldea
 Adamant Nature
-Level: 8
+Level: 7
 Ability: Water Absorb
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Mud Shot
@@ -121,11 +121,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Vulpix
-Modest Nature
-Level: 8
+Adamant Nature
+Level: 7
 Ability: Flash Fire
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Ember
+- Flame Charge
 - Disable
 
 === TRAINER_OPTIONAL_BEAUTY_ROSE_BULBASAUR ===
@@ -139,7 +139,7 @@ AI: Check Bad Move
 
 Flabebe
 Modest Nature
-Level: 9
+Level: 8
 Ability: Flower Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Vine Whip
@@ -148,7 +148,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marill
 Adamant Nature
-Level: 10
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Ability: Huge Power
 - Defense Curl
@@ -166,16 +166,15 @@ AI: Check Bad Move
 
 Flabebe
 Modest Nature
-Level: 9
+Level: 8
 Ability: Flower Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Copycat
-- Fairy Wind
 - Tearful Look
 
 Bonsly
 Adamant Nature
-Level: 10
+Level: 9
 Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rollout
@@ -192,7 +191,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Flabebe
-Level: 9
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Vine Whip
 - Fairy Wind
@@ -200,7 +199,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sunkern
 Modest Nature
-Level: 10
+Level: 9
 Ability: Solar Power
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Growth
@@ -481,15 +480,15 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Smart Switching
 
-Weedle
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Caterpie
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kricketune @ Silk Scarf  
+Ability: Technician  
+Level: 15
+Adamant Nature  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Quick Attack  
+- Fury Cutter
 
 === TRAINER_BUG_CATCHER_DOUG ===
 Name: DOUG
@@ -498,19 +497,26 @@ Pic: Bug Catcher Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Smart Switching
 
-Weedle
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Beautifly @ Sharp Beak
+Ability: Hustle  
+Level: 15  
+Jolly Nature  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD
+- U-turn  
+- Aerial Ace  
+- Bug Bite
 
-Kakuna
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Weedle
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dustox @ Bright Powder  
+Ability: Shield Dust  
+Level: 13  
+Modest Nature  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Toxic  
+- Moonlight  
+- Acid  
+- Swagger
 
 === TRAINER_BUG_CATCHER_SAMMY ===
 Name: SAMMY
@@ -1860,8 +1866,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Acid
 
 Yamask Galar @ Quick Claw
-Nature
-Level 13
+Bold Nature
+Level: 13
 Ability: Wandering Spirit
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Night Shade

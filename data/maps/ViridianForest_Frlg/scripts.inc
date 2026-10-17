@@ -1,9 +1,42 @@
 ViridianForest_Frlg_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, ViridianForest_OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, ViridianForest_Frlg_OnLoad
 	.byte 0
 
 ViridianForest_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_VIRIDIAN_FOREST
+	end
+
+ViridianForest_Frlg_OnLoad::
+	setvar VAR_GAUNTLET_NURSE_HEALS_USED, 0
+	end
+
+ViridianForest_EventScript_CheckHeals::
+	goto_if_ne VAR_GAUNTLET_NURSE_HEALS_USED, 2, ViridianForest_EventScript_Nurse
+	msgbox ViridianForest_Text_CantHealAnymore, MSGBOX_NPC
+	end
+
+ViridianForest_EventScript_Nurse::
+	lock
+	faceplayer
+	msgbox ViridianForest_Text_TakeAShortRest, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, ViridianForest_EventScript_DeclineHeal
+	closemessage
+	addvar VAR_GAUNTLET_NURSE_HEALS_USED, 1
+	call Common_EventScript_OutOfCenterPartyHeal
+	release
+	end
+
+ViridianForest_EventScript_DeclineHeal::
+	msgbox ViridianForest_Text_TooPrideful, MSGBOX_NPC
+	release
+	end
+
+ViridianForest_EventScript_Gentleman::
+	lock
+	faceplayer
+	msgbox ViridianForest_Text_WIP, MSGBOX_NPC
+	release
 	end
 
 ViridianForest_EventScript_WalkedInTrigger::
@@ -32,6 +65,17 @@ ViridianForest_EventScript_GauntletStarted::
 	applymovement LOCALID_PLAYER, Common_Movement_WalkUp2
 	waitmovement 0
 	playse SE_PIN
+	releaseall
+	end
+
+ViridianForest_EventScript_WalkedOutViridianForestTrigger::
+	lockall
+	goto_if_set FLAG_WALKED_OUT_VIRIDIAN_FOREST_GAUNTLET, ViridianForest_EventScript_AlreadyGotWalkedOutViridianForestGauntlet
+	setflag FLAG_WALKED_OUT_VIRIDIAN_FOREST_GAUNTLET
+	releaseall
+	end
+
+ViridianForest_EventScript_AlreadyGotWalkedOutViridianForestGauntlet::
 	releaseall
 	end
 
@@ -175,6 +219,24 @@ ViridianForest_EventScript_AlreadyGotKricketot::
 	msgbox ViridianForest_Text_SansPostBattle, MSGBOX_DEFAULT
 	release
 	end
+
+ViridianForest_Text_TakeAShortRest::
+	.string "Your pokemon look tired, do you want\n"
+	.string "to take a short rest?$"
+
+ViridianForest_Text_TooPrideful::
+	.string "I get you're very prideful but...\n"
+	.string "don't forget to let your pokemon\l"
+	.string "rest and recover.$"
+
+ViridianForest_Text_CantHealAnymore::
+	.string "Sorry, my Audino has run out of\n"
+	.string "Healing Pulse PP.$"
+
+ViridianForest_Text_WIP::
+	.string "Sorry, my services are unavailable.\n"
+	.string "The penguin is working on it.$"
+
 
 ViridianForest_Text_FriendsItchingToBattle::
 	.string "I came here with some friends to\n"
