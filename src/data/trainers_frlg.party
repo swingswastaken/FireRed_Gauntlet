@@ -1832,6 +1832,42 @@ Vulpix
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+=== TRAINER_HIKER_TOM ===
+Name: TOM
+Class: Hiker Frlg
+Pic: Hiker Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer / Smart Switching
+
+Shieldon @ Eviolite
+Adamant Nature
+Level: 15
+Ability: Soundproof
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Metal Sound
+- Take Down
+
+Lileep @ Berry Juice
+Modest Nature
+Level: 13
+Ability: Storm Drain
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wrap
+- Confuse Ray
+- Acid
+
+Yamask Galar @ Quick Claw
+Nature
+Level 13
+Ability: Wandering Spirit
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Shade
+- Haze
+- Disable
+
 === TRAINER_HIKER_MARCOS ===
 Name: MARCOS
 Class: Hiker Frlg
@@ -10617,6 +10653,41 @@ AI: Check Bad Move
 Sudowoodo
 Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_POKEMANIAC_LUIS ===
+Name: LUIS
+Class: Pokemaniac Frlg
+Pic: Pokemaniac Frlg
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: Basic Trainer / Smart Switching
+
+BALLS (Slugma) (M) @ Passho Berry
+Ability: Flame Body
+Level: 13
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Yawn
+- Harden
+- Ember
+
+Combee (M) @ Wide Lens  
+Ability: Hustle  
+Level: 13  
+Adamant Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bug Bite  
+- Endeavor
+
+Toedscool @ Eviolite  
+Ability: Mycelium Might  
+Level: 15
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stun Spore  
+- Mud-Slap  
+- Mega Drain
 
 === TRAINER_POKEMANIAC_HECTOR ===
 Name: HECTOR

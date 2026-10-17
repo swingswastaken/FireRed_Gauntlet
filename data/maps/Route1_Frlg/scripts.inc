@@ -7,7 +7,7 @@ Route1_Frlg_OnLoad::
 	end
 
 Route1_EventScript_CheckHeals::
-	goto_if_ne VAR_GAUNTLET_NURSE_HEALS_USED, 2, Route1_EventScript_Nurse
+	goto_if_ne VAR_GAUNTLET_NURSE_HEALS_USED, 1, Route1_EventScript_Nurse
 	msgbox Route1_Text_CantHealAnymore, MSGBOX_NPC
 	end
 
@@ -274,7 +274,6 @@ Route1_EventScript_Jake::
 Route1_EventScript_JakeBulbasaur::
 	trainerbattle_single TRAINER_YOUNGSTER_JAKE_BULBASAUR, Route1_Text_JakeIntro, Route1_Text_JakeDefeat
 	msgbox Route1_Text_JakePostBattle, MSGBOX_AUTOCLOSE
-
 	end
 
 Route1_EventScript_JakeSquirtle::

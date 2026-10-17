@@ -761,11 +761,12 @@
 #define FLAG_GOT_KRICKETOT_FROM_SANS                     0x307
 #define FLAG_WALKED_OUT_VIRIDIAN_FOREST_GAUNTLET         0x308
 #define FLAG_DECLINED_OPTIONAL_FIGHT_VIRIDIAN_FOREST     0x309
+#define FLAG_WALKED_IN_ROUTE2_SOUTH_GAUNTLET             0x30A
+#define FLAG_WALKED_OUT_ROUTE2_SOUTH_GAUNTLET            0x30B
 
 // Unused?
 
-#define FLAG_0x30A               0x30A
-#define FLAG_0x30B               0x30B
+
 #define FLAG_0x30C               0x30C
 #define FLAG_0x30D               0x30D
 #define FLAG_0x30E               0x30E
