@@ -132,7 +132,7 @@ ViridianForest_EventScript_Charlie::
 	end
 
 ViridianForest_EventScript_OptionalFightCheckGauntlet::
-	goto_if_set FLAG_GOT_KRICKETOT_FROM_SANS, ViridianForest_EventScript_AlreadyGotKricketot
+	goto_if_set FLAG_GOT_KRICKETOT_FROM_SANTIAGO, ViridianForest_EventScript_AlreadyGotKricketot
 	goto_if_unset FLAG_WALKED_OUT_VIRIDIAN_FOREST_GAUNTLET, ViridianForest_EventScript_OptionalFight
 	msgbox ViridianForest_Text_BadKid, MSGBOX_DEFAULT
 	releaseall
@@ -142,15 +142,15 @@ ViridianForest_EventScript_OptionalFight::
 	call_if_set FLAG_DECLINED_OPTIONAL_FIGHT_VIRIDIAN_FOREST, ViridianForest_EventScript_AskToBattleAgain
 	call_if_unset FLAG_DECLINED_OPTIONAL_FIGHT_VIRIDIAN_FOREST, ViridianForest_EventScript_AskToBattle
 	goto_if_eq VAR_RESULT, NO, ViridianForest_EventScript_DeclineBattle
-	goto ViridianForest_EventScript_BattleOptionalSans
+	goto ViridianForest_EventScript_SantiagoIntro
 	end
 
 ViridianForest_EventScript_AskToBattleAgain::
-	msgbox ViridianForest_Text_SansBadTime, MSGBOX_YESNO
+	msgbox ViridianForest_Text_SantiagoBadTime, MSGBOX_YESNO
 	return
 
 ViridianForest_EventScript_AskToBattle::
-	msgbox ViridianForest_Text_SansBadTime, MSGBOX_YESNO
+	msgbox ViridianForest_Text_SantiagoBadTime, MSGBOX_YESNO
 	return
 
 ViridianForest_EventScript_DeclineBattle::
@@ -161,17 +161,22 @@ ViridianForest_EventScript_DeclineBattle::
 	release
 	end
 
-ViridianForest_EventScript_BattleOptionalSans::
-	trainerbattle_single TRAINER_OPTIONAL_BUG_CATCHER_SANS, ViridianForest_Text_SansIntro, ViridianForest_Text_SansDefeat
-	goto ViridianForest_EventScript_DefeatedSans
+ViridianForest_EventScript_SantiagoIntro::
+	msgbox ViridianForest_Text_SantiagoIntro, MSGBOX_NPC
+	goto ViridianForest_EventScript_BattleOptionalSantiago
 	end
 
-ViridianForest_EventScript_DefeatedSans::
+ViridianForest_EventScript_BattleOptionalSantiago::
+	trainerbattle_no_intro TRAINER_OPTIONAL_BUG_CATCHER_SANTIAGO, ViridianForest_Text_SantiagoDefeat
+	goto ViridianForest_EventScript_DefeatedSantiago
+	end
+
+ViridianForest_EventScript_DefeatedSantiago::
 	lock
-	goto_if_set FLAG_GOT_KRICKETOT_FROM_SANS, ViridianForest_EventScript_AlreadyGotKricketot
-	msgbox ViridianForest_Text_SansPostBattle, MSGBOX_DEFAULT
+	goto_if_set FLAG_GOT_KRICKETOT_FROM_SANTIAGO, ViridianForest_EventScript_AlreadyGotKricketot
+	msgbox ViridianForest_Text_SantiagoPostBattle, MSGBOX_DEFAULT
 	setvar VAR_TEMP_1, SPECIES_KRICKETOT
-	givemon SPECIES_KRICKETOT, 8
+	givemon SPECIES_KRICKETOT, 8, ABILITY_TECHNICIAN
 	goto_if_eq VAR_RESULT, 0, ViridianForest_EventScript_ReceiveKricketotParty
 	goto_if_eq VAR_RESULT, 1, ViridianForest_EventScript_ReceiveKricketotPC
 	goto_if_eq VAR_RESULT, 2, Common_EventScript_NoMoreRoomForPokemon
@@ -181,7 +186,7 @@ ViridianForest_EventScript_DefeatedSans::
 ViridianForest_EventScript_ReceiveKricketotParty::
 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	playfanfare MUS_LEVEL_UP
-	message ViridianForest_Text_ObtainedKricketotFromSans
+	message ViridianForest_Text_ObtainedKricketotFromSantiago
 	waitmessage
 	waitfanfare
 	bufferspeciesname STR_VAR_1, SPECIES_KRICKETOT
@@ -195,7 +200,7 @@ ViridianForest_EventScript_ReceiveKricketotParty::
 ViridianForest_EventScript_ReceiveKricketotPC::
 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	playfanfare MUS_LEVEL_UP
-	message ViridianForest_Text_ObtainedKricketotFromSans
+	message ViridianForest_Text_ObtainedKricketotFromSantiago
 	waitmessage
 	waitfanfare
 	bufferspeciesname STR_VAR_1, SPECIES_KRICKETOT
@@ -211,12 +216,12 @@ ViridianForest_EventScript_KricketotTransferredToPC::
 	end
 
 ViridianForest_EventScript_EndReceiveKricketot::
-	setflag FLAG_GOT_KRICKETOT_FROM_SANS
+	setflag FLAG_GOT_KRICKETOT_FROM_SANTIAGO
 	release
 	end
 
 ViridianForest_EventScript_AlreadyGotKricketot::
-	msgbox ViridianForest_Text_SansPostBattle, MSGBOX_DEFAULT
+	msgbox ViridianForest_Text_SantiagoPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
@@ -283,14 +288,14 @@ ViridianForest_Text_SammyPostBattle::
 	.string "I'm looking for the stuff I\n"
 	.string "dropped. Can you help me?$"
 
-ViridianForest_Text_SansBadTime::
+ViridianForest_Text_SantiagoBadTime::
 	.string "do you wanna have a bad time?$"
 
 ViridianForest_Text_StrongestAttack::
 	.string "Always wondered why people never\n"
 	.string "use their strongest attack first.$"
 
-ViridianForest_Text_SansIntro::
+ViridianForest_Text_SantiagoIntro::
 	.string "...\n"
 	.string "It's a beautiful day outside.\l"
 	.string "Pidgeys are singing,\l"
@@ -300,10 +305,10 @@ ViridianForest_Text_SansIntro::
 	.string "Should be burning in\l"
 	.string "harsh sunlight.$"
 
-ViridianForest_Text_SansDefeat::
+ViridianForest_Text_SantiagoDefeat::
 	.string "Nice one, kiddo.$"
 
-ViridianForest_Text_SansPostBattle::
+ViridianForest_Text_SantiagoPostBattle::
 	.string "What? You thought I was for real?$"
 
 ViridianForest_Text_BadKid::
@@ -364,6 +369,6 @@ ViridianForest_Text_PrideLock::
     .string "Your pride prevents you from\n"
     .string "leaving this area!$"
 
-ViridianForest_Text_ObtainedKricketotFromSans::
+ViridianForest_Text_ObtainedKricketotFromSantiago::
 	.string "{PLAYER} obtained a KRICKETOT\n"
-	.string "from the trainer SANS!$"
+	.string "from the trainer SANTIAGO!$"

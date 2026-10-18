@@ -9638,6 +9638,29 @@ void BS_TryHealPulse(void)
     }
 }
 
+void BS_TryPollenPuff(void)
+{
+    NATIVE_ARGS(const u8 *failInstr);
+
+    if (IsBattlerAtMaxHp(gBattlerTarget))
+    {
+        gBattlescriptCurrInstr = cmd->failInstr;
+    }
+    else
+    {
+        s32 healAmount = 0;
+        if (GetBattlerAbility(gBattlerAttacker) == ABILITY_MEGA_LAUNCHER && (IsBallisticMove(gCurrentMove)))
+            healAmount = GetNonDynamaxMaxHP(gBattlerTarget) * 75 / 100;
+        else if (gFieldTimers.terrain == B_TERRAIN_GRASSY && GetMoveEffectArg_MoveProperty(gCurrentMove) == MOVE_EFFECT_FLORAL_HEALING)
+            healAmount = GetNonDynamaxMaxHP(gBattlerTarget) * 2 / 3;
+        else
+            healAmount = GetNonDynamaxMaxHP(gBattlerTarget) / 2;
+
+        SetHealAmount(gBattlerTarget, healAmount);
+        gBattlescriptCurrInstr = cmd->nextInstr;
+    }
+}
+
 void BS_TryDefog(void)
 {
     NATIVE_ARGS(u8 clear, const u8 *failInstr);

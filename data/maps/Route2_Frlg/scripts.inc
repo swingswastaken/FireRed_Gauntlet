@@ -7,7 +7,7 @@ Route2_Frlg_OnLoad::
 	end
 
 Route2_EventScript_CheckHeals::
-	goto_if_ne VAR_GAUNTLET_NURSE_HEALS_USED, 2, Route2_EventScript_Nurse
+	goto_if_ne VAR_GAUNTLET_NURSE_HEALS_USED, 1, Route2_EventScript_Nurse
 	msgbox Route2_Text_CantHealAnymore, MSGBOX_NPC
 	end
 
