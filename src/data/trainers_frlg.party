@@ -1204,20 +1204,15 @@ Pic: Camper Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Smart Switching
 
-Geodude
-Level: 10
+Geodude @ Custap Berry
+Adamant Nature
+Level: 13
+Ability: Sturdy
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
-
-Sandshrew
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scratch
-- Defense Curl
-- Sand Attack
+- Sandstorm
+- Self Destruct
 
 === TRAINER_CAMPER_SHANE ===
 Name: SHANE

@@ -147,7 +147,7 @@ PewterCity_Gym_Text_DontHaveRoomForThis::
 
 PewterCity_Gym_Text_LiamIntro::
 	.string "Stop right there, kid!\p"
-	.string "You're ten thousand light-years \n"
+	.string "You're ten thousand light-years\n"
 	.string "from facing BROCK!$"
 
 PewterCity_Gym_Text_LiamDefeat::
@@ -192,11 +192,12 @@ PewterCity_Gym_Text_GymStatue::
 	.string "PEWTER POKéMON GYM\n"
 	.string "LEADER: BROCK\p"
 	.string "WINNING TRAINERS:\n"
-	.string "{RIVAL}$"
+	.string "{RIVAL}, Santiago$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
 	.string "PEWTER POKéMON GYM\n"
 	.string "LEADER: BROCK\p"
 	.string "WINNING TRAINERS:\n"
-	.string "{RIVAL}, {PLAYER}$"
+	.string "{RIVAL}, Santiago,\l"
+	.string "{PLAYER}$"
 
