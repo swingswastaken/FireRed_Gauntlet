@@ -6,12 +6,12 @@ Route2_EventScript_ItemParalyzeHeal::
 	finditem ITEM_PARALYZE_HEAL
 	end
 
-ViridianForest_EventScript_ItemPokeBall::
-	finditem ITEM_POKE_BALL
+ViridianForest_EventScript_ItemChilanBerry::
+	finditem ITEM_CHILAN_BERRY
 	end
 
-ViridianForest_EventScript_ItemAntidote::
-	finditem ITEM_ANTIDOTE
+ViridianForest_EventScript_ItemAbilityPatch::
+	finditem ITEM_ABILITY_PATCH
 	end
 
 ViridianForest_EventScript_ItemPotion::
