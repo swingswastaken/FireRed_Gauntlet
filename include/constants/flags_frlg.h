@@ -763,12 +763,10 @@
 #define FLAG_DECLINED_OPTIONAL_FIGHT_VIRIDIAN_FOREST     0x309
 #define FLAG_WALKED_IN_ROUTE2_SOUTH_GAUNTLET             0x30A
 #define FLAG_WALKED_OUT_ROUTE2_SOUTH_GAUNTLET            0x30B
+#define FLAG_WALKED_IN_ROUTE2_NORTH_GAUNTLET             0x30C
+#define FLAG_WALKED_OUT_ROUTE2_NORTH_GAUNTLET            0x30D
 
 // Unused?
-
-
-#define FLAG_0x30C               0x30C
-#define FLAG_0x30D               0x30D
 #define FLAG_0x30E               0x30E
 #define FLAG_0x30F               0x30F
 #define FLAG_0x310               0x310

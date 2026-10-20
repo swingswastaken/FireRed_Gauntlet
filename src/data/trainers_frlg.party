@@ -259,6 +259,74 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Curse
 - Bite
 
+=== TRAINER_YOUNGSTER_ANDREW ===
+Name: ANDREW
+Class: Youngster Frlg
+Pic: Youngster Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI:  Basic Trainer / Smart Switching
+
+Nidoran-M @ Eviolite
+Ability: Hustle
+Level: 15
+Adamant Nature
+- Peck
+- Dig
+- Counter
+
+Venipede @ Hard Stone
+Ability: Speed Boost
+Level: 13
+Adamant Nature
+- Infestation
+- Rollout
+- Protect
+
+Poltchageist @ Spell Tag
+Ability: Heatproof
+Level: 13
+Adamant Nature
+- Phantom Force
+- Absorb
+- Life Dew
+
+=== TRAINER_LASS_MARY ===
+Name: MARY
+Class: Lass Frlg
+Pic: Lass Frlg
+Gender: Female
+Music: Female
+Double Battle: No
+AI:  Basic Trainer / Smart Switching
+
+Nidoran-F @ Eviolite
+Ability: Poison Point
+Level: 15
+Modest Nature
+- Poison Sting
+- Venom Drench
+- Venoshock
+
+Vivillon-Elegant @ Berry Juice
+Ability: Compound Eyes
+Level: 13
+Modest Nature
+IVs: 0 Atk
+- Sleep Powder
+- Toxic
+- Gust
+
+Sinistea @ Spell Tag
+Ability: Weak Armor
+Level: 13
+Modest Nature
+IVs: 0 Atk
+- Hex
+- Will-O-Wisp
+- Mega Drain
+
 === TRAINER_YOUNGSTER_BEN ===
 Name: BEN
 Class: Youngster Frlg

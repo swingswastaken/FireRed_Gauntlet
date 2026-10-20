@@ -10,8 +10,8 @@ ViridianForest_EventScript_ItemChilanBerry::
 	finditem ITEM_CHILAN_BERRY
 	end
 
-ViridianForest_EventScript_ItemAbilityPatch::
-	finditem ITEM_ABILITY_PATCH
+ViridianForest_EventScript_ItemBrightPowder::
+	finditem ITEM_BRIGHT_POWDER
 	end
 
 ViridianForest_EventScript_ItemPotion::

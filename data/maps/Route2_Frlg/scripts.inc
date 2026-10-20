@@ -74,6 +74,46 @@ Route2South_EventScript_GauntletStarted::
 	releaseall
 	end
 
+Route2North_EventScript_WalkedOutRoute2NorthTrigger::
+	lockall
+	goto_if_set FLAG_WALKED_OUT_ROUTE2_NORTH_GAUNTLET, Route2North_EventScript_AlreadyGotWalkedOutRoute2NorthGauntlet
+	setflag FLAG_WALKED_OUT_ROUTE2_NORTH_GAUNTLET
+	releaseall
+	end
+
+Route2North_EventScript_AlreadyGotWalkedOutRoute2NorthGauntlet::
+	releaseall
+	end
+
+Route2North_EventScript_WalkedInTrigger::
+	lockall
+	goto_if_set FLAG_WALKED_OUT_ROUTE2_NORTH_GAUNTLET, Route2North_EventScript_SkipSetWalkedInRoute2NorthGauntlet
+	goto_if_set FLAG_WALKED_IN_ROUTE2_NORTH_GAUNTLET, Route2North_EventScript_GauntletStarted
+	setflag FLAG_WALKED_IN_ROUTE2_NORTH_GAUNTLET
+	releaseall
+	end
+
+Route2North_EventScript_SkipSetWalkedInRoute2NorthGauntlet::
+	releaseall
+	end
+
+Route2North_EventScript_GauntletStarted::
+	Route2North_EventScript_GauntletStartedTrigger::	
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 30
+	playbgm MUS_TOO_BAD, 0
+	message Route2_Text_PrideLock
+	waitmessage
+	delay 85
+	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_WalkUp2
+	waitmovement 0
+	playse SE_PIN
+	releaseall
+	end
+
 Route2_EventScript_HikerTom::
 	trainerbattle_single TRAINER_HIKER_TOM, Route2_Text_HikerTomIntro, Route2_Text_HikerTomDefeat
 	msgbox Route2_Text_HikerTomPostBattle, MSGBOX_AUTOCLOSE
@@ -82,6 +122,16 @@ Route2_EventScript_HikerTom::
 Route2_EventScript_PokemaniacLuis::
 	trainerbattle_single TRAINER_POKEMANIAC_LUIS, Route2_Text_PokemaniacLuisIntro, Route2_Text_PokemaniacLuisDefeat
 	msgbox Route2_Text_PokemaniacLuisPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route2_EventScript_YoungsterAndrew::
+	trainerbattle_single TRAINER_YOUNGSTER_ANDREW, Route2_Text_YoungsterAndrewIntro, Route2_Text_YoungsterAndrewDefeat
+	msgbox Route2_Text_YoungsterAndrewPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route2_EventScript_LassMary::
+	trainerbattle_single TRAINER_LASS_MARY, Route2_Text_LassMaryIntro, Route2_Text_LassMaryDefeat
+	msgbox Route2_Text_LassMaryPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route2_EventScript_RouteSign::
@@ -139,7 +189,34 @@ Route2_Text_PokemaniacLuisDefeat::
 
 Route2_Text_PokemaniacLuisPostBattle::
 	.string "Male Combees can evolve$"
-	
+
+Route2_Text_YoungsterAndrewIntro::
+	.string "I heard there's a group of\n"
+	.string "prideful trainers in Diglett's\l"
+	.string "cave.$"
+
+Route2_Text_YoungsterAndrewDefeat::
+	.string "Woah, you're good!\n"
+	.string "You should go to Diglett's cave.$"
+
+Route2_Text_YoungsterAndrewPostBattle::
+	.string "I wanted to go so I could\n"
+	.string "beat Brock... I'm not prideful enough.$"
+
+Route2_Text_LassMaryIntro::
+	.string "Mom doesn't let me go far from\n"
+	.string "home, so all I got are these...\l"
+	.string "weak pokemon!$"
+
+Route2_Text_LassMaryDefeat::
+	.string "It's not fair! Your pokemon are\n"
+	.string "rare and strong!$"
+
+Route2_Text_LassMaryPostBattle::
+	.string "Yeah yeah, go away.\p"
+	.string "You don't know what it is to\n"
+	.string "be born in Pewter City!$"
+
 Route2_Text_DiglettsCave::
 	.string "DIGLETT'S CAVE$"
 
