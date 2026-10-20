@@ -526,9 +526,33 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer / Smart Switching
 
-Weedle
-Level: 9
+Illumise @ Eject Button
+Ability: Prankster
+Level: 13
+Quiet Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Wave
+- Fake Tears
+- Struggle Bug
+- U-turn
+
+Joltik @ Miracle Seed
+Ability: Unnerve
+Level: 15
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Infestation
+- Electroweb
+- Absorb
+
+Cutiefly @ Berry Juice
+Ability: Shield Dust
+Level: 13
+Modest Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Absorb
+- Fairy Wind
+- Stun Spore
 
 === TRAINER_BUG_CATCHER_COLTON ===
 Name: COLTON
@@ -9636,7 +9660,7 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer / Smart Switching
 
-Butterfree @ Custap Berry
+Butterfree @ Berry Juice
 Ability: Compound Eyes
 Level: 15
 Modest Nature
