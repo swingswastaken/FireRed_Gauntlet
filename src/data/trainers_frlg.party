@@ -1275,12 +1275,34 @@ Double Battle: No
 AI: Basic Trainer / Smart Switching
 
 Geodude @ Custap Berry
-Adamant Nature
-Level: 13
 Ability: Sturdy
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 13
+Adamant Nature
 - Sandstorm
-- Self Destruct
+- Self-Destruct
+
+Ferroseed @ Rocky Helmet
+Ability: Iron Barbs
+Level: 13
+Adamant Nature
+- Metal Claw
+- Bullet Seed
+- Stealth Rock
+- Leech Seed
+
+Sandile @ Black Glasses
+Ability: Intimidate
+Level: 14
+- Pursuit
+- Sand Tomb
+- Hone Claws
+
+Growlithe-Hisui @ Choice Band
+Ability: Rock Head
+Level: 15
+Adamant Nature
+- Flame Charge
+- Rock Tomb
 
 === TRAINER_CAMPER_SHANE ===
 Name: SHANE
@@ -7470,20 +7492,59 @@ Pic: Leader Brock Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer / Smart Switching / Omniscient
 
-Geodude
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
+Hippopotas @ Smooth Rock
+Ability: Sand Stream
+Level: 13
+Adamant Nature
+- Yawn
+- Curse
+- Bite
+- Sand Tomb
 
-Onix
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Bind
+Baltoy @ Eviolite
+Ability: Levitate
+Level: 13
+Rash Nature
+- Confusion
+- Mud-Slap
 - Rock Tomb
+
+Archen @ Berry Juice
+Ability: Defeatist
+Level: 14
+Adamant Nature
+- Roost
+- Rock Throw
+- Wing Attack
+
+Cacnea @ Bright Powder
+Ability: Sand Veil
+Level: 14
+Modest Nature
+IVs: 0 Atk
+- Spikes
+- Absorb
+- Leech Seed
+- Sand Attack
+
+Aron @ Custap Berry
+Ability: Rock Head
+Level: 14
+Adamant Nature
+- Reversal
+- Rock Tomb
+- Metal Claw
+
+Tyrunt @ Choice Band
+Ability: Strong Jaw
+Level: 15
+Adamant Nature
+- Bite
+- Rock Tomb
+- Thunder Fang
+- Poison Fang
 
 === TRAINER_LEADER_MISTY ===
 Name: MISTY
