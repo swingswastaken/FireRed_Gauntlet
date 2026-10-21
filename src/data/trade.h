@@ -1064,6 +1064,22 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 10,
         .requestedSpecies = SPECIES_POLIWHIRL
     },
+    [INGAME_TRADE_DRIFLOON] = 
+    {
+        .nickname = _("JOHNNY"),
+        .species = SPECIES_DRIFLOON,
+        .ivs = {31, 31, 31, 31, 31, 31},
+        .abilityNum = 2,
+        .otId = 36728,
+        .conditions = {5, 30, 5, 5, 5},
+        .personality = 0x498A2E35,
+        .heldItem = ITEM_AIR_BALLOON,
+        .mailNum = MAIL_NONE,
+        .otName = _("MAURICE"),
+        .otGender = MALE,
+        .sheen = 10,
+        .requestedSpecies = SPECIES_LILLIPUP
+    },
     [INGAME_TRADE_NIDORAN] = 
     {
 #if defined(FIRERED)

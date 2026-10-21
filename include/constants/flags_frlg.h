@@ -765,9 +765,9 @@
 #define FLAG_WALKED_OUT_ROUTE2_SOUTH_GAUNTLET            0x30B
 #define FLAG_WALKED_IN_ROUTE2_NORTH_GAUNTLET             0x30C
 #define FLAG_WALKED_OUT_ROUTE2_NORTH_GAUNTLET            0x30D
+#define FLAG_DID_JOHNNY_TRADE                            0x30E
 
 // Unused?
-#define FLAG_0x30E               0x30E
 #define FLAG_0x30F               0x30F
 #define FLAG_0x310               0x310
 #define FLAG_0x311               0x311

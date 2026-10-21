@@ -3272,7 +3272,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Inflicts severe damage but\n"
             "makes the user faint."),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_2 ? 200 : 130,
+        .power = 100,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 5,
