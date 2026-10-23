@@ -36647,7 +36647,7 @@
           "map": "MAP_PEWTER_CITY",
           "base_label": "gPewterCity_Frlg",
           "land_mons": {
-            "encounter_rate": 7,
+            "encounter_rate": 1,
             "mons": [
               {
                 "min_level": 5,
