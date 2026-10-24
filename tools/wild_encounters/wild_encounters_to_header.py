@@ -168,6 +168,8 @@ class WildEncounterAssembler:
                 version = "FIRERED"
             elif "LeafGreen" in shared_label:
                 version = "LEAFGREEN"
+            elif "Frlg" in shared_label:
+                version = "FIRERED"
             
             self.WriteLine(f"#ifdef {version}")
 
@@ -241,6 +243,8 @@ class WildEncounterAssembler:
                     version = "FIRERED"
                 elif "LeafGreen" in shared_label:
                     version = "LEAFGREEN"
+                elif "Frlg" in shared_label:
+                    version = "FIRERED"
                 self.WriteLine(f"#ifdef {version}")
                 for mon_type in self.config.mon_types:
                     if mon_type not in map_encounters:

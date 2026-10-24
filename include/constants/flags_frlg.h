@@ -147,11 +147,11 @@
 #define FLAG_HIDE_LORELEIS_HOUSE_LAPRAS_DOLL               0x0AC
 #define FLAG_HIDE_MISC_KANTO_ROCKETS                       0x0AD
 #define FLAG_HIDE_SAFFRON_CITY_POKECENTER_SABRINA_JOURNALS 0x0AE
-#define FLAG_HIDE_ROUTE_22_AZURILL                          0x0AF
-#define FLAG_HIDE_ROUTE_22_MEOWTH_DOLL                      0x0B0
+#define FLAG_HIDE_ROUTE_22_AZURILL                         0x0AF
+#define FLAG_HIDE_ROUTE_22_MEOWTH_DOLL                     0x0B0
+#define FLAG_HIDE_PALLET_SLOWPOKE                          0x0B1
 
 // Unused?
-#define FLAG_0x0B1               0x0B1
 #define FLAG_0x0B2               0x0B2
 #define FLAG_0x0B3               0x0B3
 #define FLAG_0x0B4               0x0B4

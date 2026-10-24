@@ -19,14 +19,14 @@ Illumise
 Bashful Nature
 Level: 4
 Ability: Prankster
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 Spe
 - Play Nice
 
 Spewpa
 Bashful Nature
 Level: 6
 Ability: Shed Skin
-IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 Spe
 - Harden
 - Protect
 
@@ -43,14 +43,14 @@ Charjabug
 Bashful Nature
 Level: 4
 Ability: Battery
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 Spe
 - Eerie Impulse
 
 Anorith
 Bashful Nature
 Level: 6
 Ability: Battle Armor
-IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 Spe
 - Sand Attack
 - Harden
 
@@ -67,14 +67,13 @@ Wimpod
 Bashful Nature
 Level: 6
 Ability: Wimp Out
-IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sand Attack
 
 Dewpider
 Bashful Nature
 Level: 4
 Ability: Water Bubble
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 Spe
 - Stockpile
 
 === TRAINER_YOUNGSTER_JAKE_BULBASAUR ===
@@ -124,7 +123,7 @@ Vulpix
 Adamant Nature
 Level: 7
 Ability: Flash Fire
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD
 - Flame Charge
 - Disable
 
@@ -141,7 +140,7 @@ Flabebe
 Modest Nature
 Level: 8
 Ability: Flower Veil
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD
 - Vine Whip
 - Fairy Wind
 - Tearful Look
@@ -149,7 +148,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Marill
 Adamant Nature
 Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD
 Ability: Huge Power
 - Defense Curl
 - Sing
@@ -168,7 +167,7 @@ Flabebe
 Modest Nature
 Level: 8
 Ability: Flower Veil
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD
 - Copycat
 - Tearful Look
 
@@ -176,7 +175,7 @@ Roggenrola
 Adamant Nature
 Level: 9
 Ability: Sturdy
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD
 - Mud Slap
 - Rock Throw
 
@@ -191,7 +190,7 @@ AI: Check Bad Move
 
 Flabebe
 Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD
 - Vine Whip
 - Fairy Wind
 - Tearful Look
@@ -200,7 +199,7 @@ Sunkern
 Modest Nature
 Level: 9
 Ability: Solar Power
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD
 - Growth
 - Leech Seed
 - Absorb
@@ -270,7 +269,7 @@ AI:  Basic Trainer / Smart Switching
 
 Nidoran-M @ Eviolite
 Ability: Hustle
-Level: 15
+Level: 16
 Adamant Nature
 - Peck
 - Dig
@@ -286,7 +285,7 @@ Adamant Nature
 
 Poltchageist @ Spell Tag
 Ability: Heatproof
-Level: 13
+Level: 14
 Adamant Nature
 - Phantom Force
 - Absorb
@@ -303,7 +302,7 @@ AI:  Basic Trainer / Smart Switching
 
 Nidoran-F @ Eviolite
 Ability: Poison Point
-Level: 15
+Level: 16
 Modest Nature
 - Poison Sting
 - Venom Drench
@@ -313,16 +312,14 @@ Vivillon-Elegant @ Berry Juice
 Ability: Compound Eyes
 Level: 13
 Modest Nature
-IVs: 0 Atk
 - Sleep Powder
 - Toxic
 - Gust
 
 Sinistea @ Spell Tag
 Ability: Weak Armor
-Level: 13
+Level: 14
 Modest Nature
-IVs: 0 Atk
 - Hex
 - Will-O-Wisp
 - Mega Drain
@@ -551,10 +548,9 @@ AI: Basic Trainer / Smart Switching
 
 Kricketune @ Silk Scarf  
 Ability: Technician  
-Level: 15
-Adamant Nature  
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
-- Quick Attack  
+Level: 13
+Adamant Nature    
+- Quick Attack 
 - Fury Cutter
 
 === TRAINER_BUG_CATCHER_DOUG ===
@@ -568,18 +564,15 @@ AI: Basic Trainer / Smart Switching
 
 Beautifly @ Sharp Beak
 Ability: Hustle  
-Level: 15  
+Level: 13  
 Jolly Nature  
-IVs: 0 HP / 0 Def / 0 SpA / 0 SpD
 - U-turn  
 - Aerial Ace  
-- Bug Bite
 
 Dustox @ Bright Powder  
 Ability: Shield Dust  
 Level: 13  
 Modest Nature  
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 - Toxic  
 - Moonlight  
 - Acid  
@@ -596,19 +589,16 @@ AI: Basic Trainer / Smart Switching
 
 Illumise @ Eject Button
 Ability: Prankster
-Level: 13
+Level: 14
 Quiet Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunder Wave
 - Fake Tears
-- Struggle Bug
 - U-turn
 
 Joltik @ Miracle Seed
 Ability: Unnerve
-Level: 15
+Level: 16
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Infestation
 - Electroweb
 - Absorb
@@ -617,7 +607,6 @@ Cutiefly @ Berry Juice
 Ability: Shield Dust
 Level: 13
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Absorb
 - Fairy Wind
 - Stun Spore
@@ -1281,7 +1270,7 @@ Adamant Nature
 - Sandstorm
 - Self-Destruct
 
-Ferroseed @ Rocky Helmet
+Ferroseed @ Leftovers
 Ability: Iron Barbs
 Level: 13
 Adamant Nature
@@ -1292,14 +1281,14 @@ Adamant Nature
 
 Sandile @ Black Glasses
 Ability: Intimidate
-Level: 14
+Level: 13
 - Pursuit
 - Sand Tomb
 - Hone Claws
 
 Growlithe-Hisui @ Choice Band
 Ability: Rock Head
-Level: 15
+Level: 13
 Adamant Nature
 - Flame Charge
 - Rock Tomb
@@ -1957,18 +1946,16 @@ AI: Basic Trainer / Smart Switching
 
 Shieldon @ Eviolite
 Adamant Nature
-Level: 15
+Level: 16
 Ability: Soundproof
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Protect
 - Metal Sound
 - Take Down
 
 Lileep @ Berry Juice
 Modest Nature
-Level: 13
+Level: 14
 Ability: Storm Drain
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Wrap
 - Confuse Ray
 - Acid
@@ -1977,10 +1964,10 @@ Yamask Galar @ Quick Claw
 Bold Nature
 Level: 13
 Ability: Wandering Spirit
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Night Shade
 - Haze
 - Disable
+- Confuse Ray
 
 === TRAINER_HIKER_MARCOS ===
 Name: MARCOS
@@ -4891,7 +4878,6 @@ Snubbull @ Berry Juice
 Adamant Nature
 Level: 12
 Ability: Intimidate
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Fang
 - Fire Fang
 - Ice Fang
@@ -4901,7 +4887,6 @@ Squirtle @ Eviolite
 Timid Nature
 Level: 15
 Ability: Torrent
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Yawn
 - Withdraw
 - Rapid Spin
@@ -4911,7 +4896,7 @@ Rattata-Alola @ Focus Sash
 Timid Nature 
 Level: 1
 Ability: Gluttony
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+IVs: 0 HP
 - Pursuit 
 - Endeavor
 
@@ -4928,7 +4913,6 @@ Snorunt @ Berry Juice
 Timid Nature
 Level: 12
 Ability: Moody
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Powder Snow
 - Block
 - Protect
@@ -4938,7 +4922,6 @@ Bulbasaur @ Eviolite
 Adamant Nature
 Level: 14
 Ability: Overgrow
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Leech Seed
 - Growth
 - Razor Leaf
@@ -4947,7 +4930,7 @@ Rattata-Alola @ Focus Sash
 Timid Nature 
 Level: 1
 Ability: Gluttony
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+IVs: 0 HP
 - Pursuit 
 - Endeavor
 
@@ -4964,7 +4947,6 @@ Inkay @ Berry Juice
 Adamant Nature
 Level: 12
 Ability: Infiltrator
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hypnosis
 - Acupressure
 - Payback
@@ -4973,7 +4955,6 @@ Charmander @ Eviolite
 Modest Nature
 Level: 14
 Ability: Blaze
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Ember
 - Dragon Breath
 - Smokescreen
@@ -4983,7 +4964,7 @@ Rattata-Alola @ Focus Sash
 Timid Nature 
 Level: 1
 Ability: Gluttony
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+IVs: 0 HP
 - Pursuit 
 - Endeavor
 
@@ -7530,7 +7511,7 @@ IVs: 0 Atk
 
 Aron @ Custap Berry
 Ability: Rock Head
-Level: 14
+Level: 15
 Adamant Nature
 - Reversal
 - Rock Tomb
@@ -7538,7 +7519,7 @@ Adamant Nature
 
 Tyrunt @ Choice Band
 Ability: Strong Jaw
-Level: 15
+Level: 16
 Adamant Nature
 - Bite
 - Rock Tomb
@@ -9742,7 +9723,6 @@ Scraggy @ Salac Berry
 Ability: Intimidate
 Level: 13
 Adamant Nature
-IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Power-Up Punch
 - Payback
 - Headbutt
@@ -9751,25 +9731,22 @@ Cubone @ Thick Club
 Ability: Rock Head
 Level: 13
 Adamant Nature
-IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Double Kick
 - Bulldoze
 - Headbutt
 
 Clauncher @ Eviolite
 Ability: Mega Launcher
-Level: 15
+Level: 14
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpD / 0 Spe
 - Water Pulse
 - Mud Shot
 - Vacuum Wave
 
 Shedinja @ Focus Sash
 Ability: Wonder Guard
-Level: 15
+Level: 16
 Adamant Nature
-IVs: 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bug Bite
 - Metal Claw
 - Shadow Claw
@@ -9785,18 +9762,16 @@ AI: Basic Trainer / Smart Switching
 
 Butterfree @ Berry Juice
 Ability: Compound Eyes
-Level: 15
+Level: 16
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sleep Powder
 - U-turn
 - Confusion
 
 Anorith @ Weakness Policy
 Ability: Battle Armor
-Level: 15
+Level: 14
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rapid Spin
 - Smack Down
 - Metal Claw
@@ -10853,27 +10828,27 @@ BALLS (Slugma) (M) @ Passho Berry
 Ability: Flame Body
 Level: 13
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Yawn
 - Harden
 - Ember
+- Rock Throw
 
 Combee (M) @ Wide Lens  
 Ability: Hustle  
-Level: 13  
+Level: 16  
 Adamant Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bug Bite  
 - Endeavor
+- Wing Attack
 
 Toedscool @ Eviolite  
 Ability: Mycelium Might  
-Level: 15
+Level: 14
 Modest Nature
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stun Spore  
+- Stun Spore
 - Mud-Slap  
 - Mega Drain
+- Spore
 
 === TRAINER_POKEMANIAC_HECTOR ===
 Name: HECTOR

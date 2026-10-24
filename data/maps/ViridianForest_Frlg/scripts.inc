@@ -176,7 +176,7 @@ ViridianForest_EventScript_DefeatedSantiago::
 	goto_if_set FLAG_GOT_KRICKETOT_FROM_SANTIAGO, ViridianForest_EventScript_AlreadyGotKricketot
 	msgbox ViridianForest_Text_SantiagoPostBattle, MSGBOX_DEFAULT
 	setvar VAR_TEMP_1, SPECIES_KRICKETOT
-	givemon SPECIES_KRICKETOT, 8, ITEM_NONE, BALL_POKE, 1
+	givemon SPECIES_KRICKETOT, 8, ITEM_NONE, BALL_POKE, 2
 	goto_if_eq VAR_RESULT, 0, ViridianForest_EventScript_ReceiveKricketotParty
 	goto_if_eq VAR_RESULT, 1, ViridianForest_EventScript_ReceiveKricketotPC
 	goto_if_eq VAR_RESULT, 2, Common_EventScript_NoMoreRoomForPokemon

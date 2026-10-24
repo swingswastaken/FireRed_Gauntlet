@@ -2096,6 +2096,7 @@ static enum CancelerResult TargetAvoidedAttack(enum BattlerId battlerAtk, enum B
     gLastLandedMoves[battlerDef] = 0; // Might need investigation on what exactly clears is
     gLastHitByType[battlerDef] = 0;
     gBattleScripting.battler = battlerDef;
+    gLastUsedItem = gBattleMons[battlerDef].item;
     CancelMultiTurnMoves(battlerAtk);
     return CANCELER_RESULT_RUN_SCRIPT;
 }

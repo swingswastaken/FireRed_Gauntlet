@@ -33,6 +33,7 @@ Route21_North_Text_SpencerPostBattle::
 	.string "The sea is great and all, but I\n"
 	.string "like the mountains, too.$"
 
+
 @ Below is the battle text for the Cue Ball that was on Route 21 in Gen 1.
 @ This trainer wasnt used in Gen 3 so their text goes unused/untranslated
 @ Interestingly they did add a rematch intro text for this trainer

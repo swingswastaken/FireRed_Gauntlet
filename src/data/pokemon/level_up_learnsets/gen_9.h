@@ -10400,7 +10400,7 @@ static const struct LevelUpMove sMothimLevelUpLearnset[] = {
 
 #if P_FAMILY_COMBEE
 static const struct LevelUpMove sCombeeLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_GUST),
+    LEVEL_UP_MOVE( 1, MOVE_WING_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_SWEET_SCENT),
     LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
     LEVEL_UP_MOVE( 1, MOVE_STRUGGLE_BUG),

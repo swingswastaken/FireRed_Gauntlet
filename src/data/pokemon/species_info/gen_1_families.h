@@ -1866,7 +1866,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPidgeyLevelUpLearnset,
         .teachableLearnset = sPidgeyTeachableLearnset,
         .eggMoveLearnset = sPidgeyEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 18, SPECIES_PIDGEOTTO}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_PIDGEOTTO}),
     },
 
     [SPECIES_PIDGEOTTO] =
@@ -2724,7 +2724,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 80,
         .baseSpAttack  = 65,
         .baseSpDefense = P_UPDATED_STATS >= GEN_2 ? 79 : 65,
-        .types = MON_TYPES(TYPE_POISON),
+        .types = MON_TYPES(TYPE_POISON, TYPE_DARK),
         .catchRate = 90,
     #if P_UPDATED_EXP_YIELDS >= GEN_7
         .expYield = 157,

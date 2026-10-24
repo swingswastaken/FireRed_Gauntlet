@@ -7,10 +7,25 @@ PalletTown_Frlg_MapScripts::
 
 PalletTown_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_PALLET_TOWN
+	call_if_set FLAG_SYS_POKEMON_GET, PalletTown_EventScript_HidePokemon
 	call_if_set FLAG_PALLET_LADY_NOT_BLOCKING_SIGN, PalletTown_EventScript_TryReadySignLady
 	call_if_eq VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 0, PalletTown_EventScript_SetSignLadyPos
 	call_if_eq VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 1, PalletTown_EventScript_SetSignLadyDone
 	end
+
+PalletTown_EventScript_HidePokemon::
+    setflag FLAG_HIDE_PALLET_SLOWPOKE
+    return
+
+PalletTown_EventScript_Slowpoke::
+    msgbox PalletTown_Text_Slowpoke, MSGBOX_NPC
+	release
+	end
+
+PalletTown_Text_Slowpoke::
+	.string "Zzz.\p"
+	.string "Zzz.\p"
+	.string "(You should come back later)$"
 
 PalletTown_EventScript_TryReadySignLady::
 	goto_if_unset FLAG_OPENED_START_MENU, Common_EventScript_NopReturn

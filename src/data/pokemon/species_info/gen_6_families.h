@@ -949,13 +949,13 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
 #if P_FAMILY_BUNNELBY
     [SPECIES_BUNNELBY] =
     {
-        .baseHP        = 38,
-        .baseAttack    = 36,
+        .baseHP        = 65,
+        .baseAttack    = 44,
         .baseDefense   = 38,
-        .baseSpeed     = 57,
+        .baseSpeed     = 65,
         .baseSpAttack  = 32,
         .baseSpDefense = 36,
-        .types = MON_TYPES(TYPE_NORMAL),
+        .types = MON_TYPES(TYPE_NORMAL, TYPE_GROUND),
         .catchRate = 255,
         .expYield = 47,
         .evYield_Speed = 1,
