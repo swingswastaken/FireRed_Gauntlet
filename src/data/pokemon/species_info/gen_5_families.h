@@ -1289,7 +1289,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sPurrloinLevelUpLearnset,
         .teachableLearnset = sPurrloinTeachableLearnset,
         .eggMoveLearnset = sPurrloinEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_LIEPARD}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_LIEPARD}),
     },
 
     [SPECIES_LIEPARD] =
@@ -1929,10 +1929,10 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_PIDOVE] =
     {
         .baseHP        = 50,
-        .baseAttack    = 55,
+        .baseAttack    = 36,
         .baseDefense   = 50,
         .baseSpeed     = 43,
-        .baseSpAttack  = 36,
+        .baseSpAttack  = 55,
         .baseSpDefense = 30,
         .types = MON_TYPES(TYPE_NORMAL, TYPE_FLYING),
         .catchRate = 255,
