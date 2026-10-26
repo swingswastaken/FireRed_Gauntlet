@@ -6037,7 +6037,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 
     [SPECIES_ROSELIA] =
     {
-        .baseHP        = 50,
+        .baseHP        = 70,
         .baseAttack    = 60,
         .baseDefense   = 45,
         .baseSpeed     = 65,
