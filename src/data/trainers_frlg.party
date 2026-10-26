@@ -1279,6 +1279,23 @@ Adamant Nature
 - Stealth Rock
 - Leech Seed
 
+=== TRAINER_CAMPER_ROCKY ===
+Name: ROCKY
+Class: Camper Frlg
+Pic: Camper Frlg
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer / Smart Switching
+
+Aron @ Custap Berry
+Ability: Sturdy
+Level: 13
+Adamant Nature
+- Reversal
+- Sandstorm
+- Metal Claw
+
 Sandile @ Black Glasses
 Ability: Intimidate
 Level: 13
@@ -7483,17 +7500,9 @@ Impish Nature
 - Wrap
 - Poison Tail
 
-Baltoy @ Eviolite
-Ability: Levitate
-Level: 13
-Rash Nature
-- Confusion
-- Mud-Slap
-- Rock Tomb
-
 Archen @ Berry Juice
 Ability: Defeatist
-Level: 14
+Level: 13
 Adamant Nature
 - Roost
 - Rock Throw
@@ -7508,14 +7517,6 @@ IVs: 0 Atk
 - Absorb
 - Leech Seed
 - Sand Attack
-
-Aron @ Custap Berry
-Ability: Rock Head
-Level: 15
-Adamant Nature
-- Reversal
-- Rock Tomb
-- Metal Claw
 
 Tyrunt @ Choice Band
 Ability: Strong Jaw

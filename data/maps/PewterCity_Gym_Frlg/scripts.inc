@@ -1,5 +1,59 @@
 PewterCity_Gym_Frlg_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, PewterCity_Gym_Frlg_OnLoad
 	.byte 0
+
+PewterCity_Gym_Frlg_OnLoad::
+	setvar VAR_GAUNTLET_NURSE_HEALS_USED, 0
+	end
+
+PewterCity_Gym_EventScript_WalkedInTrigger::
+	lockall
+	goto_if_set FLAG_DEFEATED_BROCK, PewterCity_Gym_EventScript_SkipSetWalkedInPewterCity_Gym_Gauntlet
+	goto_if_set FLAG_WALKED_IN_PEWTERCITY_GYM_GAUNTLET, PewterCity_Gym_EventScript_GauntletStarted
+	setflag FLAG_WALKED_IN_PEWTERCITY_GYM_GAUNTLET
+	releaseall
+	end
+
+PewterCity_Gym_EventScript_SkipSetWalkedInPewterCity_Gym_Gauntlet::
+	releaseall
+	end
+
+PewterCity_Gym_EventScript_GauntletStarted::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 30
+	playbgm MUS_TOO_BAD, 0
+	message PewterCity_Gym_Text_PrideLock
+	waitmessage
+	delay 85
+	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_WalkUp
+	waitmovement 0
+	playse SE_PIN
+	releaseall
+	end
+
+PewterCity_Gym_EventScript_CheckHeals::
+	goto_if_ne VAR_GAUNTLET_NURSE_HEALS_USED, 1, PewterCity_Gym_EventScript_Nurse
+	msgbox PewterCity_Gym_Text_CantHealAnymore, MSGBOX_NPC
+	end
+
+PewterCity_Gym_EventScript_Nurse::
+	lock
+	faceplayer
+	msgbox PewterCity_Gym_Text_TakeAShortRest, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PewterCity_Gym_EventScript_DeclineHeal
+	closemessage
+	addvar VAR_GAUNTLET_NURSE_HEALS_USED, 1
+	call Common_EventScript_OutOfCenterPartyHeal
+	release
+	end
+
+PewterCity_Gym_EventScript_DeclineHeal::
+	msgbox PewterCity_Gym_Text_TooPrideful, MSGBOX_NPC
+	release
+	end
 
 PewterCity_Gym_EventScript_Brock::
 	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
@@ -38,6 +92,11 @@ PewterCity_Gym_EventScript_NoRoomForTM39::
 PewterCity_Gym_EventScript_Liam::
 	trainerbattle_single TRAINER_CAMPER_LIAM, PewterCity_Gym_Text_LiamIntro, PewterCity_Gym_Text_LiamDefeat
 	msgbox PewterCity_Gym_Text_LiamPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+PewterCity_Gym_EventScript_Rocky::
+	trainerbattle_single TRAINER_CAMPER_ROCKY, PewterCity_Gym_Text_RockyIntro, PewterCity_Gym_Text_RockyDefeat
+	msgbox PewterCity_Gym_Text_RockyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 PewterCity_Gym_EventScript_GymGuy::
@@ -80,6 +139,23 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	msgbox PewterCity_Gym_Text_GymStatuePlayerWon
 	releaseall
 	end
+
+PewterCity_Gym_Text_PrideLock::
+    .string "Your pride prevents you from\n"
+    .string "leaving this area!$"
+
+PewterCity_Gym_Text_TakeAShortRest::
+	.string "Your pokemon look tired, do you want\n"
+	.string "to take a short rest?$"
+
+PewterCity_Gym_Text_TooPrideful::
+	.string "I get you're very prideful but...\n"
+	.string "don't forget to let your pokemon\l"
+	.string "rest and recover.$"
+
+PewterCity_Gym_Text_CantHealAnymore::
+	.string "Sorry, my Audino has run out of\n"
+	.string "Healing Pulse PP.$"
 
 PewterCity_Gym_Text_BrockIntro::
 	.string "So, you're here. I'm BROCK.\n"
@@ -158,6 +234,19 @@ PewterCity_Gym_Text_LiamDefeat::
 PewterCity_Gym_Text_LiamPostBattle::
 	.string "You're pretty hot.\n"
 	.string "…But not as hot as BROCK!$"
+
+PewterCity_Gym_Text_RockyIntro::
+	.string "BROCK is pretty Sturdy.\p"
+	.string "But my POKEMON are almost as\n"
+	.string "hard as he is!$"
+
+PewterCity_Gym_Text_RockyDefeat::
+	.string "W-what!?\p"
+	.string "Dang it, I was too soft…$"
+
+PewterCity_Gym_Text_RockyPostBattle::
+	.string "You're pretty hard.\n"
+	.string "…But not as hard as BROCK!$"
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
 	.string "Hiya!\n"
