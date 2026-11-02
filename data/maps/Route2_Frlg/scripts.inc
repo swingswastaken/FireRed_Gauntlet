@@ -1,6 +1,8 @@
 Route2_Frlg_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, Route2_Frlg_OnLoad
 	.byte 0
+	
+	
 
 Route2_Frlg_OnLoad::
 	setvar VAR_GAUNTLET_NURSE_HEALS_USED, 0
@@ -35,10 +37,8 @@ Route2_EventScript_Gentleman::
 	end
 
 Route2South_EventScript_WalkedOutRoute2SouthTrigger::
-	lockall
 	goto_if_set FLAG_WALKED_OUT_ROUTE2_SOUTH_GAUNTLET, Route2South_EventScript_AlreadyGotWalkedOutRoute2SouthGauntlet
 	setflag FLAG_WALKED_OUT_ROUTE2_SOUTH_GAUNTLET
-	releaseall
 	end
 
 Route2South_EventScript_AlreadyGotWalkedOutRoute2SouthGauntlet::
@@ -46,15 +46,12 @@ Route2South_EventScript_AlreadyGotWalkedOutRoute2SouthGauntlet::
 	end
 
 Route2South_EventScript_WalkedInTrigger::
-	lockall
 	goto_if_set FLAG_WALKED_OUT_ROUTE2_SOUTH_GAUNTLET, Route2South_EventScript_SkipSetWalkedInRoute2SouthGauntlet
 	goto_if_set FLAG_WALKED_IN_ROUTE2_SOUTH_GAUNTLET, Route2South_EventScript_GauntletStarted
 	setflag FLAG_WALKED_IN_ROUTE2_SOUTH_GAUNTLET
-	releaseall
 	end
 
 Route2South_EventScript_SkipSetWalkedInRoute2SouthGauntlet::
-	releaseall
 	end
 
 Route2South_EventScript_GauntletStarted::
@@ -148,6 +145,7 @@ Route2_Text_PrideLock::
     .string "leaving this area!$"
 
 Route2_Text_TakeAShortRest::
+	.string "I can only heal your team 1 time.\p"
 	.string "Your pokemon look tired, do you want\n"
 	.string "to take a short rest?$"
 

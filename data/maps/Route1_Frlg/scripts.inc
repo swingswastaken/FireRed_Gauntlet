@@ -69,24 +69,19 @@ Route1_EventScript_RouteSign::
 
 
 Route1_EventScript_WalkedOutRoute1Trigger::
-	lockall
 	goto_if_set FLAG_WALKED_OUT_ROUTE_1_GAUNTLET, Route1_EventScript_AlreadyGotWalkedOutRoute1Gauntlet
 	setflag FLAG_WALKED_OUT_ROUTE_1_GAUNTLET
-	releaseall
 	end
 
 Route1_EventScript_AlreadyGotWalkedOutRoute1Gauntlet::
-	releaseall
 	end
 
 Route1_EventScript_WalkedInTriggerLeft::
-	lockall
 	setvar VAR_TEMP_1, 0
 	goto Route1_EventScript_WalkedInTrigger
 	end
 
 Route1_EventScript_WalkedInTriggerRight::
-	lockall
 	setvar VAR_TEMP_1, 1
 	goto Route1_EventScript_WalkedInTrigger
 	end
@@ -102,19 +97,15 @@ Route1_EventScript_AlreadyGotWalkedInRoute1Gauntlet::
 	end
 
 Route1_EventScript_GauntletStartTriggerLeft::
-	lockall
 	setvar VAR_TEMP_1, 0
 	goto_if_set FLAG_WALKED_OUT_ROUTE_1_GAUNTLET, Route1_EventScript_GauntletEnded
 	goto_if_set FLAG_WALKED_IN_ROUTE_1_GAUNTLET, Route1_EventScript_GauntletStartedTrigger
-	releaseall
 	end
 
 Route1_EventScript_GauntletStartTriggerRight::
-	lockall
 	setvar VAR_TEMP_1, 1
 	goto_if_set FLAG_WALKED_OUT_ROUTE_1_GAUNTLET, Route1_EventScript_GauntletEnded
 	goto_if_set FLAG_WALKED_IN_ROUTE_1_GAUNTLET, Route1_EventScript_GauntletStartedTrigger
-	releaseall
 	end
 
 Route1_EventScript_GauntletStartedTrigger::
@@ -309,6 +300,7 @@ Route1_EventScript_JaneCharmander::
 	end
 
 Route1_Text_TakeAShortRest::
+	.string "I can only heal your team 1 time.\p"
 	.string "Your pokemon look tired, do you want\n"
 	.string "to take a short rest?$"
 

@@ -40,19 +40,15 @@ ViridianForest_EventScript_Gentleman::
 	end
 
 ViridianForest_EventScript_WalkedInTrigger::
-	lockall
 	goto_if_set FLAG_WALKED_OUT_VIRIDIAN_FOREST_GAUNTLET, ViridianForest_EventScript_SkipSetWalkedInViridianForestGauntlet
 	goto_if_set FLAG_WALKED_IN_VIRIDIAN_FOREST_GAUNTLET, ViridianForest_EventScript_GauntletStarted
 	setflag FLAG_WALKED_IN_VIRIDIAN_FOREST_GAUNTLET
-	releaseall
 	end
 
 ViridianForest_EventScript_SkipSetWalkedInViridianForestGauntlet::
-	releaseall
 	end
 
-ViridianForest_EventScript_GauntletStarted::
-	ViridianForest_EventScript_GauntletStartedTrigger::	
+ViridianForest_EventScript_GauntletStarted::	
 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
 	waitmovement 0
@@ -69,14 +65,11 @@ ViridianForest_EventScript_GauntletStarted::
 	end
 
 ViridianForest_EventScript_WalkedOutViridianForestTrigger::
-	lockall
 	goto_if_set FLAG_WALKED_OUT_VIRIDIAN_FOREST_GAUNTLET, ViridianForest_EventScript_AlreadyGotWalkedOutViridianForestGauntlet
 	setflag FLAG_WALKED_OUT_VIRIDIAN_FOREST_GAUNTLET
-	releaseall
 	end
 
 ViridianForest_EventScript_AlreadyGotWalkedOutViridianForestGauntlet::
-	releaseall
 	end
 
 ViridianForest_EventScript_Youngster::
@@ -226,6 +219,7 @@ ViridianForest_EventScript_AlreadyGotKricketot::
 	end
 
 ViridianForest_Text_TakeAShortRest::
+	.string "I can only heal your team 2 times.\p"
 	.string "Your pokemon look tired, do you want\n"
 	.string "to take a short rest?$"
 

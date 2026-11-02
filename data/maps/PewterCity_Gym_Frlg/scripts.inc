@@ -7,15 +7,12 @@ PewterCity_Gym_Frlg_OnLoad::
 	end
 
 PewterCity_Gym_EventScript_WalkedInTrigger::
-	lockall
 	goto_if_set FLAG_DEFEATED_BROCK, PewterCity_Gym_EventScript_SkipSetWalkedInPewterCity_Gym_Gauntlet
 	goto_if_set FLAG_WALKED_IN_PEWTERCITY_GYM_GAUNTLET, PewterCity_Gym_EventScript_GauntletStarted
 	setflag FLAG_WALKED_IN_PEWTERCITY_GYM_GAUNTLET
-	releaseall
 	end
 
 PewterCity_Gym_EventScript_SkipSetWalkedInPewterCity_Gym_Gauntlet::
-	releaseall
 	end
 
 PewterCity_Gym_EventScript_GauntletStarted::
@@ -145,6 +142,7 @@ PewterCity_Gym_Text_PrideLock::
     .string "leaving this area!$"
 
 PewterCity_Gym_Text_TakeAShortRest::
+	.string "I can only heal your team 1 time.\p"
 	.string "Your pokemon look tired, do you want\n"
 	.string "to take a short rest?$"
 
